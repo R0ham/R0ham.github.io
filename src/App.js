@@ -1,9 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 // Import the BrowserRouter, Route and Link components
-import { BrowserRouter, Route, Link } from 'react-router-dom'; 
-// import Articles from './Articles.js';
-// import About from './About.js';
+import { BrowserRouter, Route, Link } from 'react-router-dom';
+import Projects from './Projects.js';
+import Articles from './Articles.js';
+import About from './About.js';
 import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
 import './App.css';
  
@@ -12,6 +13,7 @@ function App() {
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
   
+        <Route exact path="/" component={Projects} />
         {/* Set up the Router
         <Route exact path="/" component={Projects} />
         <Route path="/articles" component={Articles} />
@@ -35,7 +37,7 @@ function App() {
         <div className="projects">
           <h1>second_test</h1>
           <Thumbnail
-            link="/portfolio/twitter"
+            link="/twitter"
             image="http://twitter-image-url.jpg"
             title="Twitter Newsfeed"
             category="Mobile App"
