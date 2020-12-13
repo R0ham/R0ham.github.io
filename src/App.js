@@ -33,7 +33,7 @@ function App() {
         */}
 
         <div className="projects">
-          <h1>test</h1>
+          <h1>second_test</h1>
           <Thumbnail
             link="/portfolio/twitter"
             image="http://twitter-image-url.jpg"
