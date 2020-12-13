@@ -35,7 +35,7 @@ function App() {
         <div className="projects">
           <h1>test</h1>
           <Thumbnail
-            link="portfolio/twitter"
+            link="/portfolio/twitter"
             image="http://twitter-image-url.jpg"
             title="Twitter Newsfeed"
             category="Mobile App"
