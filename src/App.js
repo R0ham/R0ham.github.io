@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 // Import the BrowserRouter, Route and Link components
-import { BrowserRouter, Route, Link } from 'react-router-dom'; 
-import Articles from './Articles.js';
-import About from './About.js';
+// import { BrowserRouter, Route, Link } from 'react-router-dom'; 
+// import Articles from './Articles.js';
+// import About from './About.js';
 import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
 import './App.css';
  
