@@ -11,24 +11,6 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-  
-        {/* Set up the Router
-        <Route path="/articles" component={Articles} />
-        <Route path="/about" component={About} />
-        */}
-
-        {/*
-        <div className="navigation">
-          // <img src={logo} className="logo-image" alt="Logo Image" />
-          <div className="navigation-sub">
-
-            // Set up the Links
-            <Link to="/articles" className="item">Articles</Link>
-            <Link to="/about" className="item">About</Link>
-
-          </div>
-        </div>
-        */}
 
         <div className="projects">
           <h1>test</h1>
