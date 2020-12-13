@@ -13,6 +13,7 @@ function App() {
       <div className="App">
   
         {/* Set up the Router
+        <Route exact path="/" component={Projects} />
         <Route path="/articles" component={Articles} />
         <Route path="/about" component={About} />
         */}
@@ -23,6 +24,7 @@ function App() {
           <div className="navigation-sub">
 
             // Set up the Links
+            <Link to="/" className="item">Projects</Link>
             <Link to="/articles" className="item">Articles</Link>
             <Link to="/about" className="item">About</Link>
 
@@ -33,7 +35,7 @@ function App() {
         <div className="projects">
           <h1>test</h1>
           <Thumbnail
-            link="/twitter"
+            link="portfolio/twitter"
             image="http://twitter-image-url.jpg"
             title="Twitter Newsfeed"
             category="Mobile App"
