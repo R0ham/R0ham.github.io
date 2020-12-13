@@ -9,7 +9,7 @@ import './App.css';
  
 function App() {
   return (
-    <BrowserRouter>
+    // <BrowserRouter>
       <div className="App">
   
         {/* Set up the Router
@@ -57,7 +57,7 @@ function App() {
         </div>
 
       </div>
-    </BrowserRouter>
+    // </BrowserRouter>
   );
 }
  
