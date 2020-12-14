@@ -4,16 +4,16 @@ import './App.css';
  
 function Thumbnail(props) {
   return (
-    <div className="project">
+    <li className="project">
       <Link to={props.link}>
-        <div className="project-image">
-          <img src={props.image} alt="Project Image"/>
+        <img className="project-image" src={props.image} alt="Project Image"/>
+        <div className="overlay">
+          <div className="project-title">{props.title}</div>
+          <div className="project-category">{props.category}</div>
         </div>
-        <div className="project-title">{props.title}</div>
-        <div className="project-category">{props.category}</div>
       </Link>
-    </div>
+    </li>
   );
 }
- 
+
 export default Thumbnail;
