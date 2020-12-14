@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 // Import the BrowserRouter, Route and Link components
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { HashRouter, Route, Link } from 'react-router-dom';
 import Projects from './Projects.js';
 import Articles from './Articles.js';
 import About from './About.js';
@@ -10,9 +10,12 @@ import './App.css';
  
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <div className="App">
   
+        <h1>My name is Roham.</h1>
+
+
         <Route exact path="/" component={Projects} />
         {/* Set up the Router
         <Route exact path="/" component={Projects} />
@@ -37,7 +40,7 @@ function App() {
 
 
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
  
