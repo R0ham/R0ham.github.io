@@ -34,29 +34,7 @@ function App() {
         </div>
         */}
 
-        <div className="projects">
-          <h1>second_test</h1>
-          <Thumbnail
-            link="/twitter"
-            image="http://twitter-image-url.jpg"
-            title="Twitter Newsfeed"
-            category="Mobile App"
-          />
-           
-          <Thumbnail
-            link="/airbnb"
-            image="http://airbnb-image-url.jpg>"
-            title="Airbnb Experiences"
-            category="Website"
-          />
-           
-          <Thumbnail
-            link="/photoshop"
-            image="http://photoshop-image-url.jpg"
-            title="Photoshop Redesign"
-            category="Desktop App"
-          />
-        </div>
+
 
       </div>
     </BrowserRouter>
