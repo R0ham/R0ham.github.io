@@ -4,7 +4,7 @@ import logo from '../images/logo.svg';
 import { HashRouter, Route, Link } from 'react-router-dom';
 import Projects from './Projects.js';
 import Articles from './Articles.js';
-import About from './About.js';
+import Modal from './Modal.js';
 import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
 import '../styles/App.css';
  
@@ -15,8 +15,11 @@ function App() {
   
         <h1>My name is Roham.</h1>
 
-
         <Route exact path="/" component={Projects} />
+        <Route path="/one" component={Modal} />
+        <Route path="/two" component={Modal} />
+        <Route path="/three" component={Modal} />
+
 
         {/* Set up the Router
         <Route exact path="/" component={Projects} />

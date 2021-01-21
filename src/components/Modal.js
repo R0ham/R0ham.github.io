@@ -1,12 +1,12 @@
 import React from "react"
 import '../styles/App.css';
- 
-function Articles(props) {
+
+function Modal(props) {
   return (
     <div>
-      <h1>Articles</h1>
+      <h1>Modal</h1>
     </div>
   )
 }
  
-export default Articles;
+export default Modal;
