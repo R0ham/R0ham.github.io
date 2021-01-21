@@ -17,6 +17,7 @@ function App() {
 
 
         <Route exact path="/" component={Projects} />
+
         {/* Set up the Router
         <Route exact path="/" component={Projects} />
         <Route path="/articles" component={Articles} />
