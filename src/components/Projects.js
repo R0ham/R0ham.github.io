@@ -1,7 +1,7 @@
 import React from 'react';
 import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
-import hero from './resources/hero_cover_red_hires.jpg'
-import './App.css';
+import hero from '../images/hero_cover_red_hires.jpg'
+import '../styles/App.css';
  
 function Projects(props) {
   return (

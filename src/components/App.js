@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from '../images/logo.svg';
 // Import the BrowserRouter, Route and Link components
 import { HashRouter, Route, Link } from 'react-router-dom';
 import Projects from './Projects.js';
 import Articles from './Articles.js';
 import About from './About.js';
 import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
-import './App.css';
+import '../styles/App.css';
  
 function App() {
   return (
