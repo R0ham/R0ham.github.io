@@ -1,0 +1,8 @@
+# npm cache
+.npm
+
+# eslint cache
+.eslintcache
+
+# Mac files
+.DS_Store
