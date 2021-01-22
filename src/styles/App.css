@@ -1,5 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: gray;
+}
+
 .App {
   text-align: center;
+  background-color: #222222;
 }
 
 .flex_projects {

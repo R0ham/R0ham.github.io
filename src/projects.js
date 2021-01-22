@@ -43,19 +43,19 @@ export default {
       category: "Desktop App",
     },
     // {
-    //   link: "__",
-    //   image: "__",
-    //   title: "__",
-    //   category: "__",
+    //   link: "",
+    //   image: "",
+    //   title: "",
+    //   category: "",
     // },
   ],
 
   projects: [
     // {
-    //   link: "__",
-    //   image: "__",
-    //   title: "__",
-    //   category: "__",
+    //   link: "",
+    //   image: "",
+    //   title: "",
+    //   category: "",
     // },
   ],
 
