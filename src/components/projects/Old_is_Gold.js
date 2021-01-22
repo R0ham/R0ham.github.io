@@ -1,15 +1,15 @@
 import React from 'react';
-import '../styles/App.scss';
+import '../../styles/App.scss';
 // import { Link, Route, useParams, useRouteMatch } from 'react-router-dom';
 
-function Modal(props) {
+function Old_is_Gold(props) {
 
   // alert(this.props.match.params.handle)
   return (
-    <div>
+    <div className="content">
       <h1>Project Title</h1>
     </div>
   );
 }
  
-export default Modal;
+export default Old_is_Gold;

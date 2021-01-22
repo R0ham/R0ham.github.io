@@ -1,26 +1,36 @@
-import React from 'react';
+import React, {useState} from 'react';
 import logo from '../images/logo.svg';
 // Import the HashRouter, Route and Link components
 import { HashRouter, Route, Link } from 'react-router-dom';
 import Grid from './Grid.js';
 import Articles from './Articles.js';
-import Modal from './Modal.js';
+import Old_is_Gold from './projects/Old_is_Gold.js';
 import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
 
+import DarkModeToggle from "react-dark-mode-toggle";
+import useDarkMode from 'use-dark-mode';
+
+// import DarkModeToggle from './DarkModeToggle';
+
 import data from '../projects.js';
-import '../styles/App.css';
+import '../styles/App.scss';
  
 function App() {
+  const darkMode = useDarkMode(false);
+
   return (
     <HashRouter>
-      <div className="App">
-  
-        <h1>My name is Roham.</h1>
+      <div className="navbar">
+        <DarkModeToggle
+          onChange={darkMode.toggle}
+          checked={darkMode.value}
+          size={60}
+        />
+      </div>
 
+      <div className="App">
         <Route exact path="/" component={Grid} />
-        <Route path="/one" component={Modal} />
-        <Route path="/two" component={Modal} />
-        <Route path="/three" component={Modal} />
+        <Route path="/one" component={Old_is_Gold} />
 
 
         {/* Set up the Router
