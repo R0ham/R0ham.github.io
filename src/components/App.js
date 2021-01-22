@@ -1,11 +1,13 @@
 import React from 'react';
 import logo from '../images/logo.svg';
-// Import the BrowserRouter, Route and Link components
+// Import the HashRouter, Route and Link components
 import { HashRouter, Route, Link } from 'react-router-dom';
-import Projects from './Projects.js';
+import Grid from './Grid.js';
 import Articles from './Articles.js';
 import Modal from './Modal.js';
 import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
+
+import data from '../projects.js';
 import '../styles/App.css';
  
 function App() {
@@ -15,7 +17,7 @@ function App() {
   
         <h1>My name is Roham.</h1>
 
-        <Route exact path="/" component={Projects} />
+        <Route exact path="/" component={Grid} />
         <Route path="/one" component={Modal} />
         <Route path="/two" component={Modal} />
         <Route path="/three" component={Modal} />
