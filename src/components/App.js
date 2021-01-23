@@ -18,6 +18,13 @@ import '../styles/App.scss';
 function App() {
   const darkMode = useDarkMode(false);
 
+  // const paths = data.test_projects.map(project => (
+  //   <Route
+  //     path = {project.link}
+  //     component = {project.component}
+  //   />
+  // ));
+
   return (
     <HashRouter>
       <div className="navbar">
@@ -30,7 +37,7 @@ function App() {
 
       <div className="App">
         <Route exact path="/" component={Grid} />
-        <Route path="/one" component={Old_is_Gold} />
+        <Route path="/oldisgold" component={Old_is_Gold} />
 
 
         {/* Set up the Router

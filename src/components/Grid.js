@@ -7,7 +7,7 @@ import '../styles/App.scss';
  
 function Grid(props) {
   //change from "test_projects" to "projects" soon
-  const grid = data.test_projects.map(project => (
+  const grid = data.projects.map(project => (
     <Thumbnail
       link = {project.link}
       image = {project.image}
@@ -19,7 +19,10 @@ function Grid(props) {
   return (
     // Render the completed grid
     <div>
-      <h1>My name is Roham.</h1>
+      <div className="landing">
+        {/*<h1>Designer. Developer.</h1>*/}
+        <h1>My name is Roham.</h1>
+      </div>
 
       <ul className="flex_projects">{grid}</ul>
     </div>
