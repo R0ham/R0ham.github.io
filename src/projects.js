@@ -1,7 +1,9 @@
-import oldisgold_cover from "./images/oldisgold_cover.png";
-
-
-
+import oldisgold_cover from "./images/projects/oldisgold_cover.png";
+import zoom_cover from "./images/projects/zoom_cover.png"
+import degreezy_cover from "./images/projects/degreezy_cover.png"
+import nook_cover from "./images/projects/nook_cover.jpg"
+import pushpin_cover from "./images/projects/pushpin_cover.png"
+import magnet_cover from "./images/projects/magnet_cover.jpg"
 
 
 export default {
@@ -79,41 +81,41 @@ export default {
       title: "Old is Gold",
       tagline: "using design to connect generations",
     },
-    // {
-    //   id: 1,
-    //   link: "/oldisgold",
-    //   image: oldisgold_cover,
-    //   title: "test 1",
-    //   tagline: "using design to connect generations",
-    // },
-    // {
-    //   id: 2,
-    //   link: "/oldisgold",
-    //   image: oldisgold_cover,
-    //   title: "Old is Gold",
-    //   tagline: "using design to connect generations",
-    // },
-    // {
-    //   id: 3,
-    //   link: "/oldisgold",
-    //   image: oldisgold_cover,
-    //   title: "Old is Gold",
-    //   tagline: "using design to connect generations",
-    // },
-    // {
-    //   id: 4,
-    //   link: "/oldisgold",
-    //   image: oldisgold_cover,
-    //   title: "Old is Gold",
-    //   tagline: "using design to connect generations",
-    // },
-    // {
-    //   id: 5,
-    //   link: "/oldisgold",
-    //   image: oldisgold_cover,
-    //   title: "Old is Gold",
-    //   tagline: "using design to connect generations",
-    // },
+    {
+      id: 1,
+      link: "/zoom",
+      image: zoom_cover,
+      title: "Zoom++",
+      tagline: "brainstorming new ways to interface in a remote world",
+    },
+    {
+      id: 2,
+      link: "/degreezy",
+      image: degreezy_cover,
+      title: "Degreezy",
+      tagline: "using design to connect generations",
+    },
+    {
+      id: 3,
+      link: "/nookhook",
+      image: nook_cover,
+      title: "Nook Hook",
+      tagline: "using design to connect generations",
+    },
+    {
+      id: 4,
+      link: "/pushpin",
+      image: pushpin_cover,
+      title: "PushPin",
+      tagline: "using design to connect generations",
+    },
+    {
+      id: 5,
+      link: "/magnet",
+      image: magnet_cover,
+      title: "Magnet",
+      tagline: "using design to connect generations",
+    },
     // {
     //   id: 6,
     //   link: "/oldisgold",
