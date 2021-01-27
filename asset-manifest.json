@@ -1,24 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.0d5eb3c0.chunk.css",
-    "main.js": "/static/js/main.d0513f5e.chunk.js",
-    "main.js.map": "/static/js/main.d0513f5e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4d94cae5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4d94cae5.js.map",
-    "static/js/2.bbb58b02.chunk.js": "/static/js/2.bbb58b02.chunk.js",
-    "static/js/2.bbb58b02.chunk.js.map": "/static/js/2.bbb58b02.chunk.js.map",
-    "static/js/3.dbfddeac.chunk.js": "/static/js/3.dbfddeac.chunk.js",
-    "static/js/3.dbfddeac.chunk.js.map": "/static/js/3.dbfddeac.chunk.js.map",
+    "main.css": "/static/css/main.40af4d19.chunk.css",
+    "main.js": "/static/js/main.7990ecef.chunk.js",
+    "main.js.map": "/static/js/main.7990ecef.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6f888a25.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6f888a25.js.map",
+    "static/js/2.8e4c702a.chunk.js": "/static/js/2.8e4c702a.chunk.js",
+    "static/js/2.8e4c702a.chunk.js.map": "/static/js/2.8e4c702a.chunk.js.map",
+    "static/js/3.7c7b4e7a.chunk.js": "/static/js/3.7c7b4e7a.chunk.js",
+    "static/js/3.7c7b4e7a.chunk.js.map": "/static/js/3.7c7b4e7a.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.0d5eb3c0.chunk.css.map": "/static/css/main.0d5eb3c0.chunk.css.map",
-    "static/js/2.bbb58b02.chunk.js.LICENSE.txt": "/static/js/2.bbb58b02.chunk.js.LICENSE.txt",
-    "static/media/hero_cover_red_hires.ced03682.jpg": "/static/media/hero_cover_red_hires.ced03682.jpg",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "static/css/main.40af4d19.chunk.css.map": "/static/css/main.40af4d19.chunk.css.map",
+    "static/js/2.8e4c702a.chunk.js.LICENSE.txt": "/static/js/2.8e4c702a.chunk.js.LICENSE.txt",
+    "static/media/degreezy_cover.12fc5957.png": "/static/media/degreezy_cover.12fc5957.png",
+    "static/media/App.scss": "/static/media/hero simple jawline light.62d116e9.svg",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
+    "static/media/magnet_cover.da79eae5.jpg": "/static/media/magnet_cover.da79eae5.jpg",
+    "static/media/nook_cover.9e4b30ef.jpg": "/static/media/nook_cover.9e4b30ef.jpg",
+    "static/media/oldisgold_cover.a0cb1e93.png": "/static/media/oldisgold_cover.a0cb1e93.png",
+    "static/media/pushpin_cover.5307c0fb.png": "/static/media/pushpin_cover.5307c0fb.png",
+    "static/media/zoom_cover.87d1fd4c.png": "/static/media/zoom_cover.87d1fd4c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4d94cae5.js",
-    "static/js/2.bbb58b02.chunk.js",
-    "static/css/main.0d5eb3c0.chunk.css",
-    "static/js/main.d0513f5e.chunk.js"
+    "static/js/runtime-main.6f888a25.js",
+    "static/js/2.8e4c702a.chunk.js",
+    "static/css/main.40af4d19.chunk.css",
+    "static/js/main.7990ecef.chunk.js"
   ]
 }
