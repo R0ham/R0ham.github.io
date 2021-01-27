@@ -97,10 +97,31 @@ body.dark-mode {
   /*max-width: 600px;*/
   font-size: 20px;
   line-height: 1.3em;
+  /*text-align: center;*/
+
+  .about {
+    /*background-color: var(--light-accent);*/
+    /*color: var(--dark-color);*/
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: red;*/
+    /*padding: 1000px;*/
+  }
 
   h1 {
-    padding-left: 25px;
+    /*padding-left: 25px;*/
     font-size: 2rem;
+  }
+
+  p {
+    /*padding-left: 25px;*/
+    /*padding: 50px;*/
+
+
   }
 
   .hero {
@@ -119,7 +140,7 @@ body.dark-mode {
     padding: 0;*/
     background-image: url("../images/hero simple jawline light.svg");
 
-    /*background-color: red;*/
+    /*background-color: #ddd;*/
     
     height: 100vh;
     width: 100vw;
@@ -141,27 +162,53 @@ body.dark-mode {
 
 .flex_projects {
   display: flex;
-  justify-content: center;
+  /*justify-content: center;*/
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
   margin: 0;
+  /*width: 80vw;*/
+  /*flex-direction: column;*/
+  /*align-items: center;*/
 
+  /*
+    li tags
+  */
   .project {
-    background-color: #f1f1f1;
-    flex-grow: 1;
-    height: 40vh;
-    margin: 25px;
+    /*background-color: #ddd;    */
+    /*margin: 25px;*/
     position: relative;
+
+    height: 40vh;
+    flex-grow: 1;
+  }
+
+  li:last-child {
+    flex-grow: 10;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .project {
+      height: auto;
+    }
+
+    img {
+      width: 100%;
+      max-height: 75vh;
+      min-width: 0;
+    }
   }
 
   .project-image {
-    /*display: block;*/
     max-height: 100%;
     min-width: 100%;
-    /*max-width: 90vw;*/
+
     object-fit: cover;
-    vertical-align: center;
+
+    /*
+      could be useful for pushpin / degreezy
+    */
+    /*object-position: 0 0;*/ 
   }
 
   .overlay {
@@ -184,14 +231,11 @@ body.dark-mode {
   }
 
   .project:hover .overlay {
-    /*opacity: 0.5;*/
     visibility: visible;
   }
 
   .project-title, .project-tagline {
     color: white;
-/*    text-align: center;*/
-    /*margin-top: 100px;*/
   }
 }
 
@@ -235,14 +279,6 @@ body.dark-mode {
 
 
 
-
-
-
-
-/*.App {
-  text-align: center;
-  background-color: #222222;
-}*/
 
 
 

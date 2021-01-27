@@ -21,19 +21,19 @@ function Grid(props) {
     // Render the completed grid
     <div>
       <div className="landing">
-        {/*<h1>Designer. Developer.</h1>*/}
-
         <div className="hero"></div>
 
+        <div className="about">
+          <h1>Hello, my name is Roham.</h1>
+          <p>Everything I do is about creating meaningful, long-lasting, and profoundly usable experiences. I am an <strong>experience-builder</strong> across physical and digital platforms.</p>
+        </div>
 
-
-
-
-
-        <h1>My name is Roham.</h1>
       </div>
 
-      <ul className="flex_projects">{grid}</ul>
+      <ul className="flex_projects">
+        {grid}
+        <li></li>
+      </ul>
     </div>
 
   )
