@@ -1,9 +1,9 @@
 import oldisgold_cover from "./images/projects/oldisgold_cover.png";
-import zoom_cover from "./images/projects/zoom_cover.png"
-import degreezy_cover from "./images/projects/degreezy_cover.png"
-import nook_cover from "./images/projects/nook_cover.jpg"
-import pushpin_cover from "./images/projects/pushpin_cover.png"
-import magnet_cover from "./images/projects/magnet_cover.jpg"
+import zoom_cover from "./images/projects/zoom_cover.png";
+import degreezy_cover from "./images/projects/degreezy_cover.png";
+import nook_cover from "./images/projects/nook_cover.jpg";
+import pushpin_cover from "./images/projects/pushpin_cover.png";
+import magnet_cover from "./images/projects/magnet_cover.jpg";
 
 
 export default {

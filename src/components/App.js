@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
 import logo from '../images/logo.svg';
+
 // Import the HashRouter, Route and Link components
 import { HashRouter, Route, Link } from 'react-router-dom';
 import Grid from './Grid.js';
 import Articles from './Articles.js';
 import Old_is_Gold from './projects/Old_is_Gold.js';
-import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
 
 import DarkModeToggle from "react-dark-mode-toggle";
 import useDarkMode from 'use-dark-mode';
@@ -34,6 +34,7 @@ function App() {
           size={60}
         />
       </div>
+
 
       <div className="App">
         <Route exact path="/" component={Grid} />

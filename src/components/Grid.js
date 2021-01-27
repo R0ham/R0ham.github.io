@@ -1,6 +1,7 @@
 import React from 'react';
 import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
-import hero from '../images/hero_cover_red_hires.jpg'
+import hero_light from "../images/hero simple jawline light.svg";
+import hero_dark from "../images/hero simple jawline dark.svg";
 
 import data from '../projects.js';
 import '../styles/App.scss';
@@ -21,6 +22,14 @@ function Grid(props) {
     <div>
       <div className="landing">
         {/*<h1>Designer. Developer.</h1>*/}
+
+        <div className="hero"></div>
+
+
+
+
+
+
         <h1>My name is Roham.</h1>
       </div>
 
