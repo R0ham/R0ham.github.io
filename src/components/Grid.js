@@ -26,7 +26,7 @@ function Grid(props) {
         <div className="about">
           <div className="about_text">
             <h1>Hello, my name is Roham.</h1>
-            <p>Everything I do is about creating meaningful, long-lasting, and profoundly usable experiences. I am an <strong>experience-builder</strong> across physical and digital platforms.</p>
+            <p>I love creating meaningful, long-lasting, and usable experiences. I am an <strong>experience-builder</strong> across physical and digital media.</p>
           </div>
         </div>
 
