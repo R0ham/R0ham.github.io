@@ -4,7 +4,7 @@ import '../styles/App.scss';
  
 function Thumbnail(props) {
   return (
-    <li className="project">
+    <li className="canvas project">
       <Link to={props.link}>
         <img className="project-image" src={props.image} alt={props.title}/>
         <div className="overlay">

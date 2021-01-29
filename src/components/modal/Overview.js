@@ -9,7 +9,9 @@ function Overview(props) {
 
   return (
     <div>
-      <img src={props.image} alt={props.title}/>
+      <div className="canvas">
+        <img src={props.image} alt={props.title}/>
+      </div>
 
       <ul className="flex_overview">
         <li>
