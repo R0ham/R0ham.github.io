@@ -62,9 +62,15 @@ body.dark-mode {
     display: none;
   }
 
-  .back_bar, .navbar {
+  .nav_background, .back_bar, .navbar {
     background-color: var(--dark-accent);
     color: var(--dark-pageback-color);
+  }
+
+  .back_bar:hover {
+    background-color: var(--dark-background-color);
+    color: var(--dark-accent);
+    transition: background-color .3s ease;
   }
 
   .page_view {
@@ -90,8 +96,10 @@ body.dark-mode {
 .nav_background {
   background-color: var(--light-accent);
   color: var(--light-color);
-
-  
+  height: 70px;
+  z-index: 3;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .back_bar {
@@ -102,7 +110,13 @@ body.dark-mode {
   background-color: var(--light-accent);
   color: var(--light-color);
   padding: 20px;
+  width: 35px;
   z-index: 3;
+}
+
+.back_bar:hover {
+  background-color: var(--light-background-color);
+  transition: background-color .3s ease;
 }
 
 .navbar {
@@ -278,7 +292,7 @@ body.dark-mode {
   .content {
     padding: 25px;
     margin: 0 auto;
-    padding-top: 80px;
+    /*padding-top: 80px;*/
     max-width: 800px;
     font-size: 20px;
 

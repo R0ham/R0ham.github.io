@@ -5,11 +5,15 @@ import '../../styles/App.scss';
 
 function BackBar(props) {
   return (
-    <Link to="/">
-      <div className="back_bar">
-        <FaChevronLeft size={30}/>
-      </div>
-    </Link>
+    <div>
+      <div className="nav_background"></div>
+
+      <Link to="/">
+        <div className="back_bar">
+          <FaChevronLeft size={30}/>
+        </div>
+      </Link>
+    </div>
   );
 }
  
