@@ -5,11 +5,12 @@ import logo from '../images/logo.svg';
 import { HashRouter, Route, Link } from 'react-router-dom';
 import Grid from './Grid.js';
 
-import Old_is_Gold from './projects/Old_is_Gold.js';
+import OldIsGold from './projects/OldIsGold.js';
 import Zoom from './projects/Zoom.js';
-
-
-
+import Degreezy from './projects/Degreezy.js';
+import NookHook from './projects/NookHook.js';
+import PushPin from './projects/PushPin.js';
+import Magnet from './projects/Magnet.js';
 
 import DarkModeToggle from "react-dark-mode-toggle";
 import useDarkMode from 'use-dark-mode';
@@ -42,8 +43,12 @@ function App() {
 
       <div className="App">
         <Route exact path="/" component={Grid} />
-        <Route path="/oldisgold" component={Old_is_Gold} />
+        <Route path="/oldisgold" component={OldIsGold} />
         <Route path="/zoom" component={Zoom} />
+        <Route path="/degreezy" component={Degreezy} />
+        <Route path="/nookhook" component={NookHook} />
+        <Route path="/pushpin" component={PushPin} />
+        <Route path="/magnet" component={Magnet} />
 
 
         {/* Set up the Router
