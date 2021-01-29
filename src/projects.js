@@ -80,6 +80,17 @@ export default {
       image: oldisgold_cover,
       title: "Old is Gold",
       tagline: "using design to connect generations",
+
+      context: "School",
+      org: "6-person team",
+      timeframe: "Semester",
+      role: [
+      "UI / UX designer",
+      "CAD designer",
+      ],
+
+      overview: "Older adults (60+) have historically reported high levels of loneliness for a variety of factors, including age-related disability and living situation. Newly enacted social distancing policies designed to combat the widespread nature of COVID-19, have only exacerbated these conditions. This project seeks to establish new modes of social interaction between older adults and family/friends, within the context of the global pandemic, to help mitigate feelings of social isolation.",
+
     },
     {
       id: 1,
@@ -87,6 +98,15 @@ export default {
       image: zoom_cover,
       title: "Zoom++",
       tagline: "brainstorming new ways to interface in a remote world",
+
+      context: "School",
+      org: "3-person team",
+      timeframe: "Semester",
+      role: [
+      "UI / UX designer",
+      ],
+
+      overview: "",
     },
     {
       id: 2,
@@ -94,6 +114,15 @@ export default {
       image: degreezy_cover,
       title: "Degreezy",
       tagline: "using design to connect generations",
+
+      context: "",
+      org: "",
+      timeframe: "",
+      role: [
+      "",
+      ],
+
+      overview: "",
     },
     {
       id: 3,
@@ -101,6 +130,15 @@ export default {
       image: nook_cover,
       title: "Nook Hook",
       tagline: "using design to connect generations",
+
+      context: "",
+      org: "",
+      timeframe: "",
+      role: [
+      "",
+      ],
+
+      overview: "",
     },
     {
       id: 4,
@@ -108,6 +146,15 @@ export default {
       image: pushpin_cover,
       title: "PushPin",
       tagline: "using design to connect generations",
+
+      context: "",
+      org: "",
+      timeframe: "",
+      role: [
+      "",
+      ],
+
+      overview: "",
     },
     {
       id: 5,
@@ -115,6 +162,15 @@ export default {
       image: magnet_cover,
       title: "Magnet",
       tagline: "using design to connect generations",
+
+      context: "",
+      org: "",
+      timeframe: "",
+      role: [
+      "",
+      ],
+
+      overview: "",
     },
     // {
     //   id: 6,
@@ -131,6 +187,15 @@ export default {
     //   image: "",
     //   title: "",
     //   tagline: "",
+
+      // context: "",
+      // org: "",
+      // timeframe: "",
+      // role: [
+      // "",
+      // ],
+
+      // overview: "",
     // },
 
   ],

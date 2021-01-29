@@ -6,7 +6,7 @@ function Thumbnail(props) {
   return (
     <li className="project">
       <Link to={props.link}>
-        <img className="project-image" src={props.image} alt="Project Image"/>
+        <img className="project-image" src={props.image} alt={props.title}/>
         <div className="overlay">
           <h2 className="project-title">{props.title}</h2>
           <p className="project-tagline">{props.tagline}</p>

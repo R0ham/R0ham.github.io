@@ -4,7 +4,12 @@ import logo from '../images/logo.svg';
 // Import the HashRouter, Route and Link components
 import { HashRouter, Route, Link } from 'react-router-dom';
 import Grid from './Grid.js';
+
 import Old_is_Gold from './projects/Old_is_Gold.js';
+import Zoom from './projects/Zoom.js';
+
+
+
 
 import DarkModeToggle from "react-dark-mode-toggle";
 import useDarkMode from 'use-dark-mode';
@@ -38,6 +43,7 @@ function App() {
       <div className="App">
         <Route exact path="/" component={Grid} />
         <Route path="/oldisgold" component={Old_is_Gold} />
+        <Route path="/zoom" component={Zoom} />
 
 
         {/* Set up the Router
