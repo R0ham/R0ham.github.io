@@ -1,39 +1,22 @@
 :root {
   /* light mode theme */
-/*  --light-background-color: #efefef;
-  --light-color: #333;
-  --light-accent: #95d3ff;*/
-
   --light-background-color: #e7ecef;
   --light-pageback-color: #274c77;
   --light-color: #274c77;
   --light-accent: #a3cef1;
 
   /* dark mode theme */
-/*  --dark-background-color: #10171d;
-  --dark-color: #dfdfdf;
-  --dark-accent: #1b2938;*/
-
-/*  --dark-background-color: #2F1010;
-  --dark-pageback-color: #4E2222;
-  --dark-color: #714D4D;
-  --dark-accent: #8F1414;*/
-
   --dark-background-color: #1D1111;
   --dark-pageback-color: #4E2222;
   --dark-color: #CFB9B9;
-  --dark-accent: #8F1414;
-
-/*  --dark-background-color: #A07373;
-  --dark-pageback-color: #4E2222;*/
+  --dark-accent: #F17E7E;
 }
 
 /*
 hero_light
 
-  .st0{fill:#333;}
-  .st1{fill:#95d3ff;}
-
+  .st0{fill:#274c77;}
+  .st1{fill:#a3cef1;}
 
 hero_dark
 
@@ -41,7 +24,6 @@ hero_dark
   .st1{fill:#8F1414;}
 
 */
-
 
 html,
 body {
@@ -82,12 +64,26 @@ body.dark-mode {
 
   .back_bar, .navbar {
     background-color: var(--dark-accent);
-    color: var(--dark-color);
+    color: var(--dark-pageback-color);
   }
 
   .page_view {
     background-color: var(--dark-pageback-color);
     color: var(--dark-color);
+
+    .flex_overview {
+      color: var(--dark-accent);
+      /*background-color: red;*/
+    }
+
+    .overview {
+      background-color: var(--dark-accent);
+      color: var(--dark-pageback-color);
+    }
+
+    h2 {
+      color: var(--dark-accent);
+    }
   }
 }
 
@@ -97,9 +93,10 @@ body.dark-mode {
   left: 25px;
   display: flex;
   background-color: var(--light-accent);
-  color: var(--light-background-color);
+  /*color: var(--light-background-color);*/
+  color: var(--light-color);
   padding: 20px;
-  z-index: 3;  
+  z-index: 3;
 }
 
 .navbar {
@@ -108,7 +105,7 @@ body.dark-mode {
   right: 25px;
   display: flex;
   background-color: var(--light-accent);
-  padding: 20px;
+  padding: 21px;
   z-index: 3;
 }
 
@@ -121,7 +118,13 @@ body.dark-mode {
   /*text-align: center;*/
 
   .about {
-    /*background-color: var(--light-accent);*/
+    /*width: 100vw;*/
+/*    background-color: var(--light-pageback-color);
+    color: var(--light-background-color);*/
+  }
+
+  .about_text {
+    /*background-color: var(--light-pageback-color);*/
     /*color: var(--dark-color);*/
     padding-top: 200px;
     padding-bottom: 200px;
@@ -146,19 +149,6 @@ body.dark-mode {
   }
 
   .hero {
-  /*  display: block;
-    margin-left: auto;
-    margin-right: auto;*/
-    /*height: 100vh;*/
-  /*  background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;*/
-  /*  width: 50%;*/
-    /*width: 100vw;*/
-
-  /*  margin: 0;
-    padding: 0;*/
     background-image: url("../images/hero simple jawline light.svg");
 
     /*background-color: #ddd;*/
@@ -186,7 +176,8 @@ body.dark-mode {
   /*justify-content: center;*/
   flex-wrap: wrap;
   list-style: none;
-  padding: 0;
+  /*padding: 0;*/
+  padding: 25px;
   margin: 0;
   /*width: 80vw;*/
   /*flex-direction: column;*/
@@ -263,7 +254,7 @@ body.dark-mode {
 .page_view {
   background-color: var(--light-pageback-color);
   color: var(--light-background-color);
-  height: 100vh;
+  /*height: 100vh;*/
 
 /*  body.light-mode {
     .back_bar, .navbar {
@@ -283,10 +274,64 @@ body.dark-mode {
     padding-top: 80px;
     max-width: 800px;
     font-size: 20px;
-    line-height: 1.3em;
+
+    .flex_overview {
+      color: var(--light-accent);
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 0;
+      padding: 0;
+      justify-content: space-between;
+    }
+
+    .flex_overview li {
+      p {
+        line-height: 0.3em;
+      }
+    }
+
+    .overview {
+      background-color: var(--light-accent);
+      color: var(--light-color);
+      /*margin-top: 25px;*/
+      /*margin-bottom: 25px;*/
+/*      padding-left: 25px;
+      padding-right: 25px;*/
+      padding: 25px;
+
+      .tagline {
+        font-style: oblique;
+        font-size: 20px;
+        /*padding-bottom: 25px;*/
+      }
+
+      p:last-child {
+        margin: 0;
+      }
+    }
 
     h1 {
       font-size: 2rem;
+      margin: 0;
+    }
+
+    h2 {
+      color: var(--light-accent);
+      text-transform: uppercase;
+      font-size: 1.2rem;
+      margin-top: 25px;
+      margin-bottom: -10px;
+    }
+
+    h3 {
+      text-transform: uppercase;
+      font-size: 1.0rem;
+    }
+
+    p {
+      font-size: 1.0rem;
+      line-height: 1.3em;
     }
 
     img {
