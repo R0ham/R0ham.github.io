@@ -1,5 +1,7 @@
 import React from 'react'; // Import the Component component from React
 import {Link} from 'react-router-dom'; // Import the Link component
+import ScrollToTop from '../ScrollToTop.js';
+
 import '../../styles/App.scss';
  
 function Overview(props) {
@@ -9,6 +11,8 @@ function Overview(props) {
 
   return (
     <div>
+      <ScrollToTop/>
+
       <div className="canvas">
         <img src={props.image} alt={props.title}/>
       </div>
