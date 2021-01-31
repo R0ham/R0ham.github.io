@@ -11,9 +11,9 @@
   /* dark mode theme */
 /*  --dark-background-color: #1D1111;
   --dark-pageback-color: #4E2222;*/
-  --dark-background-color: #4E2222;
+  --dark-background-color: #803838;
   --dark-pageback-color: #4E2222;
-  --dark-color: #CFB9B9;
+  --dark-color: #D4BFBF;
   --dark-accent: #F17E7E;
   /*--dark-tint: rgba(78, 34, 34, 0.2);*/
   --dark-tint: rgba(241, 126, 126, 0.1);
@@ -69,14 +69,24 @@ body.dark-mode {
     display: none;
   }
 
+  .nav_background, .back_bar {
+    border-bottom: 3px solid var(--dark-accent);
+  }
+
   .nav_background, .back_bar, .navbar {
-    background-color: var(--dark-accent);
-    color: var(--dark-pageback-color);
+/*    background-color: var(--dark-accent);
+    color: var(--dark-pageback-color);*/
+
+    background-color: var(--dark-pageback-color);
+    color: var(--dark-accent);
   }
 
   .back_bar:hover {
-    background-color: var(--dark-background-color);
-    color: var(--dark-accent);
+/*    background-color: var(--dark-background-color);
+    color: var(--dark-accent);*/
+
+    background-color: var(--dark-accent);
+    color: var(--dark-pageback-color);
     transition: background-color .3s ease;
   }
 
@@ -105,8 +115,12 @@ body.dark-mode {
 }
 
 .nav_background {
-  background-color: var(--light-accent);
-  color: var(--light-color);
+/*  background-color: var(--light-accent);
+  color: var(--light-color);*/
+  background-color: var(--light-pageback-color);
+  color: var(--light-accent);
+  border-bottom: 3px solid var(--light-accent);
+
   height: 70px;
 
   width: -moz-calc(100vw - 50px);
@@ -125,15 +139,22 @@ body.dark-mode {
   top: 0;
   left: 25px;
   display: flex;
-  background-color: var(--light-accent);
-  color: var(--light-color);
+/*  background-color: var(--light-accent);
+  color: var(--light-color);*/
+
+  background-color: var(--light-pageback-color);
+  color: var(--light-accent);
+  border-bottom: 3px solid var(--light-accent);
+
   padding: 20px;
   width: 35px;
   z-index: 3;
 }
 
 .back_bar:hover {
-  background-color: var(--light-background-color);
+  /*background-color: var(--light-background-color);*/
+  background-color: var(--light-accent);
+  color: var(--light-pageback-color);
   transition: background-color .3s ease;
 }
 
@@ -142,7 +163,10 @@ body.dark-mode {
   top: 0;
   right: 25px;
   display: flex;
-  background-color: var(--light-accent);
+  /*background-color: var(--light-accent);*/
+  background-color: var(--light-pageback-color);
+  /*border-bottom: 3px solid var(--light-accent);*/
+
   padding: 20px;
   z-index: 3;
 }
@@ -158,6 +182,11 @@ body.dark-mode {
   width: 100%;
   height: 100%;
   background: var(--light-tint);
+}
+
+.canvas img {
+  max-height: 60vh;
+  object-fit: cover;
 }
 
 .landing {
@@ -272,7 +301,7 @@ body.dark-mode {
     /*
       could be useful for pushpin / degreezy
     */
-    /*object-position: 0 0;*/ 
+    /*object-position: 0 0;*/
   }
 
   .overlay {
