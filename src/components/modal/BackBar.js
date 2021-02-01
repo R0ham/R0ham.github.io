@@ -15,6 +15,9 @@ function BackBar(props) {
           onClick={() => {
               history.goBack();
           }}
+          onTouchEnd={() => {
+              history.goBack();
+          }}
         >
           <FaChevronLeft size={30}/>
         </div>
