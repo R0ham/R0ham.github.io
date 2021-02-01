@@ -16,7 +16,7 @@ function Overview(props) {
     <div>
       <ScrollToTop/>
 
-      <div className="canvas">
+      <div className="canvas canvas_overview">
         <img src={props.image} alt={props.title}/>
       </div>
 

@@ -187,6 +187,9 @@ body.dark-mode {
 .canvas img {
   max-height: 60vh;
   object-fit: cover;
+}
+
+.canvas_overview img {
   object-position: 0 0;
 }
 
@@ -369,6 +372,8 @@ body.dark-mode {
     }
 
     .flex_overview li {
+      /*min-width: 60px;*/
+      /*width: 160px;*/
 
       p {
         line-height: 0.3em;
