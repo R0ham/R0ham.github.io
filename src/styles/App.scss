@@ -280,7 +280,7 @@ body.dark-mode {
     flex-grow: 10;
   }
   
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 800px) and (width: 800px) {
     .project {
       height: auto;
     }
@@ -369,6 +369,7 @@ body.dark-mode {
     }
 
     .flex_overview li {
+
       p {
         line-height: 0.3em;
       }

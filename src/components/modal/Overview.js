@@ -9,6 +9,9 @@ function Overview(props) {
     <p>{each}</p>
   ));
 
+  const max_width = Math.ceil({roles}.clientWidth);
+  // alert(max_width);
+
   return (
     <div>
       <ScrollToTop/>
@@ -18,19 +21,19 @@ function Overview(props) {
       </div>
 
       <ul className="flex_overview">
-        <li>
+        <li style={{width: max_width + "px"}}>
           <h3>Context</h3>
           <p>{props.context}</p>
         </li>        
-        <li>
+        <li style={{width: max_width + "px"}}>
           <h3>Makeup</h3>
           <p>{props.org}</p>
         </li>
-        <li>
+        <li style={{width: max_width + "px"}}>
           <h3>Timeframe</h3>
           <p>{props.timeframe}</p>
         </li>
-        <li>
+        <li style={{width: max_width + "px"}}>
           <h3>Role</h3>
           {roles}
         </li>
@@ -42,16 +45,7 @@ function Overview(props) {
         <p>{props.overview}</p>
       </div>
 
-
-
-
     </div>
-
-
-
-
-
-
 
   );
 }
