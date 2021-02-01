@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d86d7e5.chunk.css",
-    "main.js": "/static/js/main.21c3787a.chunk.js",
-    "main.js.map": "/static/js/main.21c3787a.chunk.js.map",
+    "main.css": "/static/css/main.e761a15d.chunk.css",
+    "main.js": "/static/js/main.ed4041ed.chunk.js",
+    "main.js.map": "/static/js/main.ed4041ed.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6f888a25.js",
     "runtime-main.js.map": "/static/js/runtime-main.6f888a25.js.map",
-    "static/js/2.f39ac40e.chunk.js": "/static/js/2.f39ac40e.chunk.js",
-    "static/js/2.f39ac40e.chunk.js.map": "/static/js/2.f39ac40e.chunk.js.map",
+    "static/js/2.3339296c.chunk.js": "/static/js/2.3339296c.chunk.js",
+    "static/js/2.3339296c.chunk.js.map": "/static/js/2.3339296c.chunk.js.map",
     "static/js/3.7c7b4e7a.chunk.js": "/static/js/3.7c7b4e7a.chunk.js",
     "static/js/3.7c7b4e7a.chunk.js.map": "/static/js/3.7c7b4e7a.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.2d86d7e5.chunk.css.map": "/static/css/main.2d86d7e5.chunk.css.map",
-    "static/js/2.f39ac40e.chunk.js.LICENSE.txt": "/static/js/2.f39ac40e.chunk.js.LICENSE.txt",
+    "static/css/main.e761a15d.chunk.css.map": "/static/css/main.e761a15d.chunk.css.map",
+    "static/js/2.3339296c.chunk.js.LICENSE.txt": "/static/js/2.3339296c.chunk.js.LICENSE.txt",
     "static/media/degreezy_cover.12fc5957.png": "/static/media/degreezy_cover.12fc5957.png",
     "static/media/App.scss": "/static/media/hero simple jawline light.ee7b8d29.svg",
     "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6f888a25.js",
-    "static/js/2.f39ac40e.chunk.js",
-    "static/css/main.2d86d7e5.chunk.css",
-    "static/js/main.21c3787a.chunk.js"
+    "static/js/2.3339296c.chunk.js",
+    "static/css/main.e761a15d.chunk.css",
+    "static/js/main.ed4041ed.chunk.js"
   ]
 }
