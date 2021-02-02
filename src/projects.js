@@ -97,7 +97,7 @@ export default {
       link: "/zoom",
       image: zoom_cover,
       title: "Zoom++",
-      tagline: "brainstorming new ways to interface in a remote world",
+      tagline: "education within the remote world",
 
       context: "School",
       org: "3-person team",
@@ -113,7 +113,7 @@ export default {
       link: "/degreezy",
       image: degreezy_cover,
       title: "Degreezy",
-      tagline: "a friendly course scheduler for college students",
+      tagline: "a friendly degree planner",
 
       context: "School",
       org: "6-person team",
@@ -131,7 +131,7 @@ export default {
       link: "/nookhook",
       image: nook_cover,
       title: "Nook Hook",
-      tagline: "simple everyday solutions with big impact",
+      tagline: "combatting everyday annoyances",
 
       context: "School",
       org: "Solo",
@@ -147,7 +147,7 @@ export default {
       link: "/pushpin",
       image: pushpin_cover,
       title: "PushPin",
-      tagline: "postering for the modern age",
+      tagline: "digital poster bulletin board",
 
       context: "School",
       org: "5-person team",
