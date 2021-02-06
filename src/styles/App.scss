@@ -75,17 +75,11 @@ body.dark-mode {
   }
 
   .nav_background, .back_bar, .navbar {
-/*    background-color: var(--dark-accent);
-    color: var(--dark-pageback-color);*/
-
     background-color: var(--dark-pageback-color);
     color: var(--dark-accent);
   }
 
   .back_bar:hover {
-/*    background-color: var(--dark-background-color);
-    color: var(--dark-accent);*/
-
     background-color: var(--dark-accent);
     color: var(--dark-pageback-color);
     transition: background-color .3s ease;
@@ -109,7 +103,6 @@ body.dark-mode {
 
     .flex_overview {
       color: var(--dark-accent);
-      /*background-color: red;*/
     }
 
     .overview {
@@ -124,8 +117,6 @@ body.dark-mode {
 }
 
 .nav_background {
-/*  background-color: var(--light-accent);
-  color: var(--light-color);*/
   background-color: var(--light-pageback-color);
   color: var(--light-accent);
   border-bottom: 3px solid var(--light-accent);
@@ -148,9 +139,6 @@ body.dark-mode {
   top: 0;
   left: 25px;
   display: flex;
-/*  background-color: var(--light-accent);
-  color: var(--light-color);*/
-
   background-color: var(--light-pageback-color);
   color: var(--light-accent);
   border-bottom: 3px solid var(--light-accent);
@@ -161,7 +149,6 @@ body.dark-mode {
 }
 
 .back_bar:hover {
-  /*background-color: var(--light-background-color);*/
   background-color: var(--light-accent);
   color: var(--light-pageback-color);
   transition: background-color .3s ease;
@@ -172,17 +159,33 @@ body.dark-mode {
   top: 0;
   right: 25px;
   display: flex;
-  /*background-color: var(--light-accent);*/
   background-color: var(--light-pageback-color);
-  /*border-bottom: 3px solid var(--light-accent);*/
 
   padding: 20px;
   z-index: 3;
 }
 
+footer {
+  background-color: var(--light-pageback-color);
+  color: var(--light-background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
 .canvas {
   position: relative;
   display: inline-block;
+
+  img {
+    object-fit: cover;
+    margin-bottom: -4px;
+  }
+}
+
+.canvas_large img {
+  max-height: 60vh;
 }
 
 .canvas:before {
@@ -193,22 +196,39 @@ body.dark-mode {
   background: var(--light-tint);
 }
 
-.canvas img {
-  max-height: 60vh;
-  object-fit: cover;
+.canvas_grid {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  img {
+    height: 60vh;
+  }
+
+  .canvas:nth-last-child(2) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
-/*.canvas_overview img {
-  object-position: 0 0;
-}*/
+.canvas_square {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+
+  img {
+/*    max-width: 400px;
+    height: 60vh;*/
+  }
+
+  .canvas:not(:last-child) {
+    padding-bottom: 15px;
+  }
+}
 
 .landing {
-  /*padding-left: 25px;*/
-  /*margin-top: 60px;*/
-  /*max-width: 600px;*/
   font-size: 20px;
-  /*line-height: 1.8em;*/
-  /*text-align: center;*/
 
   .about {
     /*width: 100vw;*/
@@ -217,44 +237,29 @@ body.dark-mode {
   }
 
   .about_text {
-    /*background-color: var(--light-pageback-color);*/
-    /*color: var(--dark-color);*/
     padding-top: 200px;
     padding-bottom: 200px;
 
     width: 40vw;
     margin-left: auto;
     margin-right: auto;
-    /*background-color: red;*/
-    /*padding: 1000px;*/
   }
 
   h1 {
-    /*padding-left: 25px;*/
     font-size: 2rem;
   }
 
   p {
-    /*padding-left: 25px;*/
-    /*padding: 50px;*/
     line-height: 1.3em;
-
   }
 
   .hero {
     background-image: url("../images/hero simple jawline light.svg");
-
-    /*background-color: #ddd;*/
-    
     height: 100vh;
     width: 100vw;
-
     background-repeat: no-repeat;
     background-position: center;
-    /*background-size: cover;*/
-    /*background-attachment: fixed;*/
     overflow: auto;
-
   }
 
   @media screen and (max-width: 800px) {
@@ -266,23 +271,13 @@ body.dark-mode {
 
 .flex_projects {
   display: flex;
-  /*justify-content: center;*/
   flex-wrap: wrap;
   list-style: none;
-  padding: 0;
-  /*padding-bottom: 25px;*/
-  /*padding: 25px;*/
-  margin: 0;
   margin-left: 25px;
-  /*width: 80vw;*/
-  /*flex-direction: column;*/
-  /*align-items: center;*/
+  padding: 0;
 
-  /*
-    li tags
-  */
+  /* li tags */
   .project {
-    /*margin-left: 25px;*/
     margin-right: 25px;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -296,16 +291,14 @@ body.dark-mode {
     /*flex-grow: 10;*/
   }
   
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 950px) {
     .project {
       height: auto;
     }
 
     img {
       width: 100%;
-      /*max-height: 75vh;*/
       height: 40vh;
-      /*min-width: 0;*/
     }
   }
 
@@ -313,8 +306,7 @@ body.dark-mode {
     object-fit: cover;
     max-height: 100%;
     min-width: 100%;
-    margin-bottom: -4px;
-    
+
     /*
       could be useful for pushpin / degreezy
     */
@@ -322,34 +314,21 @@ body.dark-mode {
   }
 
   .overlay {
+    color: var(--light-color);
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    /*height: 100%;*/
-    /*width: 100%;*/
     transition: background .3s ease;
-    /*display: flex;*/
-    /*flex-direction: row;*/
-    /*justify-content: flex-end;*/
-    /*align-items: flex-start;*/
-    /*visibility: hidden;*/
-
-    color: var(--light-color);
-
-    /*padding: 15px;*/
 
     h2 {
       position: absolute;
       top: -65px;
       left: 0;
 
-      /*color: var(--light-accent);*/
       text-transform: uppercase;
       font-size: 1.0rem;
-      /*margin-top: 0px;*/
-      /*margin-bottom: -10px;*/
     }
 
     p {
@@ -359,9 +338,6 @@ body.dark-mode {
 
       font-style: oblique;
       font-size: 1.0rem;
-      /*margin-bottom: 50px;*/
-      /*margin-top: 50px;*/
-      /*max-width: 50vw;*/
     }
 
   }
@@ -394,10 +370,6 @@ body.dark-mode {
     }
 
     .flex_overview li {
-      /*min-width: 60px;*/
-      /*width: 160px;*/
-      /*padding: 10px;*/
-
       p {
         line-height: 0.3em;
       }
@@ -412,17 +384,12 @@ body.dark-mode {
     .overview {
       background-color: var(--light-accent);
       color: var(--light-color);
-      /*margin-top: 25px;*/
-      /*margin-bottom: 25px;*/
-/*      padding-left: 25px;
-      padding-right: 25px;*/
       padding: 25px;
 
       .tagline {
         font-style: oblique;
         font-size: 20px;
         margin-top: 5px;
-        /*padding-bottom: 25px;*/
       }
 
       p:last-child {
@@ -438,7 +405,7 @@ body.dark-mode {
     h2 {
       color: var(--light-accent);
       text-transform: uppercase;
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       margin-top: 25px;
       margin-bottom: -10px;
     }
@@ -455,11 +422,6 @@ body.dark-mode {
 
     img {
       width: 100%;
-      margin-bottom: -4px;
-    }
-
-    a {
-      color: #006688;
     }
   }
 }

@@ -12,3 +12,5 @@ jspm_packages/
 .DS_Store
 
 .eslintcache
+src/.DS_Store
+.eslintcache

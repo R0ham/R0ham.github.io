@@ -19,7 +19,7 @@ function OldIsGold(props) {
 
         <Overview
           image = {data.projects[curr_id].image}
-          title = {data.projects[curr_id].title}
+          alt = {data.projects[curr_id].title}
           tagline = {data.projects[curr_id].tagline}
 
           context = {data.projects[curr_id].context}

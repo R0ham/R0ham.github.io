@@ -36,6 +36,8 @@ function Grid(props) {
         {grid}
         <li></li>
       </ul>
+
+      {/*<footer>Created with love by Roham</footer>*/}
     </div>
 
   )

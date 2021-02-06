@@ -1,9 +1,16 @@
-import oldisgold_cover from "./images/projects/oldisgold_cover.png";
-import zoom_cover from "./images/projects/zoom_cover.png";
-import degreezy_cover from "./images/projects/degreezy_cover.png";
-import nook_cover from "./images/projects/nook_cover.jpg";
-import pushpin_cover from "./images/projects/pushpin_cover.png";
-import magnet_cover from "./images/projects/magnet_cover.jpg";
+import oldisgold_cover from './images/projects/oldisgold_cover.png';
+import zoom_cover from './images/projects/zoom_cover.png';
+import degreezy_cover from './images/projects/degreezy_cover.png';
+import nook_cover from './images/projects/nook_cover.jpg';
+import pushpin_cover from './images/projects/pushpin_cover.png';
+
+import magnet_cover from './images/projects/magnet_cover.jpg';
+import magnet_focus1 from './images/projects/magnet/focus1.jpg';
+import magnet_focus2 from './images/projects/magnet/focus2.jpg';
+import magnet_mindmap from './images/projects/magnet/mindmap.jpg';
+import magnet_outcome1 from './images/projects/magnet/outcome1.jpg';
+import magnet_outcome2 from './images/projects/magnet/outcome2.jpg';
+import magnet_outcome3 from './images/projects/magnet/outcome3.jpg';
 
 
 export default {
@@ -140,7 +147,7 @@ export default {
       "Varied",
       ],
 
-      overview: "Within my program's collaborative design-centric studio space, a common everyday \"annoyance\" is the lack of backpack storage. As a result, these bags would often be placed on the ground where they would be out of reach and would also encumber efforts to rearrange tables and chairs. My goal was to find an accommodative solution that wouldn't require extensive installation. Often times, the most apt solution is the simplest one: a table hook that would promote feelings of stability and security (deemed important because of the heavy and valuable contents of most backpacks).",
+      overview: "Within my program's collaborative design-centric studio space, a common everyday 'annoyance' is the lack of backpack storage. As a result, these bags would often be placed on the ground where they would be out of reach and would also encumber efforts to rearrange tables and chairs. My goal was to find an accommodative solution that wouldn't require extensive installation. Often times, the most apt solution is the simplest one: a table hook that would promote feelings of stability and security (deemed important because of the heavy and valuable contents of most backpacks).",
     },
     {
       id: 4,
@@ -168,12 +175,38 @@ export default {
 
       context: "School",
       org: "Solo",
-      timeframe: "1 month",
+      timeframe: "1 week",
       role: [
       "Varied",
       ],
 
+// I live in a shared apartment with three other people. We each have a single room with a shared bathroom and kitchen. The bathroom space of the apartment has an open doorway which leads to an area with two sinks. By going further into the space, the toilet and shower can be reached through (what I shall call) the “bathroom door.” There is also a light switch in this toilet/shower section of the bathroom which turns on the light and a fan. This all seems fine, but this bathroom door, unfortunately, does not have a doorknob that locks. As one might expect in terms of privacy, this situation is slightly problematic. Over the past few weeks, my roommates and I have developed a strategy to make sure we don’t accidentally walk into the toilet/shower area when it is occupied. When the door is fully closed and the sound of the fan can be heard, we all know that someone is using the bathroom. When the bathroom is unoccupied, the bathroom door is kept open and the light/fan is kept off. So far with this system, my roommates and I have been able to use the bathroom while maintaining each other’s privacy.
+
       overview: "Within my shared university living accommodations, the bathroom doorknob had no lock! To increase privacy, I wanted to find a non-invasive way to signal the bathroom was in use. A magnetic mechanism, with two magnet circles (stickered half-green and half-red) and two plastic housings, provided the ideal non-invasive and impermanent solution. When applied on both sides of the bathroom door, societally understood paradigms would allow for easy use (rotate to green for open/free, and red for closed/busy).",
+      prompt: "For this school assignment, our goal was to 'design for yourself.' We did this incrementally, through daily journal entries marking our observations of the world around us. We asked ourselves questions like: What's new? What's the same? What's frustrating? What's comforting? What's working and what isn't? After a few journal entries like this, we were asked to draw our least favorite things/places.",
+      focus: "I ended up drawing many different potential areas of interest, including my uncomfortable dorm room chair and an awkward bench design. But then, I stumbled on a far more critical and interesting issue: the lack of a lockable doorknob within a shared bathroom space.",
+
+      image_f1: magnet_focus1,
+      imagealt_f1: "Magnet Focus Part 1",
+      image_f2: magnet_focus2,
+      imagealt_f2: "Magnet Focus Part 2",
+
+      process: "I started off with a simple sketch and a brainstorm. I tried thinking about why we expect there to be a lock in the first place, as well shape, color, and utility. It was at this point that I realized I would need a non-invasive, impermanent solution. Why? Well, because this living space was provided by the university under the assumption that it was kept in the same condition.",
+
+      image_p1: magnet_mindmap,
+      imagealt_p1: "magnet mindmap",
+
+      outcome: "Four pieces are included: two magnetic circles (stickered green and red) and two plastic housings. The plastic housings would be affixed on sides 1 and 2 of the door (inside and outside of the bathroom, respectively) with easily removable adhesive. The small cutout on side 2 would indicate whether the bathroom is free (green) or busy (red). Likewise, the indicator on side 1 would do the same. The intention is that a user, from the inside of the bathroom would rotate to the color of their using, which would simultaneously rotate both magnets.",
+
+      image_o1: magnet_outcome1,
+      imagealt_o1: "magnet outcome alternate views",
+      image_o2: magnet_outcome2,
+      imagealt_o2: "magnet outcome main components",
+      image_o3: magnet_outcome3,
+      imagealt_o3: "magnet outcome door sketch",
+
+      reflection: "I think this project is successful because it relies on paradigms we are already familiar with. Similar interactions and colors are used in public stalls and combination locks.",
+
     },
     // {
     //   id: 6,

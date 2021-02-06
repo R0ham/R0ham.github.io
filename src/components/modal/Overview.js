@@ -9,31 +9,35 @@ function Overview(props) {
     <p>{each}</p>
   ));
 
-  const max_width = Math.ceil({roles}.clientWidth);
-  // alert(max_width);
+  // const max_width = Math.ceil({roles}.clientWidth);
+
+  //<li style={{width: max_width + "px"}}>
+  //  <h3>Role</h3>
+  //  {roles}
+  //</li>
 
   return (
     <div>
       <ScrollToTop/>
 
-      <div className="canvas canvas_overview">
-        <img src={props.image} alt={props.title}/>
+      <div className="canvas canvas_large">
+        <img src={props.image} alt={props.alt}/>
       </div>
 
       <ul className="flex_overview">
-        <li style={{width: max_width + "px"}}>
+        <li>
           <h3>Context</h3>
           <p>{props.context}</p>
         </li>        
-        <li style={{width: max_width + "px"}}>
+        <li>
           <h3>Makeup</h3>
           <p>{props.org}</p>
         </li>
-        <li style={{width: max_width + "px"}}>
+        <li>
           <h3>Timeframe</h3>
           <p>{props.timeframe}</p>
         </li>
-        <li style={{width: max_width + "px"}}>
+        <li>
           <h3>Role</h3>
           {roles}
         </li>
