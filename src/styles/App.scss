@@ -205,10 +205,10 @@ footer {
     height: 60vh;
   }
 
-  .canvas:nth-last-child(2) {
-    padding-left: 15px;
+  .canvas:not(:last-child) {
     padding-right: 15px;
   }
+
 }
 
 .canvas_square {

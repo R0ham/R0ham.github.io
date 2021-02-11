@@ -5,12 +5,12 @@ import nook_cover from './images/projects/nook_cover.jpg';
 import pushpin_cover from './images/projects/pushpin_cover.png';
 
 import magnet_cover from './images/projects/magnet_cover.jpg';
-import magnet_focus1 from './images/projects/magnet/focus1.jpg';
-import magnet_focus2 from './images/projects/magnet/focus2.jpg';
-import magnet_mindmap from './images/projects/magnet/mindmap.jpg';
-import magnet_outcome1 from './images/projects/magnet/outcome1.jpg';
-import magnet_outcome2 from './images/projects/magnet/outcome2.jpg';
-import magnet_outcome3 from './images/projects/magnet/outcome3.jpg';
+import magnet_focus1_1 from './images/projects/magnet/focus1_1.jpg';
+import magnet_focus1_2 from './images/projects/magnet/focus1_2.jpg';
+import magnet_process1_1 from './images/projects/magnet/process1_1.jpg';
+import magnet_outcome1_1 from './images/projects/magnet/outcome1_1.jpg';
+import magnet_outcome1_2 from './images/projects/magnet/outcome1_2.jpg';
+import magnet_outcome1_3 from './images/projects/magnet/outcome1_3.jpg';
 
 
 export default {
@@ -107,7 +107,7 @@ export default {
       tagline: "education within the remote world",
 
       context: "School",
-      org: "3-person team",
+      org: "4-person team",
       timeframe: "Semester",
       role: [
       "UI / UX designer",
@@ -185,27 +185,50 @@ export default {
       overview: "Within my shared university living accommodations, the bathroom doorknob had no lock! To increase privacy, I wanted to find a non-invasive way to signal the bathroom was in use. A magnetic mechanism, with two magnet circles (stickered half-green and half-red) and two plastic housings, provided the ideal non-invasive and impermanent solution. When applied on both sides of the bathroom door, societally understood paradigms would allow for easy use (rotate to green for open/free, and red for closed/busy).",
       prompt: "For this school assignment, our goal was to 'design for yourself.' We did this incrementally, through daily journal entries marking our observations of the world around us. We asked ourselves questions like: What's new? What's the same? What's frustrating? What's comforting? What's working and what isn't? After a few journal entries like this, we were asked to draw our least favorite things/places.",
       focus: "I ended up drawing many different potential areas of interest, including my uncomfortable dorm room chair and an awkward bench design. But then, I stumbled on a far more critical and interesting issue: the lack of a lockable doorknob within a shared bathroom space.",
-
-      image_f1: magnet_focus1,
-      imagealt_f1: "Magnet Focus Part 1",
-      image_f2: magnet_focus2,
-      imagealt_f2: "Magnet Focus Part 2",
-
       process: "I started off with a simple sketch and a brainstorm. I tried thinking about why we expect there to be a lock in the first place, as well shape, color, and utility. It was at this point that I realized I would need a non-invasive, impermanent solution. Why? Well, because this living space was provided by the university under the assumption that it was kept in the same condition.",
 
-      image_p1: magnet_mindmap,
-      imagealt_p1: "magnet mindmap",
+      // image_p1: magnet_mindmap,
+      // imagealt_p1: "magnet mindmap",
 
       outcome: "Four pieces are included: two magnetic circles (stickered green and red) and two plastic housings. The plastic housings would be affixed on sides 1 and 2 of the door (inside and outside of the bathroom, respectively) with easily removable adhesive. The small cutout on side 2 would indicate whether the bathroom is free (green) or busy (red). Likewise, the indicator on side 1 would do the same. The intention is that a user, from the inside of the bathroom would rotate to the color of their using, which would simultaneously rotate both magnets.",
-
-      image_o1: magnet_outcome1,
-      imagealt_o1: "magnet outcome alternate views",
-      image_o2: magnet_outcome2,
-      imagealt_o2: "magnet outcome main components",
-      image_o3: magnet_outcome3,
-      imagealt_o3: "magnet outcome door sketch",
-
       reflection: "I think this project is successful because it relies on paradigms we are already familiar with. Similar interactions and colors are used in public stalls and combination locks.",
+
+      images: [{
+
+        focus1: [
+          {
+            image: magnet_focus1_1,
+            alt: "Magnet Focus Part 1",
+          },
+          {
+            image: magnet_focus1_2,
+            alt: "Magnet Focus Part 2",
+          },
+        ],
+
+        process1: [
+          {
+            image: magnet_process1_1,
+            alt: "magnet mindmap",
+          },
+        ],
+
+        outcome1: [
+          {
+            image: magnet_outcome1_1,
+            alt: "magnet outcome alternate views",
+          },
+          {
+            image: magnet_outcome1_2,
+            alt: "magnet outcome main components",
+          },
+          {
+            image: magnet_outcome1_3,
+            alt: "magnet outcome door sketch",
+          },
+        ],
+
+      }],
 
     },
     // {

@@ -4,7 +4,7 @@ import Image from './Image.js';
 
 import '../../styles/App.scss';
  
-function ImageGridVertical(props) {
+function ImageGridHorizontal(props) {
   const images = props.images.map(each => (
     <Image
       image = {each.image}
@@ -13,10 +13,10 @@ function ImageGridVertical(props) {
   ));
 
   return (
-    <ul className="canvas_grid">
+    <ul className="canvas_square">
       {images}
     </ul>
   );
 }
 
-export default ImageGridVertical;
+export default ImageGridHorizontal;

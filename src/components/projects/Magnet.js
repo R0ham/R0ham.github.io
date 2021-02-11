@@ -2,8 +2,8 @@ import React from 'react';
 import BackBar from '../modal/BackBar.js';
 import Overview from '../modal/Overview.js';
 import Image from '../modal/Image.js';
+import ImageGridHorizontal from '../modal/ImageGridHorizontal.js';
 import ImageGridVertical from '../modal/ImageGridVertical.js';
-import ImageGridSquare from '../modal/ImageGridSquare.js';
 
 import data from '../../projects.js';
 import '../../styles/App.scss';
@@ -39,34 +39,30 @@ function Magnet(props) {
         <h2>Focus Area</h2>
         <p>{data.projects[curr_id].focus}</p>
 
-        <ImageGridSquare
+        {/*<ImageGridHorizontal
           image1 = {data.projects[curr_id].image_f1}
           alt1 = {data.projects[curr_id].imagealt_f1}
 
           image2 = {data.projects[curr_id].image_f2}
           alt2 = {data.projects[curr_id].imagealt_f2}
+        />*/}
+
+        <ImageGridHorizontal
+          images = {data.projects[curr_id].images[0].focus1}
         />
 
         <h2>Process</h2>
         <p>{data.projects[curr_id].process}</p>
 
-        <Image
-          image = {data.projects[curr_id].image_p1}
-          alt = {data.projects[curr_id].imagealt_p1}
+        <ImageGridHorizontal
+          images = {data.projects[curr_id].images[0].process1}
         />
 
         <h2>Outcome</h2>
         <p>{data.projects[curr_id].outcome}</p>
 
         <ImageGridVertical
-          image1 = {data.projects[curr_id].image_o1}
-          alt1 = {data.projects[curr_id].imagealt_o1}
-
-          image2 = {data.projects[curr_id].image_o2}
-          alt2 = {data.projects[curr_id].imagealt_o2}
-
-          image3 = {data.projects[curr_id].image_o3}
-          alt3 = {data.projects[curr_id].imagealt_o3}
+          images = {data.projects[curr_id].images[0].outcome1}
         />
 
         <h2>Reflection</h2>

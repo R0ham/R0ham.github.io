@@ -5,9 +5,9 @@ import '../../styles/App.scss';
  
 function Image(props) {
   return (
-    <div className="canvas canvas_large">
-      <img src={props.image} alt={props.caption}/>
-    </div>
+    <li className="canvas canvas_large">
+      <img src={props.image} alt={props.alt}/>
+    </li>
   );
 }
 
