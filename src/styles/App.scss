@@ -196,7 +196,7 @@ footer {
   background: var(--light-tint);
 }
 
-.canvas_grid {
+.canvas_vertical {
   display: flex;
   margin: 0;
   padding: 0;
@@ -206,24 +206,54 @@ footer {
   }
 
   .canvas:not(:last-child) {
-    padding-right: 15px;
+    padding-right: 5px;
   }
 
 }
 
-.canvas_square {
+.canvas_horizontal {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
 
   img {
-/*    max-width: 400px;
-    height: 60vh;*/
+
+    /*max-width: 400px;*/
+    /*height: 60vh;*/
   }
 
   .canvas:not(:last-child) {
-    padding-bottom: 15px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+
+  }
+
+  .canvas:nth-child(2n) {
+    padding-right: 0;
+  }
+
+  .canvas:nth-last-child(2) {
+    padding-bottom: 0;
+  }
+
+  .canvas:not(:only-child) {
+    /*background-color: var(--dark-accent);*/
+
+    img {
+      max-width: 395px;
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+    .canvas:not(:last-child) {
+      padding-bottom: 5px;
+      padding-right: 0;
+    }
+
+    .canvas:not(:only-child) img {
+      max-width: 800px;
+    }
   }
 }
 

@@ -12,8 +12,17 @@ function ImageGridHorizontal(props) {
     />
   ));
 
+  // if (props.images.length > 1) {
+  //   alert("hi");
+  //   // const output = <ul className="canvas_horizontal">{images}</ul>;
+  // }
+
+    // for (var i = Things.length - 1; i >= 0; i--) {
+    //   Things[i]
+    // }
+
   return (
-    <ul className="canvas_square">
+    <ul className="canvas_horizontal">
       {images}
     </ul>
   );
