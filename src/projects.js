@@ -198,11 +198,11 @@ export default {
         focus1: [
           {
             image: magnet_focus1_1,
-            alt: "Magnet Focus Part 1",
+            alt: "chair sketch",
           },
           {
             image: magnet_focus1_2,
-            alt: "Magnet Focus Part 2",
+            alt: "bench sketch",
           },
         ],
 
@@ -216,15 +216,15 @@ export default {
         outcome1: [
           {
             image: magnet_outcome1_1,
-            alt: "magnet outcome alternate views",
+            alt: "magnet alternate views",
           },
           {
             image: magnet_outcome1_2,
-            alt: "magnet outcome main components",
+            alt: "magnet main components",
           },
           {
             image: magnet_outcome1_3,
-            alt: "magnet outcome door sketch",
+            alt: "magnet door sketch",
           },
         ],
 
