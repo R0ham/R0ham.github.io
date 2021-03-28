@@ -6,11 +6,18 @@ function Thumbnail(props) {
   return (
     <li className="canvas project">
       <Link to={props.link}>
-        <img className="project-image" src={props.image} alt={props.title}/>
-        <div className="overlay">
-          <h2 className="project-title">{props.title}</h2>
-          <p className="project-tagline">{props.tagline}</p>
-        </div>
+        <img className="project_image" src={props.image} alt={props.title}/>
+        <div className="overlay"></div>
+
+        <ul className="project_flex">
+          <li>
+            <h2 className="project_title">{props.title}</h2>          
+          </li>
+          <li>
+            <p className="project_tagline">{props.tagline}</p>
+          </li>
+        </ul>
+
       </Link>
     </li>
   );
