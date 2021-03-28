@@ -11,7 +11,7 @@ function OldIsGold(props) {
   const curr_id = 0;
 
   return (
-    <div className="page_view">
+    <div className="page_modal">
 
       <BackBar/>
 
@@ -19,7 +19,7 @@ function OldIsGold(props) {
 
         <Overview
           image = {data.projects[curr_id].image}
-          alt = {data.projects[curr_id].title}
+          title = {data.projects[curr_id].title}
           tagline = {data.projects[curr_id].tagline}
 
           context = {data.projects[curr_id].context}

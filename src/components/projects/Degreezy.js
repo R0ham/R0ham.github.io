@@ -11,7 +11,7 @@ function Degreezy(props) {
   const curr_id = 2;
 
   return (
-    <div className="page_view">
+    <div className="page_modal">
 
       <BackBar/>
 

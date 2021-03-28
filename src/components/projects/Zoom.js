@@ -11,7 +11,7 @@ function Zoom(props) {
   const curr_id = 1;
 
   return (
-    <div className="page_view">
+    <div className="page_modal">
 
       <BackBar/>
 

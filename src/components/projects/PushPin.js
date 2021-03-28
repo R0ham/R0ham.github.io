@@ -11,7 +11,7 @@ function PushPin(props) {
   const curr_id = 4;
 
   return (
-    <div className="page_view">
+    <div className="page_modal">
 
       <BackBar/>
 

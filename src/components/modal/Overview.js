@@ -43,7 +43,7 @@ function Overview(props) {
         </li>
       </ul>
 
-      <div className="overview">
+      <div className="standout_block">
         <h1>{props.title}</h1>
         <p className="tagline">{props.tagline}</p>
         <p>{props.overview}</p>

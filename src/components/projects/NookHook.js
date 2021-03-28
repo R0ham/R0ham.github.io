@@ -11,7 +11,7 @@ function NookHook(props) {
   const curr_id = 3;
 
   return (
-    <div className="page_view">
+    <div className="page_modal">
 
       <BackBar/>
 

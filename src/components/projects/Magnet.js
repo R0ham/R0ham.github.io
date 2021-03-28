@@ -14,7 +14,7 @@ function Magnet(props) {
   const curr_id = 5;
 
   return (
-    <div className="page_view">
+    <div className="page_modal">
 
       <BackBar/>
 
