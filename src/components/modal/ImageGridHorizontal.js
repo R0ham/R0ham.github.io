@@ -5,21 +5,18 @@ import Image from './Image.js';
 import '../../styles/App.scss';
  
 function ImageGridHorizontal(props) {
+  var single_image = false;
+  if (props.images.length == 1) {
+    single_image = true;
+  }
+
   const images = props.images.map(each => (
     <Image
       image = {each.image}
       alt = {each.alt}
+      single = {single_image}
     />
   ));
-
-  // if (props.images.length > 1) {
-  //   alert("hi");
-  //   // const output = <ul className="canvas_horizontal">{images}</ul>;
-  // }
-
-    // for (var i = Things.length - 1; i >= 0; i--) {
-    //   Things[i]
-    // }
 
   return (
     <ul className="canvas_horizontal">
