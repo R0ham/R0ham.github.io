@@ -1,7 +1,6 @@
 import React from 'react';
 import BackBar from '../modal/BackBar.js';
 import Overview from '../modal/Overview.js';
-import Image from '../modal/Image.js';
 import ImageGridHorizontal from '../modal/ImageGridHorizontal.js';
 import ImageGridVertical from '../modal/ImageGridVertical.js';
 

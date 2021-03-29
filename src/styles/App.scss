@@ -7,7 +7,8 @@
   --light-pageback-color: #274c77;
   --light-color: #274c77;
   --light-accent: #a3cef1;
-  --light-tint: rgba(163, 206, 241, 0.05);
+  /*--light-tint: rgba(163, 206, 241, 0.05);*/
+  --light-tint: rgba(163, 206, 241, 0.5);
   --light-overlay: rgba(231, 236, 239, 0.4);
 
   /* dark mode theme */
@@ -17,8 +18,12 @@
   --dark-pageback-color: #4E2222;
   --dark-color: #D4BFBF;
   --dark-accent: #F17E7E;
-  --dark-tint: rgba(241, 126, 126, 0.05);
-  --dark-overlay: rgba(128, 56, 56, 0.5);
+  /*--dark-tint: rgba(241, 126, 126, 0.05);*/
+  --dark-tint: rgba(241, 126, 126, 0.3);
+  /*--dark-overlay: rgba(128, 56, 56, 0.5);*/
+  --dark-overlay: rgba(241, 126, 126, 0.9);
+
+  --border-radius: 15px;
 }
 
 /*
@@ -97,13 +102,13 @@ body.dark-mode {
     transition: background-color .3s ease;
   }
 
-  .canvas:before {
+  .canvas_landing:before {
     background: var(--dark-tint);
   }
 
-  .overlay {
+/*  .overlay {
     color: var(--dark-color);
-  }
+  }*/
 
   .project:hover .overlay {
     background-color: var(--dark-overlay);
@@ -117,7 +122,7 @@ body.dark-mode {
       color: var(--dark-accent);
     }
 
-    .standout_block {
+    .color_block {
       background-color: var(--dark-accent);
       color: var(--dark-pageback-color);
     }
@@ -192,34 +197,34 @@ footer {
 
   img {
     object-fit: cover;
-    margin-bottom: -4px;
+    margin-bottom: -5px;
   }
 }
 
-/*.canvas_large {
-  width: 100%;
-}*/
-
-.canvas_full {
-  width: 100%;
+.canvas_page_header img {
+  border-radius: var(--border-radius);
 }
 
 .canvas_large img {
   max-height: 60vh;
 }
 
-.canvas:before {
+.canvas_landing:before {
   content: "";
   position: absolute;  
   width: 100%;
   height: 100%;
   background: var(--light-tint);
+  border-radius: var(--border-radius);
 }
 
 .canvas_vertical {
   display: flex;
   margin: 0;
   padding: 0;
+
+  overflow: hidden;
+  border-radius: var(--border-radius);
 
   img {
     height: 60vh;
@@ -228,7 +233,6 @@ footer {
   .canvas:not(:last-child) {
     padding-right: 5px;
   }
-
 }
 
 .canvas_horizontal {
@@ -237,16 +241,12 @@ footer {
   margin: 0;
   padding: 0;
 
-  img {
-
-    /*max-width: 400px;*/
-    /*height: 60vh;*/
-  }
+  overflow: hidden;
+  border-radius: var(--border-radius);
 
   .canvas:not(:last-child) {
     padding-right: 5px;
     padding-bottom: 5px;
-
   }
 
   .canvas:nth-child(2n) {
@@ -257,12 +257,12 @@ footer {
     padding-bottom: 0;
   }
 
-  .canvas:not(:only-child) {
-    /*background-color: var(--dark-accent);*/
+  .canvas:not(:only-child) img {
+    max-width: 397.5px;
+  }
 
-    img {
-      max-width: 395px;
-    }
+  .canvas:only-child {
+    width: 100%;
   }
 
   @media screen and (max-width: 850px) {
@@ -353,8 +353,8 @@ footer {
     max-height: 100%;
     min-width: 100%;
 
-    /*border-radius: 15px;*/
-    /*border-radius: 15px 15px 15px 0;*/
+    border-radius: var(--border-radius);
+    /*border-radius: 15px 15px 0 0;*/
 
     /*
       could be useful for pushpin / degreezy
@@ -363,7 +363,7 @@ footer {
   }
 
   .overlay {
-    color: var(--light-color);
+    /*color: var(--light-color);*/
     position: absolute;
     top: 0;
     bottom: 0;
@@ -416,6 +416,21 @@ footer {
     background-color: var(--light-overlay);
     /*color: var(--light-accent);*/
   }
+
+  .project:hover .project_flex {
+/*    background-color: var(--light-color);
+    transition: background .3s ease;
+    color: var(--light-accent);*/
+  }
+
+  .project:hover .project_image {
+    /*border-radius: 15px;*/
+  }
+
+  .project:hover .canvas_landing {
+    /*background-color: white;*/
+  }
+
 }
 
 .page_modal {
@@ -452,10 +467,12 @@ footer {
       }
     }
 
-    .standout_block {
+    .color_block {
       background-color: var(--light-accent);
       color: var(--light-color);
       padding: 25px;
+
+      /*border-radius: var(--border-radius);*/
 
       .tagline {
         font-weight: 500;
@@ -475,7 +492,7 @@ footer {
 
     h2 {
       color: var(--light-accent);
-      text-transform: uppercase;
+      /*text-transform: uppercase;*/
       font-size: 1.3rem;
       margin-top: 25px;
       margin-bottom: -10px;
