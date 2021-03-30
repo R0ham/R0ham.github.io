@@ -30,6 +30,7 @@ function Grid(props) {
       </div>
 
       <div className="projects_grid">
+        <h1>Projects</h1>
         <ul className="flex_projects">{grid}<li></li></ul>
       </div>
 
