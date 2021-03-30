@@ -7,7 +7,7 @@
   --light-back-secondary: #a3cef1;
   --light-back-page: #274c77;
   --light-color: #274c77;
-  --light-accent: #a3cef1;
+  --light-accent: #F17E7E;
 
   /*--light-tint: rgba(163, 206, 241, 0.05);*/
   --light-tint: rgba(39, 76, 119, 0.6);
@@ -18,7 +18,7 @@
   --dark-back-secondary: #F17E7E;
   --dark-back-page: #4E2222;
   --dark-color: #D4BFBF;
-  --dark-accent: #F17E7E;
+  --dark-accent: #a3cef1;
 
   /*--dark-tint: rgba(241, 126, 126, 0.05);*/
   --dark-tint: rgba(78, 34, 34, 0.6);
@@ -78,8 +78,8 @@ body.dark-mode {
   color: var(--dark-color);
 
   .nav_background, .back_bar {
-    border-bottom: 3px solid var(--dark-accent);
-    color: var(--dark-accent);
+    border-bottom: 3px solid var(--dark-back-secondary);
+    color: var(--dark-back-secondary);
   }
 
   .nav_background, .navbar {
@@ -87,7 +87,7 @@ body.dark-mode {
   }
 
   .back_bar:hover {
-    background-color: var(--dark-accent);
+    background-color: var(--dark-back-secondary);
     color: var(--dark-back-page);
     transition: background-color .3s ease;
   }
@@ -114,7 +114,7 @@ body.dark-mode {
     background-color: var(--dark-back-page);
 
     h1 {
-      border-color: var(--dark-accent);
+      border-color: var(--dark-back-secondary);
     }
 
     .flex_projects {
@@ -128,7 +128,7 @@ body.dark-mode {
 
       .project:hover .project_flex {
         color: var(--dark-back-page);
-        background-color: var(--dark-accent);
+        background-color: var(--dark-back-secondary);
       }
     }
   }
@@ -142,26 +142,26 @@ body.dark-mode {
     color: var(--dark-color);
 
     .flex_overview {
-      color: var(--dark-accent);
+      color: var(--dark-back-secondary);
     }
 
     .color_block {
-      background-color: var(--dark-accent);
+      background-color: var(--dark-back-secondary);
       color: var(--dark-back-page);
     }
 
     h2 {
-      color: var(--dark-accent);
+      color: var(--dark-back-secondary);
     }
   }
 }
 
 .nav_background {
   background-color: var(--light-back-page);
-  color: var(--light-accent);
-  /*border-left: 3px solid var(--light-accent);*/
-  border-bottom: 3px solid var(--light-accent);
-  /*border-right: 3px solid var(--light-accent);*/
+  color: var(--light-back-secondary);
+  /*border-left: 3px solid var(--light-back-secondary);*/
+  border-bottom: 3px solid var(--light-back-secondary);
+  /*border-right: 3px solid var(--light-back-secondary);*/
 
   height: 70px;
 
@@ -184,7 +184,7 @@ body.dark-mode {
   left: 25px;
   display: flex;
   /*background-color: var(--light-back-page);*/
-  color: var(--light-accent);
+  color: var(--light-back-secondary);
 
   padding: 20px;
   width: 35px;
@@ -193,7 +193,7 @@ body.dark-mode {
 }
 
 .back_bar:hover {
-  background-color: var(--light-accent);
+  background-color: var(--light-back-secondary);
   color: var(--light-back-page);
   transition: background-color .3s ease;
 }
@@ -352,7 +352,7 @@ footer {
     margin: 25px;
     margin-top: 0;
     border-radius: var(--border-radius);
-    background-color: var(--light-back-secondary);
+    background-color: var(--light-accent);
     padding-top: 25px;
     padding-bottom: 25px;
 
@@ -385,7 +385,8 @@ footer {
       padding: 25px;
       margin-bottom: 0;
       /*background-color: rgba(256, 256, 256, 0.6);*/
-      border-bottom: 3px solid var(--light-accent);
+      /*background-color: var(--dark-back-secondary);*/
+      border-bottom: 3px solid var(--light-back-secondary);
     }
 
     .flex_projects {
@@ -483,12 +484,12 @@ footer {
       .project:hover .overlay {
         background-color: transparent;
         /*background-color: var(--light-overlay);*/
-        /*color: var(--light-accent);*/
+        /*color: var(--light-back-secondary);*/
       }
 
       .project:hover .project_flex {
         color: var(--light-color);
-        background-color: var(--light-accent);
+        background-color: var(--light-back-secondary);
       }
 
       .project:hover .project_image {
@@ -511,7 +512,7 @@ footer {
     font-size: 20px;
 
     .flex_overview {
-      color: var(--light-accent);
+      color: var(--light-back-secondary);
       list-style: none;
       display: flex;
       flex-wrap: wrap;
@@ -534,7 +535,7 @@ footer {
     }
 
     .color_block {
-      background-color: var(--light-accent);
+      background-color: var(--light-back-secondary);
       color: var(--light-color);
       /*padding-top: 25px;*/
       /*padding-bottom: 25px;*/
@@ -564,7 +565,7 @@ footer {
     }
 
     h2 {
-      color: var(--light-accent);
+      color: var(--light-back-secondary);
       /*text-transform: uppercase;*/
       font-size: 1.3rem;
       margin-top: 25px;
