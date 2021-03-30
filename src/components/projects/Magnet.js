@@ -7,8 +7,6 @@ import ImageGridVertical from '../modal/ImageGridVertical.js';
 import data from '../../projects.js';
 import '../../styles/App.scss';
 
-import { Link, Route, useParams, useRouteMatch } from 'react-router-dom';
-
 function Magnet(props) {
   const curr_id = 5;
 

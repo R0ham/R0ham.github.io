@@ -5,8 +5,6 @@ import Overview from '../modal/Overview.js';
 import data from '../../projects.js';
 import '../../styles/App.scss';
 
-import { Link, Route, useParams, useRouteMatch } from 'react-router-dom';
-
 function NookHook(props) {
   const curr_id = 3;
 

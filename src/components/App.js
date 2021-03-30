@@ -1,8 +1,8 @@
-import React, {useState} from 'react';
-import logo from '../images/logo.svg';
+import React from 'react';
+// import logo from '../images/logo.svg';
 
 // Import the HashRouter, Route and Link components
-import { HashRouter, Route, Link } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import Grid from './Grid.js';
 
 import OldIsGold from './projects/OldIsGold.js';
@@ -17,7 +17,7 @@ import useDarkMode from 'use-dark-mode';
 
 // import DarkModeToggle from './DarkModeToggle';
 
-import data from '../projects.js';
+// import data from '../projects.js';
 import '../styles/App.scss';
  
 function App() {

@@ -1,7 +1,7 @@
 import React from 'react';
 import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
-import hero_light from "../images/hero simple jawline light.svg";
-import hero_dark from "../images/hero simple jawline dark.svg";
+// import hero_light from "../images/hero simple jawline light.svg";
+// import hero_dark from "../images/hero simple jawline dark.svg";
 
 import data from '../projects.js';
 import '../styles/App.scss';
@@ -32,6 +32,12 @@ function Grid(props) {
       <div className="projects_grid">
         <ul className="flex_projects">{grid}<li></li></ul>
       </div>
+
+      {/*
+      <div className="footer">
+        <p>Created from scratch with React and a lot of love.</p>
+      </div>
+      */}
 
       {/*<footer>Created with love by Roham</footer>*/}
     </div>

@@ -10,7 +10,7 @@
   --light-accent: #a3cef1;
 
   /*--light-tint: rgba(163, 206, 241, 0.05);*/
-  --light-tint: rgba(39, 76, 119, 0.4);
+  --light-tint: rgba(39, 76, 119, 0.6);
   /*--light-overlay: rgba(231, 236, 239, 0.4);*/
 
   /* dark mode theme */
@@ -21,7 +21,7 @@
   --dark-accent: #F17E7E;
 
   /*--dark-tint: rgba(241, 126, 126, 0.05);*/
-  --dark-tint: rgba(78, 34, 34, 0.4);
+  --dark-tint: rgba(78, 34, 34, 0.6);
   /*--dark-overlay: rgba(128, 56, 56, 0.5);*/
   /*--dark-overlay: rgba(241, 126, 126, 0.9);*/
 
@@ -111,12 +111,17 @@ body.dark-mode {
 
   .projects_grid {
     .flex_projects {
-      .overlay {
+      .overlay, .project_flex {
         background-color: var(--dark-tint);
       }
 
       a {
         color: var(--dark-color);
+      }
+
+      .project:hover .project_flex {
+        color: var(--dark-back-primary);
+        background-color: var(--dark-accent);
       }
     }
   }
@@ -310,32 +315,51 @@ footer {
   }
 
   .about {
-    /*width: 100vw;*/
-    margin-top: 25px;
+    margin: 25px;
+    margin-bottom: 0;
+
+    border-radius: var(--border-radius);
     background-color: var(--light-back-secondary);
 
     .about_text {
-      padding-top: 200px;
-      padding-bottom: 200px;
+      padding-top: 100px;
+      padding-bottom: 100px;
 
       width: 40vw;
       margin-left: auto;
       margin-right: auto;
 
       h1 {
-        font-size: 2rem;
+        /*text-align: center;*/
+        font-size: 3rem;
       }
 
       p {
-        font-size: 1.3rem;
+        font-size: 1.6rem;
         line-height: 1.3em;
       }
+    }
+  }
+
+  .footer {
+    margin: 25px;
+    margin-top: 0;
+    border-radius: var(--border-radius);
+    background-color: var(--light-back-secondary);
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    p {
+      text-align: center;
+      font-size: 1.2rem;
+      line-height: 1.3em;
     }
   }
 
   .projects_grid {
     /*background-color: var(--light-back-page);*/
     /*overflow: auto;*/
+    /*margin-right: 25px;*/
 
 
     /*
@@ -355,7 +379,7 @@ footer {
       .project {
         margin-right: 25px;
         margin-top: 25px;
-        margin-bottom: 25px;
+        margin-bottom: 50px;
         position: relative;
 
         height: 40vh;
@@ -378,8 +402,8 @@ footer {
         max-height: 100%;
         min-width: 100%;
 
-        border-radius: var(--border-radius);
-        /*border-radius: 15px 15px 0 0;*/
+        /*border-radius: var(--border-radius);*/
+        border-radius: 15px 15px 0 0;
 
         /*
           could be useful for pushpin / degreezy
@@ -395,7 +419,8 @@ footer {
         left: 0;
         right: 0;
         transition: background .3s ease;
-        border-radius: var(--border-radius);
+        /*border-radius: var(--border-radius);*/
+        border-radius: 15px 15px 0 0;
       }
 
       .project_flex {
@@ -404,11 +429,18 @@ footer {
         flex-wrap: wrap;
         margin-top: -5px;
         padding: 0;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
 
         align-items: center;
         justify-content: space-between;
+
+        transition: background .3s ease;
+        color: var(--light-back-primary);
+        background-color: var(--light-tint);
+        /*border: 3px solid var(--light-back-page);*/
+        border-radius: 0 0 15px 15px;
+
 
         .project_title {
           text-transform: uppercase;
@@ -416,7 +448,7 @@ footer {
         }
 
         .project_tagline {
-
+          /*font-weight: 500;*/
 
         }
 
@@ -434,10 +466,8 @@ footer {
       }
 
       .project:hover .project_flex {
-        /*color: var(--light-active);*/
-        /*margin-top: -50px;*/
-        /*background-color: var(--light-back-primary);*/
-
+        color: var(--light-color);
+        background-color: var(--light-accent);
       }
     }
   }
