@@ -547,6 +547,15 @@ footer {
         flex-basis: 50%;
         /*text-align: right;*/
       }
+
+      .flex_overview li:last-child {
+        text-align: right;
+      }
+
+      .flex_overview li:nth-last-child(3) {
+        text-align: right;
+      }
+
     }
 
     .color_block {
