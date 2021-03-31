@@ -412,6 +412,12 @@ footer {
         /*flex-grow: 10;*/
       }
       
+      @media screen and (max-width: 400px) {
+        .project {
+          margin-bottom: 100px;
+        }
+      }
+
       @media screen and (max-width: 950px) {
         img {
           width: 100%;
@@ -450,10 +456,11 @@ footer {
         list-style: none;
         display: flex;
         flex-wrap: wrap;
-        margin-top: -5px;
-        padding: 0;
-        padding-left: 15px;
-        padding-right: 15px;
+        /*margin-top: -5px;*/
+        /*padding: 0;*/
+        padding: 15px;
+        /*padding-left: 15px;*/
+        /*padding-right: 15px;*/
 
         align-items: center;
         justify-content: space-between;
@@ -462,15 +469,23 @@ footer {
         background-color: var(--light-tint);
         /*border: 3px solid var(--light-back-page);*/
         border-radius: 0 0 15px 15px;
-
+        /*line-height: 0.2em;*/
 
         .project_title {
           text-transform: uppercase;
           font-size: 1.0rem;
+          margin: 0;
+          /*padding: 5px;*/
+          /*margin-bottom: 0;*/
+          /*padding: 0;*/
         }
 
         .project_tagline {
+          margin: 0;
+
           /*font-weight: 500;*/
+          /*margin-top: 0;*/
+          /*padding: 0;*/
 
         }
 
