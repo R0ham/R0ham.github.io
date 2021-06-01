@@ -1,29 +1,29 @@
- /*@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500&display=swap');*/
+ // @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&display=swap');
 
 :root {
-  /* light mode theme */
+  //  light mode theme 
   --light-back-primary: #e7ecef;
   --light-back-secondary: #a3cef1;
   --light-back-page: #274c77;
   --light-color: #274c77;
   --light-accent: #F17E7E;
 
-  /*--light-tint: rgba(163, 206, 241, 0.05);*/
+  // --light-tint: rgba(163, 206, 241, 0.05);
   --light-tint: rgba(39, 76, 119, 0.6);
-  /*--light-overlay: rgba(231, 236, 239, 0.4);*/
+  // --light-overlay: rgba(231, 236, 239, 0.4);
 
-  /* dark mode theme */
+  //  dark mode theme 
   --dark-back-primary: #803838;
   --dark-back-secondary: #F17E7E;
   --dark-back-page: #4E2222;
   --dark-color: #D4BFBF;
   --dark-accent: #a3cef1;
 
-  /*--dark-tint: rgba(241, 126, 126, 0.05);*/
+  // --dark-tint: rgba(241, 126, 126, 0.05);
   --dark-tint: rgba(78, 34, 34, 0.6);
-  /*--dark-overlay: rgba(128, 56, 56, 0.5);*/
-  /*--dark-overlay: rgba(241, 126, 126, 0.9);*/
+  // --dark-overlay: rgba(128, 56, 56, 0.5);
+  // --dark-overlay: rgba(241, 126, 126, 0.9);
 
   --border-radius: 15px;
 }
@@ -38,8 +38,8 @@ hero_dark
 
   .st0{fill:#4E2222;}
   .st1{fill:#8F1414;}
-
 */
+
 
 html,
 body {
@@ -49,7 +49,7 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /*font-weight: 500;*/
+  // font-weight: 500;
 }
 
 
@@ -66,7 +66,7 @@ code {
 body.light-mode {
   background-color: var(--light-back-primary);
   color: var(--light-color);
-  transition: background-color 0.3s ease;
+  // transition: background 0.1s ease;
 
   .hero_dark {
     display: none;
@@ -76,6 +76,7 @@ body.light-mode {
 body.dark-mode {
   background-color: var(--dark-back-primary);
   color: var(--dark-color);
+  // transition: background .1s ease;
 
   .nav_background, .back_bar {
     border-bottom: 3px solid var(--dark-back-secondary);
@@ -89,7 +90,6 @@ body.dark-mode {
   .back_bar:hover {
     background-color: var(--dark-back-secondary);
     color: var(--dark-back-page);
-    transition: background-color .3s ease;
   }
 
   .canvas_landing:before {
@@ -120,6 +120,7 @@ body.dark-mode {
     .flex_projects {
       .overlay, .project_flex {
         background-color: var(--dark-tint);
+        // transition: background 0s ease;
       }
 
       a {
@@ -132,10 +133,10 @@ body.dark-mode {
       }
     }
   }
-/*
-  .project:hover .overlay {
-    background-color: var(--dark-overlay);
-  }*/
+
+  // .project:hover .overlay {
+  //   background-color: var(--dark-overlay);
+  // }
 
   .page_modal {
     background-color: var(--dark-back-page);
@@ -159,9 +160,9 @@ body.dark-mode {
 .nav_background {
   background-color: var(--light-back-page);
   color: var(--light-back-secondary);
-  /*border-left: 3px solid var(--light-back-secondary);*/
+  // border-left: 3px solid var(--light-back-secondary);
   border-bottom: 3px solid var(--light-back-secondary);
-  /*border-right: 3px solid var(--light-back-secondary);*/
+  // border-right: 3px solid var(--light-back-secondary);
 
   height: 70px;
 
@@ -175,7 +176,7 @@ body.dark-mode {
   top: 0;
   left: 25px;
 
-  /*border-radius: 0 0 var(--border-radius) var(--border-radius);*/
+  // border-radius: 0 0 var(--border-radius) var(--border-radius);
 }
 
 .back_bar {
@@ -183,7 +184,7 @@ body.dark-mode {
   top: 0;
   left: 25px;
   display: flex;
-  /*background-color: var(--light-back-page);*/
+  // background-color: var(--light-back-page);
   color: var(--light-back-secondary);
 
   padding: 20px;
@@ -195,7 +196,7 @@ body.dark-mode {
 .back_bar:hover {
   background-color: var(--light-back-secondary);
   color: var(--light-back-page);
-  transition: background-color .3s ease;
+  // transition: background-color .3s ease;
 }
 
 .navbar {
@@ -323,7 +324,8 @@ footer {
 
   .about {
     margin: 25px;
-    /*margin-bottom: 0;*/
+    // overflow: hidden;
+    // margin-bottom: 0;
 
     border-radius: var(--border-radius);
     background-color: var(--light-back-secondary);
@@ -337,55 +339,52 @@ footer {
       margin-right: auto;
 
       h1 {
-        /*text-align: center;*/
+        // text-align: center;
         font-size: 3rem;
       }
 
       p {
         font-size: 1.6rem;
         line-height: 1.3em;
+        // font-weight: 500;
       }
     }
   }
 
-/*  .footer {
-    margin: 25px;
-    margin-top: 0;
-    border-radius: var(--border-radius);
-    background-color: var(--light-accent);
-    padding-top: 25px;
-    padding-bottom: 25px;
+//  .footer {
+//     margin: 25px;
+//     margin-top: 0;
+//     border-radius: var(--border-radius);
+//     background-color: var(--light-accent);
+//     padding-top: 25px;
+//     padding-bottom: 25px;
 
-    p {
-      text-align: center;
-      font-size: 1.2rem;
-      line-height: 1.3em;
-    }
-  }*/
+//     p {
+//       text-align: center;
+//       font-size: 1.2rem;
+//       line-height: 1.3em;
+//     }
+//   }
 
   .projects_grid {
     color: var(--light-back-primary);
     background-color: var(--light-back-page);
-    /*border-radius: var(--border-radius);*/
+    // overflow: hidden;
+    
+    // border-radius: var(--border-radius);
 
-    /*overflow: auto;*/
-    /*margin-left: 25px;*/
-    /*margin-right: 25px;*/
+    // overflow: auto;
+    // margin-left: 25px;
+    // margin-right: 25px;
 
 
-    /*
-
-    can easily make this into a side-scrolling list, with "overflow:auto;" in .projects_grid and "flex-wrap" disabled in .flex_projects
-
-    */
+    /* can easily make this into a side-scrolling list, with "overflow:auto;"
+    in .projects_grid and "flex-wrap" disabled in .flex_projects */
 
     h1 {
-      /*margin: 25px;*/
       font-size: 2rem;
       padding: 25px;
       margin-bottom: 0;
-      /*background-color: rgba(256, 256, 256, 0.6);*/
-      /*background-color: var(--dark-back-secondary);*/
       border-bottom: 3px solid var(--light-back-secondary);
     }
 
@@ -401,21 +400,14 @@ footer {
       .project {
         margin-right: 25px;
         margin-top: 25px;
-        margin-bottom: 50px;
         position: relative;
-
-        height: 40vh;
         flex-grow: 1;
+
+        // border-bottom: 3px solid var(--light-back-primary);
       }
 
       li:last-child {
-        /*flex-grow: 10;*/
-      }
-      
-      @media screen and (max-width: 400px) {
-        .project {
-          margin-bottom: 100px;
-        }
+        // flex-grow: 10;
       }
 
       @media screen and (max-width: 950px) {
@@ -430,14 +422,13 @@ footer {
         max-height: 100%;
         min-width: 100%;
 
+        height: 40vh;
+
         border-radius: var(--border-radius);
         transition: border-radius .3s ease;
-        /*border-radius: 15px 15px 0 0;*/
 
-        /*
-          could be useful for pushpin / degreezy
-        */
-        /*object-position: 0 0;*/
+        /* could be useful for pushpin / degreezy */
+        // object-position: 0 0;
       }
 
       .overlay {
@@ -448,47 +439,47 @@ footer {
         left: 0;
         right: 0;
         transition: background .3s ease;
-        /*border-radius: var(--border-radius);*/
-        border-radius: 15px 15px 0 0;
+        border-radius: var(--border-radius) var(--border-radius) 0 0;
       }
 
       .project_flex {
         list-style: none;
         display: flex;
         flex-wrap: wrap;
-        /*margin-top: -5px;*/
-        /*padding: 0;*/
         padding: 15px;
-        /*padding-left: 15px;*/
-        /*padding-right: 15px;*/
 
         align-items: center;
         justify-content: space-between;
 
-        transition: background .3s ease;
-        background-color: var(--light-tint);
-        /*border: 3px solid var(--light-back-page);*/
-        border-radius: 0 0 15px 15px;
-        /*line-height: 0.2em;*/
+        transition: border-radius .3s ease;
+        border-radius: var(--border-radius);
+        // border: 3px solid var(--light-back-secondary);
+
+        line-height: 1.3em;
 
         .project_title {
           text-transform: uppercase;
-          font-size: 1.0rem;
-          margin: 0;
-          /*padding: 5px;*/
-          /*margin-bottom: 0;*/
-          /*padding: 0;*/
+
+          h2 {
+            margin: 0;
+            font-size: 1.0rem;
+          }
         }
 
         .project_tagline {
-          margin: 0;
-
-          /*font-weight: 500;*/
-          /*margin-top: 0;*/
-          /*padding: 0;*/
-
+          p {
+            margin: 0;
+          }
         }
 
+      }
+
+      @media screen and (max-width: 600px) {
+        .project_flex {
+          .project_tagline {
+            flex-basis: 100%;
+          }
+        }
       }
 
       a {
@@ -498,18 +489,17 @@ footer {
 
       .project:hover .overlay {
         background-color: transparent;
-        /*background-color: var(--light-overlay);*/
-        /*color: var(--light-back-secondary);*/
       }
 
       .project:hover .project_flex {
         color: var(--light-color);
         background-color: var(--light-back-secondary);
+        border-radius: 0 0 var(--border-radius) var(--border-radius);
+        // border-radius: 0;
       }
 
       .project:hover .project_image {
-        border-radius: 15px 15px 0 0;
-
+        border-radius: var(--border-radius) var(--border-radius) 0 0;
       }
     }
   }
@@ -533,34 +523,34 @@ footer {
       flex-wrap: wrap;
       margin-top: 0;
       padding: 0;
-      /*padding: 0 10px 0 10px;*/
+      // padding: 0 10px 0 10px;
       justify-content: space-between;
-      /*justify-content: flex-end;*/
-      /*flex-basis: 100%;*/
+      // justify-content: flex-end;
+      // flex-basis: 100%;
     }
 
     .flex_overview li {
-      /*flex-basis: 50%;*/
+      // flex-basis: 50%;
 
       h3 {
         margin-bottom: 10px;
       }
 
       p {
-        /*line-height: 0.3em;*/
-        /*margin: 3px;*/
+        // line-height: 0.3em;
+        // margin: 3px;
         margin: 0;
-        /*margin-top: 10px;*/
-        /*margin-bottom: 0;*/
-        /*padding: 0;*/
+        // margin-top: 10px;
+        // margin-bottom: 0;
+        // padding: 0;
       }
     }
 
     @media screen and (max-width: 800px) {
       .flex_overview li {
-        /*width: 160px;*/
+        // width: 160px;
         flex-basis: 50%;
-        /*text-align: right;*/
+        // text-align: right;
       }
 
       .flex_overview li:last-child {
@@ -576,10 +566,10 @@ footer {
     .color_block {
       background-color: var(--light-back-secondary);
       color: var(--light-color);
-      /*padding-top: 25px;*/
-      /*padding-bottom: 25px;*/
+      // padding-top: 25px;
+      // padding-bottom: 25px;
       padding: 25px;
-      /*border-radius: var(--border-radius);*/
+      // border-radius: var(--border-radius);
 
       .tagline {
         font-weight: 500;
@@ -593,20 +583,20 @@ footer {
     }
 
     h1, h2, h3, p {
-      /*padding-left: 25px;*/
-      /*padding-right: 25px;*/
+      // padding-left: 25px;
+      // padding-right: 25px;
     }
 
     h1 {
       font-size: 2rem;
       margin: 0;
-      /*font-family: 'Lexend Deca';*/
+      // font-family: 'Lexend Deca';
       font-weight: 600;
     }
 
     h2 {
       color: var(--light-back-secondary);
-      /*text-transform: uppercase;*/
+      // text-transform: uppercase;
       font-size: 1.3rem;
       margin-top: 25px;
       margin-bottom: -10px;

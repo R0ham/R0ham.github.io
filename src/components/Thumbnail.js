@@ -10,11 +10,11 @@ function Thumbnail(props) {
         <div className="overlay"></div>
 
         <ul className="project_flex">
-          <li>
-            <h2 className="project_title">{props.title}</h2>          
+          <li className="project_title">
+            <h2>{props.title}</h2>          
           </li>
-          <li>
-            <p className="project_tagline">{props.tagline}</p>
+          <li className="project_tagline">
+            <p>{props.tagline}</p>
           </li>
         </ul>
 
