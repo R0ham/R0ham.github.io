@@ -7,7 +7,7 @@
   --light-back-secondary: #a3cef1;
   --light-back-page: #274c77;
   --light-color: #274c77;
-  --light-accent: #F17E7E;
+  --light-accent: #5288C7;
 
   // --light-tint: rgba(163, 206, 241, 0.05);
   --light-tint: rgba(39, 76, 119, 0.6);
@@ -18,7 +18,7 @@
   --dark-back-secondary: #F17E7E;
   --dark-back-page: #4E2222;
   --dark-color: #D4BFBF;
-  --dark-accent: #a3cef1;
+  --dark-accent: #954141;
 
   // --dark-tint: rgba(241, 126, 126, 0.05);
   --dark-tint: rgba(78, 34, 34, 0.6);
@@ -79,7 +79,7 @@ body.dark-mode {
   // transition: background .1s ease;
 
   .nav_background, .back_bar {
-    border-bottom: 3px solid var(--dark-back-secondary);
+    border-color: var(--dark-back-secondary);
     color: var(--dark-back-secondary);
   }
 
@@ -118,9 +118,18 @@ body.dark-mode {
     }
 
     .flex_projects {
-      .overlay, .project_flex {
+      .project_image {
+        // border-bottom: 1px solid var(--dark-accent);
+      }
+
+      .overlay {
         background-color: var(--dark-tint);
+        border-color: var(--dark-accent);
         // transition: background 0s ease;
+      }
+
+      .project_flex {
+        // border-top: 1px solid var(--dark-accent);
       }
 
       a {
@@ -403,7 +412,7 @@ footer {
         position: relative;
         flex-grow: 1;
 
-        // border-bottom: 3px solid var(--light-back-primary);
+        // border-radius: 20px;
       }
 
       li:last-child {
@@ -413,22 +422,8 @@ footer {
       @media screen and (max-width: 950px) {
         img {
           width: 100%;
-          height: 40vh;
+          height: 35vh;
         }
-      }
-
-      .project_image {
-        object-fit: cover;
-        max-height: 100%;
-        min-width: 100%;
-
-        height: 40vh;
-
-        border-radius: var(--border-radius);
-        transition: border-radius .3s ease;
-
-        /* could be useful for pushpin / degreezy */
-        // object-position: 0 0;
       }
 
       .overlay {
@@ -439,7 +434,32 @@ footer {
         left: 0;
         right: 0;
         transition: background .3s ease;
-        border-radius: var(--border-radius) var(--border-radius) 0 0;
+        border-radius: var(--border-radius);
+        border: 1px solid var(--light-accent);
+      }
+
+      .project_image {
+        object-fit: cover;
+        max-height: 100%;
+        min-width: 100%;
+
+        height: 35vh;
+        // width: 35vw;
+
+        // border-radius: var(--border-radius) var(--border-radius) 0 0;
+        border-radius: 16px 16px 0 0;
+        // transition: border-radius .3s ease;
+
+        // border-bottom: 1px solid var(--light-accent);
+
+        /* could be useful for pushpin / degreezy */
+        // object-position: 0 0;
+      }
+
+      @media screen and (max-width: 1200px) {
+        .project_image {
+          width: 35vw;
+        }
       }
 
       .project_flex {
@@ -451,9 +471,10 @@ footer {
         align-items: center;
         justify-content: space-between;
 
-        transition: border-radius .3s ease;
-        border-radius: var(--border-radius);
-        // border: 3px solid var(--light-back-secondary);
+        // transition: border-radius .3s ease;
+        // border-radius: var(--border-radius);
+        border-radius: 0 0 var(--border-radius) var(--border-radius);
+        border-top: 1px solid var(--light-back-secondary);
 
         line-height: 1.3em;
 
@@ -462,6 +483,7 @@ footer {
 
           h2 {
             margin: 0;
+            padding-right: 10px;
             font-size: 1.0rem;
           }
         }
@@ -494,12 +516,11 @@ footer {
       .project:hover .project_flex {
         color: var(--light-color);
         background-color: var(--light-back-secondary);
-        border-radius: 0 0 var(--border-radius) var(--border-radius);
-        // border-radius: 0;
+        // border-radius: 0 0 var(--border-radius) var(--border-radius);
       }
 
       .project:hover .project_image {
-        border-radius: var(--border-radius) var(--border-radius) 0 0;
+        // border-radius: var(--border-radius) var(--border-radius) 0 0;
       }
     }
   }
@@ -534,6 +555,7 @@ footer {
 
       h3 {
         margin-bottom: 10px;
+        font-weight: 600;
       }
 
       p {
