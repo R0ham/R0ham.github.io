@@ -1,7 +1,5 @@
 import React from 'react';
 import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
-// import hero_light from "../images/hero simple jawline light.svg";
-// import hero_dark from "../images/hero simple jawline dark.svg";
 
 import data from '../projects.js';
 import '../styles/App.scss';
@@ -19,8 +17,10 @@ function Grid(props) {
   ));
 
   return (
-    // Render the completed grid
+    // Render the homepage with completed grids
     <div className="landing">
+
+      {/* Hero images defined in stylesheet */}
       <div className="hero"></div>
 
       <div className="about">
@@ -32,8 +32,14 @@ function Grid(props) {
 
       <div className="projects_grid">
         <h1>Projects</h1>
-        <ul className="flex_projects">{grid}<li></li></ul>
+        <ul className="flex_projects">{grid}</ul>
       </div>
+
+      <div className="gallery_grid">
+        <h1>Gallery</h1>
+        {/*<ul className="flex_projects">{grid}</ul>*/}
+      </div>
+
 
       {/*
       <div className="footer">

@@ -1,7 +1,5 @@
 import React from 'react';
-// import logo from '../images/logo.svg';
 
-// Import the HashRouter, Route and Link components
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Grid from './Grid.js';
 
@@ -14,8 +12,6 @@ import Magnet from './projects/Magnet.js';
 
 import DarkModeToggle from "react-dark-mode-toggle";
 import useDarkMode from 'use-dark-mode';
-
-// import DarkModeToggle from './DarkModeToggle';
 
 // import data from '../projects.js';
 import '../styles/App.scss';
@@ -40,10 +36,11 @@ function App() {
         />
       </div>
 
-
       <div className="App">
         <Routes>
+          {/* Grid element makes up homepage */}
           <Route path="/" element={<Grid />} />
+          
           <Route path="/oldisgold" element={<OldIsGold />} />
           <Route path="/zoom" element={<Zoom />} />
           <Route path="/degreezy" element={<Degreezy />} />
@@ -51,22 +48,8 @@ function App() {
           <Route path="/pushpin" element={<PushPin />} />
           <Route path="/magnet" element={<Magnet />} />
         </Routes>
-
-        {/*
-        <div className="navigation">
-          // <img src={logo} className="logo-image" alt="Logo Image" />
-          <div className="navigation-sub">
-
-            // Set up the Links
-            <Link to="/" className="item">Projects</Link>
-            <Link to="/articles" className="item">Articles</Link>
-            <Link to="/about" className="item">About</Link>
-
-          </div>
-        </div>
-        */}
-
       </div>
+
     </BrowserRouter>
   );
 }
