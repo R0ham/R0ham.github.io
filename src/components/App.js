@@ -2,7 +2,7 @@ import React from 'react';
 // import logo from '../images/logo.svg';
 
 // Import the HashRouter, Route and Link components
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Grid from './Grid.js';
 
 import OldIsGold from './projects/OldIsGold.js';
@@ -31,7 +31,7 @@ function App() {
   // ));
 
   return (
-    <HashRouter>
+    <BrowserRouter>
       <div className="navbar">
         <DarkModeToggle
           onChange={darkMode.toggle}
@@ -67,7 +67,7 @@ function App() {
         */}
 
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
  
