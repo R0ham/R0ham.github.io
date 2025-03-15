@@ -19,7 +19,7 @@ function ImageGridHorizontal(props) {
   ));
 
   return (
-    <ul className="canvas_horizontal">
+    <ul className="canvas_horizontal canvas_large">
       {images}
     </ul>
   );

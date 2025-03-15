@@ -19,7 +19,7 @@ function ImageGridVertical(props) {
   ));
 
   return (
-    <ul className="canvas_vertical">
+    <ul className="canvas_vertical canvas_large">
       {images}
     </ul>
   );

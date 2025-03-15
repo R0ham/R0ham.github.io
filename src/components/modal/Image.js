@@ -10,7 +10,7 @@ function Image(props) {
   // }
 
   return (
-    <li className="canvas canvas_large">
+    <li className="canvas">
       <img src={props.image} alt={props.alt}/>
     </li>
   );
