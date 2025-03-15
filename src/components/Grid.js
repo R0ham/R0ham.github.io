@@ -10,6 +10,7 @@ function Grid(props) {
   //change from "test_projects" to "projects" soon
   const grid = data.projects.map(project => (
     <Thumbnail
+      key = {project.id}
       link = {project.link}
       image = {project.image}
       title = {project.title}
