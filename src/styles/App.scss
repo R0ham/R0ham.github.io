@@ -78,7 +78,7 @@ body.dark-mode {
   color: var(--dark-color);
   // transition: background .1s ease;
 
-  .nav_background, .back_bar {
+  .nav_background, .back_bar, .navbar {
     border-color: var(--dark-back-secondary);
     color: var(--dark-back-secondary);
   }
@@ -193,7 +193,7 @@ body.dark-mode {
   top: 0;
   left: 25px;
   display: flex;
-  // background-color: var(--light-back-page);
+  border-left: 3px solid var(--light-back-secondary);
   color: var(--light-back-secondary);
 
   padding: 20px;
@@ -215,8 +215,9 @@ body.dark-mode {
   display: flex;
   background-color: var(--light-back-page);
 
-  padding: 20px;
+  padding: 21px;
   z-index: 3;
+  border-right: 3px solid var(--light-back-secondary);
 }
 
 footer {
