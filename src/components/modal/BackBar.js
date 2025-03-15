@@ -12,14 +12,18 @@ function BackBar(props) {
 
       <Link to="/">
         <div className="back_bar"
-          onClick={(e) => {
-            e.preventDefault();
-            history.goBack();
+          onClick={() => {
+            history(-1);
           }}
-          onTouchEnd={(e) => {
-            e.preventDefault();
-            history.goBack();
-          }}
+
+          // onClick={(e) => {
+          //   e.preventDefault();
+          //   history.goBack();
+          // }}
+          // onTouchEnd={(e) => {
+          //   e.preventDefault();
+          //   history.goBack();
+          // }}
         >
           <FaChevronLeft size={30}/>
         </div>

@@ -2,7 +2,7 @@ import React from 'react';
 // import logo from '../images/logo.svg';
 
 // Import the HashRouter, Route and Link components
-import { HashRouter, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Grid from './Grid.js';
 
 import OldIsGold from './projects/OldIsGold.js';
@@ -42,20 +42,15 @@ function App() {
 
 
       <div className="App">
-        <Route exact path="/" component={Grid} />
-        <Route path="/oldisgold" component={OldIsGold} />
-        <Route path="/zoom" component={Zoom} />
-        <Route path="/degreezy" component={Degreezy} />
-        <Route path="/nookhook" component={NookHook} />
-        <Route path="/pushpin" component={PushPin} />
-        <Route path="/magnet" component={Magnet} />
-
-
-        {/* Set up the Router
-        <Route exact path="/" component={Projects} />
-        <Route path="/articles" component={Articles} />
-        <Route path="/about" component={About} />
-        */}
+        <Routes>
+          <Route path="/" element={<Grid />} />
+          <Route path="/oldisgold" element={<OldIsGold />} />
+          <Route path="/zoom" element={<Zoom />} />
+          <Route path="/degreezy" element={<Degreezy />} />
+          <Route path="/nookhook" element={<NookHook />} />
+          <Route path="/pushpin" element={<PushPin />} />
+          <Route path="/magnet" element={<Magnet />} />
+        </Routes>
 
         {/*
         <div className="navigation">
