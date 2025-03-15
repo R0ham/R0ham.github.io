@@ -12,7 +12,8 @@ function BackBar(props) {
 
       <Link to="/">
         <div className="back_bar"
-          onClick={() => {
+          onClick={(e) => {
+            e.preventDefault();
             history(-1);
           }}
 

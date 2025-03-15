@@ -40,7 +40,7 @@ function App() {
         <Routes>
           {/* Grid element makes up homepage */}
           <Route path="/" element={<Grid />} />
-          
+
           <Route path="/oldisgold" element={<OldIsGold />} />
           <Route path="/zoom" element={<Zoom />} />
           <Route path="/degreezy" element={<Degreezy />} />
