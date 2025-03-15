@@ -10,7 +10,7 @@
   --light-accent: #5288C7;
 
   // --light-tint: rgba(163, 206, 241, 0.05);
-  --light-tint: rgba(39, 76, 119, 0.6);
+  --light-tint: rgba(39, 76, 119, 0.4);
   // --light-overlay: rgba(231, 236, 239, 0.4);
 
   //  dark mode theme 
@@ -21,7 +21,7 @@
   --dark-accent: #954141;
 
   // --dark-tint: rgba(241, 126, 126, 0.05);
-  --dark-tint: rgba(78, 34, 34, 0.6);
+  --dark-tint: rgba(78, 34, 34, 0.4);
   // --dark-overlay: rgba(128, 56, 56, 0.5);
   // --dark-overlay: rgba(241, 126, 126, 0.9);
 
@@ -125,7 +125,7 @@ body.dark-mode {
       .overlay {
         background-color: var(--dark-tint);
         border-color: var(--dark-accent);
-        // transition: background 0s ease;
+        transition: background 0s ease;
       }
 
       .project_flex {
@@ -429,7 +429,7 @@ footer {
         right: 0;
         transition: background .3s ease;
         border-radius: var(--border-radius);
-        border: 1px solid var(--light-accent);
+        // border: 2px solid var(--light-accent);
       }
 
       .project_image {
@@ -444,8 +444,7 @@ footer {
         border-radius: 16px 16px 0 0;
         // transition: border-radius .3s ease;
 
-        // border-bottom: 1px solid var(--light-accent);
-
+        // border-bottom: 2px solid var(--light-back-page);
         /* could be useful for pushpin / degreezy */
         // object-position: 0 0;
       }
@@ -468,7 +467,7 @@ footer {
         // transition: border-radius .3s ease;
         // border-radius: var(--border-radius);
         border-radius: 0 0 var(--border-radius) var(--border-radius);
-        border-top: 1px solid var(--light-back-secondary);
+        // border-top: 1px solid var(--light-back-secondary);
 
         line-height: 1.3em;
 
