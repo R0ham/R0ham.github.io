@@ -1,10 +1,10 @@
 import React from 'react'; // Import the Component component from React
-import {Link, useHistory} from 'react-router-dom'; // Import the Link component
+import {Link, useNavigate} from 'react-router-dom'; // Import the Link component
 import {FaChevronLeft} from 'react-icons/fa';
 import '../../styles/App.scss';
 
 function BackBar(props) {
-  const history = useHistory();
+  const history = useNavigate();
 
   return (
     <div>
