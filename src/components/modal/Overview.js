@@ -8,7 +8,7 @@ import '../../styles/App.scss';
  
 function Overview(props) {
   const image = props.data.image;
-  
+
   const context = props.data.context;
   const org = props.data.org;
   const timeframe = props.data.timeframe;

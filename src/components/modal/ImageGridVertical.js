@@ -12,6 +12,7 @@ function ImageGridVertical(props) {
 
   const images = props.images.map(each => (
     <Image
+      key = {each.alt}
       image = {each.image}
       alt = {each.alt}
       // single = {single_image}
