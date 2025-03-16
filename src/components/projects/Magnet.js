@@ -9,6 +9,8 @@ import '../../styles/App.scss';
 
 function Magnet(props) {
   const curr_id = 5;
+  const proj = data.projects[curr_id];
+  const imgs = data.projects[curr_id].images[0];
 
   return (
     <div className="page_modal">
@@ -18,52 +20,35 @@ function Magnet(props) {
       <div className="content">
 
         <Overview
-          image = {data.projects[curr_id].image}
-          title = {data.projects[curr_id].title}
-          tagline = {data.projects[curr_id].tagline}
-
-          context = {data.projects[curr_id].context}
-          org = {data.projects[curr_id].org}
-          timeframe = {data.projects[curr_id].timeframe}
-          role = {data.projects[curr_id].role}
-
-          overview = {data.projects[curr_id].overview}
+          data = {proj}
         />
 
         <h2>The Prompt</h2>
-        <p>{data.projects[curr_id].prompt}</p>
+        <p>{proj.prompt}</p>
 
         <h2>Focus Area</h2>
-        <p>{data.projects[curr_id].focus}</p>
-
-        {/*<ImageGridHorizontal
-          image1 = {data.projects[curr_id].image_f1}
-          alt1 = {data.projects[curr_id].imagealt_f1}
-
-          image2 = {data.projects[curr_id].image_f2}
-          alt2 = {data.projects[curr_id].imagealt_f2}
-        />*/}
+        <p>{proj.focus}</p>
 
         <ImageGridHorizontal
-          images = {data.projects[curr_id].images[0].focus1}
+          images = {imgs.focus1}
         />
 
         <h2>Process</h2>
-        <p>{data.projects[curr_id].process}</p>
+        <p>{proj.process}</p>
 
         <ImageGridHorizontal
-          images = {data.projects[curr_id].images[0].process1}
+          images = {imgs.process1}
         />
 
         <h2>Outcome</h2>
-        <p>{data.projects[curr_id].outcome}</p>
+        <p>{proj.outcome}</p>
 
         <ImageGridVertical
-          images = {data.projects[curr_id].images[0].outcome1}
+          images = {imgs.outcome1}
         />
 
         <h2>Reflection</h2>
-        <p>{data.projects[curr_id].reflection}</p>
+        <p>{proj.reflection}</p>
 
       </div>
 

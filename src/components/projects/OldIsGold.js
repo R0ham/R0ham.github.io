@@ -16,16 +16,7 @@ function OldIsGold(props) {
       <div className="content">
 
         <Overview
-          image = {data.projects[curr_id].image}
-          title = {data.projects[curr_id].title}
-          tagline = {data.projects[curr_id].tagline}
-
-          context = {data.projects[curr_id].context}
-          org = {data.projects[curr_id].org}
-          timeframe = {data.projects[curr_id].timeframe}
-          role = {data.projects[curr_id].role}
-
-          overview = {data.projects[curr_id].overview}
+          data = {data.projects[curr_id]}
         />
 
         {/*<h2>The Prompt</h2>

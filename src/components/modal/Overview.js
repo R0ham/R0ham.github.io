@@ -7,9 +7,19 @@ import ScrollToTop from '../ScrollToTop.js';
 import '../../styles/App.scss';
  
 function Overview(props) {
-  const roles = props.role.map(each => (
+  const image = props.data.image;
+  
+  const context = props.data.context;
+  const org = props.data.org;
+  const timeframe = props.data.timeframe;
+  // const role = props.data.role;
+  const roles = props.data.role.map(each => (
     <p>{each}</p>
   ));
+
+  const title = props.data.title;
+  const tagline = props.data.tagline;
+  const overview = props.data.overview;
 
   // const max_width = Math.ceil({roles}.clientWidth);
 
@@ -24,21 +34,21 @@ function Overview(props) {
 
 
       <li className="canvas canvas_page_header canvas_large">
-        <img src={props.image} alt={props.alt}/>
+        <img src={image} alt={title}/>
       </li>
 
       <ul className="flex_overview">
         <li>
           <h3>Context</h3>
-          <p>{props.context}</p>
+          <p>{context}</p>
         </li>        
         <li>
           <h3>Makeup</h3>
-          <p>{props.org}</p>
+          <p>{org}</p>
         </li>
         <li>
           <h3>Timeframe</h3>
-          <p>{props.timeframe}</p>
+          <p>{timeframe}</p>
         </li>
         <li>
           <h3>Role</h3>
@@ -47,9 +57,9 @@ function Overview(props) {
       </ul>
 
       <div className="color_block">
-        <h1>{props.title}</h1>
-        <p className="tagline">{props.tagline}</p>
-        <p>{props.overview}</p>
+        <h1>{title}</h1>
+        <p className="tagline">{tagline}</p>
+        <p>{overview}</p>
       </div>
 
     </div>
