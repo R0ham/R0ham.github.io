@@ -83,9 +83,16 @@ As we age, our skin dries and it becomes harder to keep moisture in, which leads
         <p>How can we ensure our product encourages, not replaces, further interaction through phone conversation?</p>*/}
 
         <Quote
-          // quote = {data.projects[curr_id]}
           quote = {"How can we create a meaningful yet effortless method of communication between older adults and their younger relatives that facilitates meaningful social connection and encourages phone conversation?"}
         />
+        <Quote
+          quote = {"How can we accomplish this with a physical product that doesn’t require technological expertise?"}
+        />
+        <Quote
+          quote = {"How can we ensure our product encourages, not replaces, further interaction through phone conversation?"}
+        />
+
+        
 
         <h2>Concept Generation</h2>
         <p></p>

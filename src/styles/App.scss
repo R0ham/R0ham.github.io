@@ -160,6 +160,11 @@ body.dark-mode {
       color: var(--dark-back-page);
     }
 
+    .quote_block {
+      background-color: var(--dark-back-primary);
+      color: var(--dark-color);
+    }
+
     h2 {
       color: var(--dark-back-secondary);
     }
@@ -707,6 +712,18 @@ footer {
       }
 
       p:last-child {
+        margin: 0;
+      }
+    }
+
+    .quote_block {
+      background-color: var(--light-back-primary);
+      color: var(--light-color);
+      margin-top: 15px;
+      padding: 15px;
+      font-style: italic;
+
+      p {
         margin: 0;
       }
     }
