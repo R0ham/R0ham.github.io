@@ -92,11 +92,16 @@ export default {
       org: "6-person team",
       timeframe: "Semester",
       role: [
-      "UI / UX designer",
+      "Product designer",
+      "Visual designer",
       "CAD designer",
       ],
 
-      overview: "Older adults (60+) have historically reported high levels of loneliness for a variety of factors, including age-related disability and living situation. Newly enacted social distancing policies designed to combat the widespread nature of COVID-19, have only exacerbated these conditions. This project seeks to establish new modes of social interaction between older adults and family/friends, within the context of the global pandemic, to help mitigate feelings of social isolation.",
+      overview: "Older adults (60+) have historically reported high levels of loneliness for a variety of factors, including age-related disability and living situation. Enacted social distancing policies designed to combat the widespread nature of COVID-19, served to exacerbate these conditions. This project seeks to establish new modes of social interaction between older adults and family/friends, within the context of the global pandemic, to help mitigate feelings of social isolation.",
+
+
+
+
 
     },
     {
@@ -110,7 +115,7 @@ export default {
       org: "4-person team",
       timeframe: "Semester",
       role: [
-      "UI / UX designer",
+      "Visual designer",
       ],
 
       overview: "With the onset of the global pandemic, many aspects of daily life shifted to an online environment. Education was no exception. Our team asked, how could we increase the productivity and engagement of remote learning solutions to better accommodate the needs and wants of users within the field of education? Inspired by regenerative design, we focused on building out existing systems, rather than building a completely new one from scratch. This way, we could address persistent problems right at the source they were originating. Using Zoom as a backbone, the team proposed a series of changes that would improve levels of participation: avatars, reactions, dynamic bubble size, and more.",
@@ -126,9 +131,9 @@ export default {
       org: "6-person team",
       timeframe: "Semester",
       role: [
-      "Designer",
       "Front-end developer",
       "Integration",
+      "Designer",
       ],
 
       overview: "As freshmen, students often come in unprepared and unsure of what their four-year plan in college will be. This is perfectly understandable, given the change in environment and new experience that university life brings. However, the need for a four-year plan is crucial, and many students often go through much of their time through college without one, which can potentially lead to problems in the future. The web application, Degreezy, aims to help students optimize their college career by creating a college plan suited for their area of study. It keeps track of course requirements and prerequisites, enabling students to keep complete track of their degree progress.",

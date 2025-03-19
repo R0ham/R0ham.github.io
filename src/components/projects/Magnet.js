@@ -23,7 +23,7 @@ function Magnet(props) {
           data = {proj}
         />
 
-        <h2>The Prompt</h2>
+        <h2>Prompt</h2>
         <p>{proj.prompt}</p>
 
         <h2>Focus Area</h2>

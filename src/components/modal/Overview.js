@@ -41,7 +41,7 @@ function Overview(props) {
         <li>
           <h3>Context</h3>
           <p>{context}</p>
-        </li>        
+        </li>
         <li>
           <h3>Makeup</h3>
           <p>{org}</p>
