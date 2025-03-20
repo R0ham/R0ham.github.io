@@ -3,7 +3,9 @@ import React from 'react'; // Import the Component component from React
 import Image from './Image.js';
 
 import '../../styles/App.scss';
- 
+
+// USE: For images displayed on one or more lines, each with equal width - images laid out horizontally with breakpoints
+
 function ImageGridHorizontal(props) {
   // var single_image = false;
   // if (props.images.length == 1) {

@@ -3,7 +3,9 @@ import React from 'react'; // Import the Component component from React
 import Image from './Image.js';
 
 import '../../styles/App.scss';
- 
+
+// USE: For images displayed on one-line, each with equal height - images laid out vertically
+
 function ImageGridVertical(props) {
   // var single_image = false;
   // if (props.images.length == 1) {

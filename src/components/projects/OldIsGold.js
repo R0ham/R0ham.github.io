@@ -29,23 +29,12 @@ function OldIsGold(props) {
         <p>A collaborative experiment very much influenced by the global pandemic. The class was remote for nearly the full duration and team members were physically disparate from each other, with all of us being in our own hometowns. Our only constraint was to choose a current affairs topic as our central theme. Starting research confirmed what we were feeling ourselves, the pandemic was contributing to loneliness.</p>
 
         <h2>Research</h2>
-        <p>research notes + ethnography recreational spaces and libraries</p>
+        <p>research notes + </p>
+        <p>ethnography recreational spaces and libraries</p>
 
         <ImageGridHorizontal
           images = {imgs.research}
         />
-
-        {/* - brainstorming - */}
-
-
-
-
-
-
-
-
-{/*        <h2>Research</h2>
-        <p>Given the constraint of a current affairs topic. </p>*/}
 
 
 {/*Loneliness Among Older Adults -> Worsening Loneliness due to COVID-19 -> Older Adults Interactions with Technology
@@ -100,10 +89,18 @@ As we age, our skin dries and it becomes harder to keep moisture in, which leads
 
 
         <h2>Concept Generation</h2>
-        <p></p>
+        <p>objective tree method to brainstorm and generate the goals and objectives - key objectives -> filtering down to greater granularity</p>
+        <p>Each member wrote down any ideas that came to their mind within the time frame. After the 10 minutes, the team started to connect and develop the randomized ideas into a mind map.</p>
+
+        <ImageGridVertical
+          images = {imgs.concept1}
+        />
 
         <h2>Pivot</h2>
         <p>based on survey</p>
+
+
+
 
       </div>
 

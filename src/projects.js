@@ -3,7 +3,8 @@ import oldisgold_research_1 from './images/projects/oldisgold/research_1.png';
 import oldisgold_research_2 from './images/projects/oldisgold/research_2.png';
 import oldisgold_research_3 from './images/projects/oldisgold/research_3.png';
 import oldisgold_research_4 from './images/projects/oldisgold/research_4.png';
-
+import oldisgold_concept1_1 from './images/projects/oldisgold/concept1_1.png';
+import oldisgold_concept1_2 from './images/projects/oldisgold/concept1_2.png';
 
 import zoom_cover from './images/projects/zoom_cover.png';
 import degreezy_cover from './images/projects/degreezy_cover.png';
@@ -129,11 +130,21 @@ export default {
           //   image: oldisgold_research_4,
           //   alt: "library board",
           // },
-          
+
           // {
           //   image: `${oldisgold_imgs}research_1.png`,
           //   alt: "hgfghfhgf sketch",
           // },
+        ],
+        concept1: [
+          {
+            image: oldisgold_concept1_1,
+            alt: "objective tree",
+          },
+          {
+            image: oldisgold_concept1_2,
+            alt: "mindmap",
+          },
         ],
 
       }],
