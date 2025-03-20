@@ -1,6 +1,8 @@
 import React from 'react';
 import BackBar from '../modal/BackBar.js';
 import Overview from '../modal/Overview.js';
+import ImageGridHorizontal from '../modal/ImageGridHorizontal.js';
+import ImageGridVertical from '../modal/ImageGridVertical.js';
 import Quote from '../modal/Quote.js';
 
 import data from '../../projects.js';
@@ -8,8 +10,8 @@ import '../../styles/App.scss';
 
 function OldIsGold(props) {
   const curr_id = 0;
-  // const proj = data.projects[curr_id];
-  // const imgs = data.projects[curr_id].images[0];
+  const proj = data.projects[curr_id];
+  const imgs = data.projects[curr_id].images[0];
 
   return (
     <div className="page_modal">
@@ -29,6 +31,9 @@ function OldIsGold(props) {
         <h2>Research</h2>
         <p>research notes + ethnography recreational spaces and libraries</p>
 
+        <ImageGridVertical
+          images = {imgs.research}
+        />
 
         {/* - brainstorming - */}
 
@@ -85,14 +90,14 @@ As we age, our skin dries and it becomes harder to keep moisture in, which leads
         <Quote
           quote = {"How can we create a meaningful yet effortless method of communication between older adults and their younger relatives that facilitates meaningful social connection and encourages phone conversation?"}
         />
-        <Quote
+{/*        <Quote
           quote = {"How can we accomplish this with a physical product that doesn’t require technological expertise?"}
         />
         <Quote
           quote = {"How can we ensure our product encourages, not replaces, further interaction through phone conversation?"}
-        />
+        />*/}
 
-        
+
 
         <h2>Concept Generation</h2>
         <p></p>

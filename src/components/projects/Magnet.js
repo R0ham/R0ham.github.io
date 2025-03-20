@@ -30,21 +30,21 @@ function Magnet(props) {
         <p>{proj.focus}</p>
 
         <ImageGridHorizontal
-          images = {imgs.focus1}
+          images = {imgs.focus}
         />
 
         <h2>Process</h2>
         <p>{proj.process}</p>
 
         <ImageGridHorizontal
-          images = {imgs.process1}
+          images = {imgs.process}
         />
 
         <h2>Outcome</h2>
         <p>{proj.outcome}</p>
 
         <ImageGridVertical
-          images = {imgs.outcome1}
+          images = {imgs.outcome}
         />
 
         <h2>Reflection</h2>

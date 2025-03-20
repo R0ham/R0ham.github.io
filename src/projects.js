@@ -1,16 +1,20 @@
 import oldisgold_cover from './images/projects/oldisgold_cover.png';
+
+
+
+
 import zoom_cover from './images/projects/zoom_cover.png';
 import degreezy_cover from './images/projects/degreezy_cover.png';
 import nook_cover from './images/projects/nook_cover.jpg';
 import pushpin_cover from './images/projects/pushpin_cover.png';
 
 import magnet_cover from './images/projects/magnet_cover.jpg';
-import magnet_focus1_1 from './images/projects/magnet/focus1_1.jpg';
-import magnet_focus1_2 from './images/projects/magnet/focus1_2.jpg';
-import magnet_process1_1 from './images/projects/magnet/process1_1.jpg';
-import magnet_outcome1_1 from './images/projects/magnet/outcome1_1.jpg';
-import magnet_outcome1_2 from './images/projects/magnet/outcome1_2.jpg';
-import magnet_outcome1_3 from './images/projects/magnet/outcome1_3.jpg';
+import magnet_focus_1 from './images/projects/magnet/focus1_1.jpg';
+import magnet_focus_2 from './images/projects/magnet/focus1_2.jpg';
+import magnet_process_1 from './images/projects/magnet/process1_1.jpg';
+import magnet_outcome_1 from './images/projects/magnet/outcome1_1.jpg';
+import magnet_outcome_2 from './images/projects/magnet/outcome1_2.jpg';
+import magnet_outcome_3 from './images/projects/magnet/outcome1_3.jpg';
 
 
 export default {
@@ -99,6 +103,27 @@ export default {
 
       overview: "Older adults (60+) have historically reported high levels of loneliness for a variety of factors, including age-related disability and living situation. Enacted social distancing policies designed to combat the widespread nature of COVID-19, served to exacerbate these conditions. This project seeks to establish new modes of social interaction between older adults and family/friends, within the context of the global pandemic, to help mitigate feelings of social isolation.",
 
+
+
+
+      images: [{
+
+        research: [
+          {
+            image: magnet_focus_1,
+            alt: "chair sketch",
+          },
+          {
+            image: magnet_focus_2,
+            alt: "bench sketch",
+          },
+          {
+            image: magnet_focus_2,
+            alt: "bench sketch",
+          },
+        ],
+
+      }],
 
 
 
@@ -196,35 +221,35 @@ export default {
 
       images: [{
 
-        focus1: [
+        focus: [
           {
-            image: magnet_focus1_1,
+            image: magnet_focus_1,
             alt: "chair sketch",
           },
           {
-            image: magnet_focus1_2,
+            image: magnet_focus_2,
             alt: "bench sketch",
           },
         ],
 
-        process1: [
+        process: [
           {
-            image: magnet_process1_1,
+            image: magnet_process_1,
             alt: "magnet mindmap",
           },
         ],
 
-        outcome1: [
+        outcome: [
           {
-            image: magnet_outcome1_1,
+            image: magnet_outcome_1,
             alt: "magnet alternate views",
           },
           {
-            image: magnet_outcome1_2,
+            image: magnet_outcome_2,
             alt: "magnet main components",
           },
           {
-            image: magnet_outcome1_3,
+            image: magnet_outcome_3,
             alt: "magnet door sketch",
           },
         ],
