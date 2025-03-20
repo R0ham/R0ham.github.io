@@ -31,7 +31,7 @@ function OldIsGold(props) {
         <h2>Research</h2>
         <p>research notes + ethnography recreational spaces and libraries</p>
 
-        <ImageGridVertical
+        <ImageGridHorizontal
           images = {imgs.research}
         />
 

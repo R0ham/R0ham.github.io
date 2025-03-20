@@ -1,6 +1,8 @@
 import oldisgold_cover from './images/projects/oldisgold_cover.png';
-
-
+import oldisgold_research_1 from './images/projects/oldisgold/research_1.png';
+import oldisgold_research_2 from './images/projects/oldisgold/research_2.png';
+import oldisgold_research_3 from './images/projects/oldisgold/research_3.png';
+import oldisgold_research_4 from './images/projects/oldisgold/research_4.png';
 
 
 import zoom_cover from './images/projects/zoom_cover.png';
@@ -9,12 +11,14 @@ import nook_cover from './images/projects/nook_cover.jpg';
 import pushpin_cover from './images/projects/pushpin_cover.png';
 
 import magnet_cover from './images/projects/magnet_cover.jpg';
-import magnet_focus_1 from './images/projects/magnet/focus1_1.jpg';
-import magnet_focus_2 from './images/projects/magnet/focus1_2.jpg';
-import magnet_process_1 from './images/projects/magnet/process1_1.jpg';
-import magnet_outcome_1 from './images/projects/magnet/outcome1_1.jpg';
-import magnet_outcome_2 from './images/projects/magnet/outcome1_2.jpg';
-import magnet_outcome_3 from './images/projects/magnet/outcome1_3.jpg';
+import magnet_focus_1 from './images/projects/magnet/focus_1.jpg';
+import magnet_focus_2 from './images/projects/magnet/focus_2.jpg';
+import magnet_process_1 from './images/projects/magnet/process_1.jpg';
+import magnet_outcome_1 from './images/projects/magnet/outcome_1.jpg';
+import magnet_outcome_2 from './images/projects/magnet/outcome_2.jpg';
+import magnet_outcome_3 from './images/projects/magnet/outcome_3.jpg';
+
+// const oldisgold_imgs = './images/projects/oldisgold/';
 
 
 export default {
@@ -110,17 +114,26 @@ export default {
 
         research: [
           {
-            image: magnet_focus_1,
-            alt: "chair sketch",
+            image: oldisgold_research_1,
+            alt: "recreational center",
           },
+          // {
+          //   image: oldisgold_research_2,
+          //   alt: "recreational center pool",
+          // },
           {
-            image: magnet_focus_2,
-            alt: "bench sketch",
+            image: oldisgold_research_3,
+            alt: "library",
           },
-          {
-            image: magnet_focus_2,
-            alt: "bench sketch",
-          },
+          // {
+          //   image: oldisgold_research_4,
+          //   alt: "library board",
+          // },
+          
+          // {
+          //   image: `${oldisgold_imgs}research_1.png`,
+          //   alt: "hgfghfhgf sketch",
+          // },
         ],
 
       }],
