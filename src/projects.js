@@ -5,7 +5,8 @@ import oldisgold_research_3 from './images/projects/oldisgold/research_3.png';
 import oldisgold_research_4 from './images/projects/oldisgold/research_4.png';
 import oldisgold_concept1_1 from './images/projects/oldisgold/concept1_1.png';
 import oldisgold_concept1_2 from './images/projects/oldisgold/concept1_2.png';
-// import oldisgold_wizard from './images/projects/oldisgold/wizard.png';
+import oldisgold_survey1_1 from './images/projects/oldisgold/survey1_1.png';
+import oldisgold_survey1_2 from './images/projects/oldisgold/survey1_2.png';
 
 
 import zoom_cover from './images/projects/zoom_cover.png';
@@ -148,12 +149,16 @@ export default {
             alt: "mindmap",
           },
         ],
-        // wizard: [
-        //   {
-        //     image: oldisgold_wizard,
-        //     alt: "wizard chess concept",
-        //   }
-        // ],
+        survey1: [
+          {
+            image: oldisgold_survey1_1,
+            alt: "survey general questions",
+          },
+          {
+            image: oldisgold_survey1_2,
+            alt: "survey artifact questions",
+          }
+        ],
 
 
 
