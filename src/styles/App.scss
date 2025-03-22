@@ -171,6 +171,9 @@ body.dark-mode {
     }
   }
 
+  [data-rmiz-modal-overlay="hidden"] {
+    background-color: var(--dark-tint);
+  }
   [data-rmiz-modal-overlay="visible"] {
     background-color: var(--dark-back-page);
   }
@@ -865,6 +868,7 @@ footer {
 }
 [data-rmiz-modal-overlay="hidden"] {
   // background-color: rgba(255, 255, 255, 0);
+  background-color: var(--light-tint);
 }
 [data-rmiz-modal-overlay="visible"] {
   // background-color: rgba(255, 255, 255, 1);
@@ -882,6 +886,8 @@ footer {
   image-rendering: high-quality;
   transform-origin: top left;
   transition: transform 0.3s;
+    border-radius: var(--border-radius);
+
 }
 @media (prefers-reduced-motion: reduce) {
   [data-rmiz-modal-overlay],
