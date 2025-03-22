@@ -25,7 +25,7 @@ function OldIsGold(props) {
         />
 
 
-        <h2>Prompt</h2>
+        <h2>Background</h2>
         <p>A collaborative experiment very much influenced by the global pandemic. The class was remote for nearly the full duration and team members were physically disparate from each other, with all of us being in our own hometowns. Our only constraint was to choose a current affairs topic as our central theme. Starting research confirmed what we were feeling ourselves, the pandemic was contributing to loneliness.</p>
 
         {/* especially the older generation age group. */}
