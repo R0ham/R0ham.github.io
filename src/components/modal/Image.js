@@ -1,5 +1,6 @@
 import React from 'react'; // Import the Component component from React
 // import {Link} from 'react-router-dom'; // Import the Link component
+import Zoom from 'react-medium-image-zoom'
 
 import '../../styles/App.scss';
  
@@ -11,7 +12,9 @@ function Image(props) {
 
   return (
     <li className="canvas">
-      <img src={props.image} alt={props.alt}/>
+      <Zoom>
+        <img src={props.image} alt={props.alt}/>
+      </Zoom>
     </li>
   );
 }

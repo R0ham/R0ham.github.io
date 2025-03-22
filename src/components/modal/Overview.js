@@ -2,7 +2,7 @@ import React from 'react'; // Import the Component component from React
 // import {Link} from 'react-router-dom'; // Import the Link component
 import ScrollToTop from '../ScrollToTop.js';
 // import Image from './Image.js';
-
+import Zoom from 'react-medium-image-zoom'
 
 import '../../styles/App.scss';
  
@@ -34,7 +34,9 @@ function Overview(props) {
 
 
       <li className="canvas canvas_page_header canvas_large">
-        <img src={image} alt={title}/>
+        <Zoom>
+          <img src={image} alt={title}/>
+        </Zoom>
       </li>
 
       <ul className="flex_overview">
