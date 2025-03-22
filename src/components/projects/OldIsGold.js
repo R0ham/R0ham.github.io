@@ -71,9 +71,15 @@ function OldIsGold(props) {
         <h2>Pivot</h2>
         <p>After a period of rapid prototyping, we found ourselves feeling unsatisfied with our concepts and unconfident  our designs would satisfy our users needs and wants. We realized that our solutions were too designer-centric and needed additional user insight. To prevent early lock-in and ensure we wanted to take the route of games to help seniors cope with loneliness, we decided to take a step back and evaluate our plans. We created two rounds of surveying with the first asking general questions relating to the lifestyle of older adults. This survey then ended with an evaluation and test on three of our main prototype ideas we decided to move forth with.</p>
 
+        {/*As mentioned earlier, our research said that older adults prefer card and physical strategy games. However, this was based on research, not from asking the people around us.*/}
+
         {/*Our ideas changed drastically from initially being an online game, then moving to a hybrid of online and tangible object game, and now to focusing on communication and connection through an object.*/}
 
         {/*From the results we learned that unlike what we have intended, older adults do not spend a lot of their time playing games and only enjoy it as a form of spending time with their family and friends. In fact, they weren’t fond of technology. They find it frustrating to adapt to technology, often requiring help from their family to set up their phones or download apps.*/}
+
+        {/*Phone calling was a preferred method for connecting with family members who were separated by distance when physically meeting isn’t an option.*/}
+
+        {/*used close family members as a "beta" test to refine these questions and to give to a larger audience*/}
 
 
         <ImageGridVertical
@@ -81,14 +87,15 @@ function OldIsGold(props) {
         />
 
         <Quote
-          quote = "I have been lonely before. I usually connect with my friends once and awhile when we go out and do something, never really over the phone. We use the phone to make plans and that's about it. But that has changed with COVID, now I text people a lot more. And I send pictures back and forth with... [my family friend]. I would like to be able to see more people physically. All these Zoom potlucks are getting exhausting. I don’t think I enjoy connecting with people online."
+          quote = "'I have been lonely before. I usually connect with my friends once and awhile when we go out and do something, never really over the phone. We use the phone to make plans and that's about it. But that has changed with COVID, now I text people a lot more. And I send pictures back and forth with... [my family friend]. I would like to be able to see more people physically. All these Zoom potlucks are getting exhausting. I don’t think I enjoy connecting with people online.'"
         />
 
 
         <p>After carefully evaluating the preliminary survey, the team unanimously believed the touch lamp idea offers the greatest potential. The users claimed it was a good method to increase connection and interaction with family members. They were able to visualize themselves interacting with it as if it were a normal lamp, but also a form of casual communication.</p>
 
 
-        <h2>Focus Area</h2>
+        <h2>Second Iteration</h2>
+        <p></p>
 {/*        <p>How can we create a meaningful yet effortless method of communication between older adults and their younger relatives that facilitates meaningful social connection and encourages phone conversation?</p>
         <p>How can we accomplish this with a physical product that doesn’t require technological expertise?</p>
         <p>How can we ensure our product encourages, not replaces, further interaction through phone conversation?</p>*/}

@@ -162,6 +162,7 @@ body.dark-mode {
 
     .quote_block {
       background-color: var(--dark-back-primary);
+      border-color: var(--dark-back-primary);
       color: var(--dark-color);
     }
 
@@ -717,8 +718,9 @@ footer {
     }
 
     .quote_block {
-      background-color: var(--light-back-primary);
-      color: var(--light-color);
+      // background-color: var(--light-back-primary);
+      // color: var(--light-color);
+      border: 1px solid var(--light-back-primary);
       margin-top: 15px;
       padding: 15px;
       display: flex;
