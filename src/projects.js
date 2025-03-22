@@ -5,6 +5,8 @@ import oldisgold_research_3 from './images/projects/oldisgold/research_3.png';
 import oldisgold_research_4 from './images/projects/oldisgold/research_4.png';
 import oldisgold_concept1_1 from './images/projects/oldisgold/concept1_1.png';
 import oldisgold_concept1_2 from './images/projects/oldisgold/concept1_2.png';
+// import oldisgold_wizard from './images/projects/oldisgold/wizard.png';
+
 
 import zoom_cover from './images/projects/zoom_cover.png';
 import degreezy_cover from './images/projects/degreezy_cover.png';
@@ -106,7 +108,7 @@ export default {
       "CAD designer",
       ],
 
-      overview: "Older adults (60+) have historically reported high levels of loneliness for a variety of factors, including age-related disability and living situation. Enacted social distancing policies designed to combat the widespread nature of COVID-19, served to exacerbate these conditions. This project seeks to establish new modes of social interaction between older adults and family/friends, within the context of the global pandemic, to help mitigate feelings of social isolation.",
+      overview: "Older adults (60+) have historically reported high levels of loneliness for a variety of factors, including age-related disability and living situation. Social distancing policies enacted to limit the spread of COVID-19, ended up exacerbating these conditions. This project seeks to establish new modes of social interaction between older adults and family/friends, to help mitigate feelings of social isolation within the context of the global pandemic.",
 
 
 
@@ -146,6 +148,14 @@ export default {
             alt: "mindmap",
           },
         ],
+        // wizard: [
+        //   {
+        //     image: oldisgold_wizard,
+        //     alt: "wizard chess concept",
+        //   }
+        // ],
+
+
 
       }],
 

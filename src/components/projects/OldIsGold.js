@@ -28,14 +28,80 @@ function OldIsGold(props) {
         <h2>Prompt</h2>
         <p>A collaborative experiment very much influenced by the global pandemic. The class was remote for nearly the full duration and team members were physically disparate from each other, with all of us being in our own hometowns. Our only constraint was to choose a current affairs topic as our central theme. Starting research confirmed what we were feeling ourselves, the pandemic was contributing to loneliness.</p>
 
-        <h2>Research</h2>
-        <p>research notes + </p>
+        {/* especially the older generation age group. */}
+        {/*loneliness can lead to problematic health deterioration such as increases one's risk of premature death, dementia, heart disease, and stroke. Which is also associated with higher rates of depression, anxiety, suicide, and heart failure*/}
+
+        <h2>Ethnography</h2>
+
+        {/*Together, we developed three main research spaces including tangible objects that reduced the contamination caused by COVID, space designed to help prevent disease transmission, and lastly people and their interactions living in the COVID state. Each member took half an hour to research and observe the three spaces described above and came together to discuss our findings and areas of interest. Not only was this design method our first step to team development, but also our first interaction with our design space.*/}
+
         <p>ethnography recreational spaces and libraries</p>
+
+        {/* observed our physical surroundings and interactions (in our own communities. Capturing individuals would strengthen documentation on communal interaction, but also disturbs their privacy. Our team tried to cope with this by taking more images of the space or images of the backs of individuals rather than their faces.*/}
 
         <ImageGridHorizontal
           images = {imgs.research}
         />
 
+        <h2>Focus Area</h2>
+        <Quote
+          quote = {"Due to the fairly new pandemic, social distancing policies have been implemented, further separating the older generation (60+) from their families and their broader community. How can we change the dynamics of how the elderly interact or bond with their friends & family during the pandemic in a safe, contactless method?"}
+        />
+
+
+        <h2>Concept Generation</h2>
+        <p>objective tree method to brainstorm and generate the goals and objectives - key objectives -> filtering down to greater granularity -- understanding each other's visions and develop one cohesive one as a result</p>
+        <p>Each member wrote down any ideas that came to their mind within the time frame. After the 10 minutes, the team started to connect and develop the randomized ideas into a mind map.</p>
+        {/*We often found ourselves in silent or deep thought. In the future, we decided it would be preferable to make analogies (direct, personal, symbolic, and fantasy), or ‘synectics.’ in building off of previous ideas. prevent a locked in mindset where we thinking in terms of objectives in mind and allow us to ensure no ideas are criticized or discouraged.*/}
+
+        <ImageGridVertical
+          images = {imgs.concept1}
+        />
+
+
+        <h2>Feedback</h2>
+        <p>all our ideas were based on the idea of connecting and engaging through games - and at first these were too technical and solution-focused</p>
+
+        <p>wizard chess - The idea is that the in-person player can physically move while the opponent will have an integrated digital control that allows them to to move their piece on their laptop/tablet device, but signal the magnetic sensors on the physical chess board to physically move those chess pieces.</p>
+        {/*pitched our idea to the class and met with design thinking stakeholders*/}
+        {/*consider a social science approach and that our current design was too high tech for our uses, older generation adults would have to overcome learning new interfaces and interacting with touchscreens*/}
+        {/*To take into consideration users who dislike games, the team also developed a touch lamp scheme that allows for communication between two people using a synchronous lamp to provide visual light signals to each other.*/}
+
+
+        <h2>Pivot</h2>
+        <p>After a period of rapid prototyping, we found ourselves feeling unsatisfied with our concepts and not confident that our designs would satisfy our users needs and wants. We realized that our solutions were too designer-centric and needed additional user insight. To prevent early lock-in and ensure we wanted to take the route of games to help seniors cope with loneliness, we decided to take a step back and evaluate our plans. We created two rounds of surveying with the first asking general questions relating to the lifestyle of older adults. This survey then ended with an evaluation and test on three of our main prototype ideas we decided to move forth with. In deciding the prototype ideas to move forth, the team utilized a decision matrix shown below.</p>
+
+
+
+
+
+
+        <h2>Focus Area</h2>
+{/*        <p>How can we create a meaningful yet effortless method of communication between older adults and their younger relatives that facilitates meaningful social connection and encourages phone conversation?</p>
+        <p>How can we accomplish this with a physical product that doesn’t require technological expertise?</p>
+        <p>How can we ensure our product encourages, not replaces, further interaction through phone conversation?</p>*/}
+
+        <Quote
+          quote = {"How can we create a meaningful yet effortless method of communication between older adults and their younger relatives that facilitates meaningful social connection and encourages phone conversation?"}
+        />
+{/*        <Quote
+          quote = {"How can we accomplish this with a physical product that doesn’t require technological expertise?"}
+        />
+        <Quote
+          quote = {"How can we ensure our product encourages, not replaces, further interaction through phone conversation?"}
+        />*/}
+
+
+
+
+
+
+
+
+
+
+
+{/* RESEARCH */}
 
 {/*Loneliness Among Older Adults -> Worsening Loneliness due to COVID-19 -> Older Adults Interactions with Technology
 
@@ -70,34 +136,6 @@ As we age, our skin dries and it becomes harder to keep moisture in, which leads
 
 
 
-
-        <h2>Focus Area</h2>
-{/*        <p>How can we create a meaningful yet effortless method of communication between older adults and their younger relatives that facilitates meaningful social connection and encourages phone conversation?</p>
-        <p>How can we accomplish this with a physical product that doesn’t require technological expertise?</p>
-        <p>How can we ensure our product encourages, not replaces, further interaction through phone conversation?</p>*/}
-
-        <Quote
-          quote = {"How can we create a meaningful yet effortless method of communication between older adults and their younger relatives that facilitates meaningful social connection and encourages phone conversation?"}
-        />
-{/*        <Quote
-          quote = {"How can we accomplish this with a physical product that doesn’t require technological expertise?"}
-        />
-        <Quote
-          quote = {"How can we ensure our product encourages, not replaces, further interaction through phone conversation?"}
-        />*/}
-
-
-
-        <h2>Concept Generation</h2>
-        <p>objective tree method to brainstorm and generate the goals and objectives - key objectives -> filtering down to greater granularity</p>
-        <p>Each member wrote down any ideas that came to their mind within the time frame. After the 10 minutes, the team started to connect and develop the randomized ideas into a mind map.</p>
-
-        <ImageGridVertical
-          images = {imgs.concept1}
-        />
-
-        <h2>Pivot</h2>
-        <p>based on survey</p>
 
 
 
