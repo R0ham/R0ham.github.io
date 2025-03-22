@@ -7,6 +7,18 @@ import oldisgold_concept1_1 from './images/projects/oldisgold/concept1_1.png';
 import oldisgold_concept1_2 from './images/projects/oldisgold/concept1_2.png';
 import oldisgold_survey1_1 from './images/projects/oldisgold/survey1_1.png';
 import oldisgold_survey1_2 from './images/projects/oldisgold/survey1_2.png';
+import oldisgold_concept2_1 from './images/projects/oldisgold/concept2_1.png';
+import oldisgold_concept2_2 from './images/projects/oldisgold/concept2_2.png';
+import oldisgold_concept3_1 from './images/projects/oldisgold/concept3_1.png';
+import oldisgold_concept3_2 from './images/projects/oldisgold/concept3_2.png';
+import oldisgold_concept4 from './images/projects/oldisgold/concept4.png';
+import oldisgold_sketch_1 from './images/projects/oldisgold/sketch_1.png';
+import oldisgold_sketch_2 from './images/projects/oldisgold/sketch_2.png';
+import oldisgold_prototype_1 from './images/projects/oldisgold/prototype_1.png';
+import oldisgold_prototype_2 from './images/projects/oldisgold/prototype_2.gif';
+import oldisgold_survey2 from './images/projects/oldisgold/survey2.png';
+
+
 
 
 import zoom_cover from './images/projects/zoom_cover.png';
@@ -159,7 +171,58 @@ export default {
             alt: "survey artifact questions",
           }
         ],
-
+        concept2: [
+          {
+            image: oldisgold_concept2_1,
+            alt: "sketches",
+          },
+          {
+            image: oldisgold_concept2_2,
+            alt: "graph",
+          },
+        ],
+        concept3: [
+          {
+            image: oldisgold_concept3_1,
+            alt: "feature ideas",
+          },
+          {
+            image: oldisgold_concept3_2,
+            alt: "deciding",
+          },
+        ],
+        concept4: [
+          {
+            image: oldisgold_concept4,
+            alt: "moodboard",
+          },
+        ],
+        sketch: [
+          {
+            image: oldisgold_sketch_1,
+            alt: "plant sketch",
+          },
+          {
+            image: oldisgold_sketch_2,
+            alt: "moon sketch",
+          },
+        ],
+        prototype: [
+          {
+            image: oldisgold_prototype_1,
+            alt: "moon CAD",
+          },
+          {
+            image: oldisgold_prototype_2,
+            alt: "moon prototype",
+          },
+        ],
+        survey2: [
+          {
+            image: oldisgold_survey2,
+            alt: "most preferred designs",
+          },
+        ],
 
 
       }],

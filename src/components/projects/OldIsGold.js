@@ -45,7 +45,7 @@ function OldIsGold(props) {
 
         <h2>Focus Area</h2>
         <Quote
-          quote = {"Due to the fairly new pandemic, social distancing policies have been implemented, further separating the older generation (60+) from their families and their broader community. How can we change the dynamics of how the elderly interact or bond with their friends & family during the pandemic in a safe, contactless method?"}
+          quote = {"How can we change the dynamics of how the elderly interact or bond with their friends & family during the pandemic in a safe, contactless method?"}
         />
 
 
@@ -60,9 +60,11 @@ function OldIsGold(props) {
 
 
         <h2>Peer Feedback</h2>
-        <p>online game then hybrid digital/physical game - all our ideas were based on the idea of connecting and engaging through games - and at first these were too technical and solution-focused</p>
+        <p>The group’s favorite idea initially was a magnetic game board that could be played with one person online and the other in real time physically. We decided to run a survey with our user group to see which of our ideas they liked best and the results indicated that they liked our touch lamp idea best.</p>
 
-        <p>wizard chess - The idea is that the in-person player can physically move while the opponent will have an integrated digital control that allows them to to move their piece on their laptop/tablet device, but signal the magnetic sensors on the physical chess board to physically move those chess pieces.</p>
+
+{/*        <p>online game then hybrid digital/physical game - all our ideas were based on the idea of connecting and engaging through games - and at first these were too technical and solution-focused</p>
+        <p>wizard chess - The idea is that the in-person player can physically move while the opponent will have an integrated digital control that allows them to to move their piece on their laptop/tablet device, but signal the magnetic sensors on the physical chess board to physically move those chess pieces.</p>*/}
         {/*pitched our idea to the class and met with design thinking stakeholders*/}
         {/*consider a social science approach and that our current design was too high tech for our uses, older generation adults would have to overcome learning new interfaces and interacting with touchscreens*/}
         {/*To take into consideration users who dislike games, the team also developed a touch lamp scheme that allows for communication between two people using a synchronous lamp to provide visual light signals to each other.*/}
@@ -86,20 +88,39 @@ function OldIsGold(props) {
           images = {imgs.survey1}
         />
 
-{/*        <Quote
+        <Quote
           quote = "'I have been lonely before. I usually connect with my friends once and awhile when we go out and do something, never really over the phone. We use the phone to make plans and that's about it. But that has changed with COVID, now I text people a lot more. And I send pictures back and forth with... [my family friend]. I would like to be able to see more people physically. All these Zoom potlucks are getting exhausting. I don’t think I enjoy connecting with people online.'"
-        />*/}
+        />
 
 
         <p>After carefully evaluating the preliminary survey, the team unanimously believed the touch lamp idea offers the greatest potential. The users claimed it was a good method to increase connection and interaction with family members. They were able to visualize themselves interacting with it as if it were a normal lamp, but also a form of casual communication.</p>
 
 
         <h2>Second Iteration</h2>
-        <p></p>
-{/*        <p>How can we create a meaningful yet effortless method of communication between older adults and their younger relatives that facilitates meaningful social connection and encourages phone conversation?</p>
-        <p>How can we accomplish this with a physical product that doesn’t require technological expertise?</p>
-        <p>How can we ensure our product encourages, not replaces, further interaction through phone conversation?</p>*/}
+        <h3>Revised Stakeholders</h3>
+        <p>Narrowed our focus to grandparents and grandchildren. And increasingly, as we got further along our design process, we realized that since we were facilitating connections between younger and the older individuals, we were actually designing for more than one demographic. Revised stakeholders: “children/preteens” (1-12), “teens” (13-19), “adults” (20-60), and “older adults” (60+).</p>
+        <p>We assumed each category of the intended audience would have different preferences: children, teenagers, adults, and older generation adults. / brainstormed lots of ideas: functionality, structure, size, and features of the lamp / We then organized the different ideas to enforce cohesion and develop a uniform design which not only helped organize our thoughts, but also visualize our team’s thoughts. / accumulation of ideas also comes indecisiveness and opposing choices / This led us to conduct market research on existing products and compare its user feedback. / We noticed that using color as a form of communication was common and intuitive hence the idea of mood rings and colors as representation of certain emotions. As we delved into color theory we realized the power that just colors can convey and decided to develop a color communication lamp. / We also then went back and refined our problem statement.</p>
 
+        <ImageGridVertical
+          images = {imgs.concept2}
+        />
+
+        <h3>Concept Generation</h3>
+        <p>refining the ideas + features</p>
+
+        <ImageGridVertical
+          images = {imgs.concept3}
+        />
+
+        <h3>Comparative Analysis</h3>
+        <p>moodboard</p>
+
+        <ImageGridHorizontal
+          images = {imgs.concept4}
+        />
+
+
+        <h3>Refined Focus Area</h3>
         <Quote
           quote = {"How can we create a meaningful yet effortless method of communication between older adults and their younger relatives that facilitates meaningful social connection and encourages phone conversation?"}
         />
@@ -110,14 +131,32 @@ function OldIsGold(props) {
           quote = {"How can we ensure our product encourages, not replaces, further interaction through phone conversation?"}
         />*/}
 
+        <h3>Sketches</h3>
+        <p></p>
+
+        <ImageGridVertical
+          images = {imgs.sketch}
+        />
+
+        <h3>Prototyping</h3>
+        <p></p>
+
+        <ImageGridVertical
+          images = {imgs.prototype}
+        />
+
+        <h3>Survey</h3>
+        <p>After recognizing we were making assumptions about which styles of lamps would be most aesthetically attractive for consumers, we constructed an ‘aesthetic survey,’ made up of approximately twenty images of lamp designs of various different styles. Every survey applicant was asked which age category they fit into, and was prompted to select their favorite lamp styles from the bunch.</p>
+        <p>Contrary to our initial presumption, after approximately 250 responses from users aged mostly from 13-59 years old, we discovered there was no discernible difference in aesthetic preference across different ages. Instead, people seemed to gravitate towards similar styles regardless of their age group.</p>
+
+        <ImageGridHorizontal
+          images = {imgs.survey2}
+        />
 
 
-
-
-
-
-
-
+        <h2>Third Iteration</h2>
+        <h3>Series</h3>
+        <p>We grouped the most preferred designs into style categories, which we each aptly call, a ‘series.’</p>
 
 
 {/* RESEARCH */}
