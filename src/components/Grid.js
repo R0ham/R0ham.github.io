@@ -36,7 +36,7 @@ function Grid(props) {
       <div className="about">
         <div className="about_text">
           <h1>Hello! My name is Roham.</h1>
-          <p>I love creating meaningful, long-lasting, and usable experiences. I am an <strong>experience-builder</strong> across physical and digital media.</p>
+          <p>I am a creative thinker, with strong visual and technical skills. In my free time, I like to learn and experience new activities! I recently wrote a short story, enjoyed paddle boarding for the first time, and continue to be an avid biker. I love well-told stories and will consume them in all forms. I like challenging myself to continuously grow and will frequently self-reflect to do so. I’m also passionate and driven, and will proactively find opportunity areas I want to participate in. I thrive most in freeform environments with close-knit teams.</p>
         </div>
       </div>
 
