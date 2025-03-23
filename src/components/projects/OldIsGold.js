@@ -25,13 +25,51 @@ function OldIsGold(props) {
         />
 
 
+
+{/* RESEARCH */}
+
+{/*Loneliness Among Older Adults -> Worsening Loneliness due to COVID-19 -> Older Adults Interactions with Technology
+
+A study performed by the American Association of Retired Persons (AARP) found that thirty-five percent of adults aged 45 and older are lonely (NASEM). And, unsurprisingly, the vast majority of these individuals who reported feeling lonely were also considered socially isolated (NASEM).
+
+older members of our society are much
+more likely to be socially isolated (NASEM)
+
+loss of friends or family—all of which are more prevalent at older ages—contribute to one's risk of feeling lonely (Hwang). Interestingly, untreated hearing loss is one of the key contributors to loneliness as it directly affects one's ability to have meaningful social interaction (CDC). 
+
+Given their susceptibility to serious COVID-19 infections, older adults are likely to be even more cut off from outside life” (Ducharme).
+
+older adults tend to get a lot of their social interaction from scheduled events at local resources such as recreation centers, community centers, and libraries (Span). And, due to the pandemic, many of these establishments have shut down. 
+
+the majority of them are virtual (Span). And these virtual programs don’t help a large portion of older adults (65+) “who told Pew Research that they were not confident about using digital technologies”(Span).
+
+before the pandemic, Zoom had engagement from only 3% of individuals older than 60 (Ness). 
+
+Not only does this create a bitter sentiment towards technology, but as this digital divide grows, it hinders the opportunity of the younger and older people of the world to connect.
+
+After all, a simple phone call with a relative is one of the single most effective ways of combating feelings of social isolation in older adults (Hwang). and function of technological substitutes not proven to be significant
+
+However, modern text-based communication methods don’t have the same social benefits as a phone call (Turkle). 
+
+Communication that someone is thinking of you, regardless of communication method, does help prevent loneliness (UK Government).
+
+So, alternate communication methods ​are​ a valid way to decrease feelings of social isolation and combat loneliness. The important thing is that these alternate forms of communication do not replace a phone call.
+
+As we age, our skin dries and it becomes harder to keep moisture in, which leads to difficulty operating touch screens (Consumer Reports). Other research also proved that touch-panels reduce age related differences for pointing tasks and provided the recommended dimensions of 16.5 mm x 16.5 mm and a maximum movement distance of 33 mm for touch screens (Murata). Another study concluded that the most ideal path for older adults to trace with the most accuracy on a touch screen was a spiral.*/}
+
+
+
+
+
         <h2>Background</h2>
-        <p>A collaborative experiment very much influenced by the global pandemic. The class was remote for nearly the full duration and team members were physically disparate from each other, with all of us being in our own hometowns. Our only constraint was to choose a current affairs topic as our central theme. Starting research confirmed what we were feeling ourselves, the pandemic was contributing to loneliness.</p>
+        <p>Our team's only constraint was to choose a "current affairs topic." At this point, we had no idea what the future held, and things were very much in flux from COVID-19. For now we were fully remote, each in our own home towns located physically disparate from each other, and very far from our fiercely collaborative design studio. We did not know how we would work together creatively in this environment. But this led us to think, what else has been dramatically affected by the pandemic?</p>
 
-        {/* especially the older generation age group. */}
-        {/*loneliness can lead to problematic health deterioration such as increases one's risk of premature death, dementia, heart disease, and stroke. Which is also associated with higher rates of depression, anxiety, suicide, and heart failure*/}
+        <h2>Research</h2>
+        <p>Quickly, we realized older adults, often more at risk for developing severe COVID-19 infections, were becoming increasingly socially isolated as they tried to mitigate risk of exposure. This social isolation drove up loneliness, which was already acutely felt by the older population before the pandemic began. Older adults tended to receive a lot of their social interactions from scheduled events at local establishments like community centers, and libraries. Many of these shut down and transitioned to virtual programming, which didn't help these older adults since many of them did not feel confident using digital technology (NASEM, CDC, Span).</p>
+        <p>Later on, we discovered research showing a simple phone call with a relative was one of the single most effective ways of combatting feelings of social isolation in older adults. Apparently, modern text-based communication methods don't have the same social benefits as a phone call. Technological substitutes have not been proven to be significant, but some sources say communication that someone is thinking of you, regardless of communication method, does help prevent loneliness (Hwang, Turkle, UK Government).</p>
 
-        <h2>Ethnography</h2>
+        <h3>Ethnography</h3>
+
 
         {/*Together, we developed three main research spaces including tangible objects that reduced the contamination caused by COVID, space designed to help prevent disease transmission, and lastly people and their interactions living in the COVID state. Each member took half an hour to research and observe the three spaces described above and came together to discuss our findings and areas of interest. Not only was this design method our first step to team development, but also our first interaction with our design space.*/}
 
@@ -159,42 +197,15 @@ function OldIsGold(props) {
         <p>We grouped the most preferred designs into style categories, which we each aptly call, a ‘series.’</p>
 
 
-{/* RESEARCH */}
 
-{/*Loneliness Among Older Adults -> Worsening Loneliness due to COVID-19 -> Older Adults Interactions with Technology
+        <h2>Reflection</h2>
+        <p></p>
 
-A study performed by the American Association of Retired Persons (AARP) found that thirty-five percent of adults aged 45 and older are lonely (NASEM). And, unsurprisingly, the vast majority of these individuals who reported feeling lonely were also considered socially isolated (NASEM).
-
-older members of our society are much
-more likely to be socially isolated (NASEM)
-
-The average age of retirement in the United States is 60-62 for women and 62-64 for men, which coincides with the spike in loneliness in the 65+ age group found by both the AARP and NASEM studies (Munnell).
-
-loss of friends or family—all of which are more prevalent at older ages—contribute to one's risk of feeling lonely (Hwang). Interestingly, untreated hearing loss is one of the key contributors to loneliness as it directly affects one's ability to have meaningful social interaction (CDC). 
-
-Given their susceptibility to serious COVID-19 infections, older adults are likely to be even more cut off from outside life” (Ducharme).
-
-older adults tend to get a lot of their social interaction from scheduled events at local resources such as recreation centers, community centers, and libraries (Span). And, due to the pandemic, many of these establishments have shut down. 
-
-the majority of them are virtual (Span). And these virtual programs don’t help a large portion of older adults (65+) “who told Pew Research that they were not confident about using digital technologies”(Span).
-
-before the pandemic, Zoom had engagement from only 3% of individuals older than 60 (Ness). 
-
-Not only does this create a bitter sentiment towards technology, but as this digital divide grows, it hinders the opportunity of the younger and older people of the world to connect.
-
-After all, a simple phone call with a relative is one of the single most effective ways of combating feelings of social isolation in older adults (Hwang). and function of technological substitutes not proven to be significant
-
-However, modern text-based communication methods don’t have the same social benefits as a phone call (Turkle). 
-
-Communication that someone is thinking of you, regardless of communication method, does help prevent loneliness (UK Government).
-
-So, alternate communication methods ​are​ a valid way to decrease feelings of social isolation and combat loneliness. The important thing is that these alternate forms of communication do not replace a phone call.
-
-As we age, our skin dries and it becomes harder to keep moisture in, which leads to difficulty operating touch screens (Consumer Reports). Other research also proved that touch-panels reduce age related differences for pointing tasks and provided the recommended dimensions of 16.5 mm x 16.5 mm and a maximum movement distance of 33 mm for touch screens (Murata). Another study concluded that the most ideal path for older adults to trace with the most accuracy on a touch screen was a spiral.*/}
-
-
-
-
+          extraordinarly successful
+          incredibly invigorating team collaboration - one of the best experiences I've ever had
+          dividing and conquering
+          diverging and converging - brainstorming and grouping
+          constantly getting feedback and reflecting on our approach, and constantly refining
 
 
 
