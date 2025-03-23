@@ -26,36 +26,36 @@ function OldIsGold(props) {
 
 
 
-{/* RESEARCH */}
+        {/* RESEARCH */}
 
-{/*Loneliness Among Older Adults -> Worsening Loneliness due to COVID-19 -> Older Adults Interactions with Technology
+        {/*Loneliness Among Older Adults -> Worsening Loneliness due to COVID-19 -> Older Adults Interactions with Technology
 
-A study performed by the American Association of Retired Persons (AARP) found that thirty-five percent of adults aged 45 and older are lonely (NASEM). And, unsurprisingly, the vast majority of these individuals who reported feeling lonely were also considered socially isolated (NASEM).
+        A study performed by the American Association of Retired Persons (AARP) found that thirty-five percent of adults aged 45 and older are lonely (NASEM). And, unsurprisingly, the vast majority of these individuals who reported feeling lonely were also considered socially isolated (NASEM).
 
-older members of our society are much
-more likely to be socially isolated (NASEM)
+        older members of our society are much
+        more likely to be socially isolated (NASEM)
 
-loss of friends or family—all of which are more prevalent at older ages—contribute to one's risk of feeling lonely (Hwang). Interestingly, untreated hearing loss is one of the key contributors to loneliness as it directly affects one's ability to have meaningful social interaction (CDC). 
+        loss of friends or family—all of which are more prevalent at older ages—contribute to one's risk of feeling lonely (Hwang). Interestingly, untreated hearing loss is one of the key contributors to loneliness as it directly affects one's ability to have meaningful social interaction (CDC). 
 
-Given their susceptibility to serious COVID-19 infections, older adults are likely to be even more cut off from outside life” (Ducharme).
+        Given their susceptibility to serious COVID-19 infections, older adults are likely to be even more cut off from outside life” (Ducharme).
 
-older adults tend to get a lot of their social interaction from scheduled events at local resources such as recreation centers, community centers, and libraries (Span). And, due to the pandemic, many of these establishments have shut down. 
+        older adults tend to get a lot of their social interaction from scheduled events at local resources such as recreation centers, community centers, and libraries (Span). And, due to the pandemic, many of these establishments have shut down. 
 
-the majority of them are virtual (Span). And these virtual programs don’t help a large portion of older adults (65+) “who told Pew Research that they were not confident about using digital technologies”(Span).
+        the majority of them are virtual (Span). And these virtual programs don’t help a large portion of older adults (65+) “who told Pew Research that they were not confident about using digital technologies”(Span).
 
-before the pandemic, Zoom had engagement from only 3% of individuals older than 60 (Ness). 
+        before the pandemic, Zoom had engagement from only 3% of individuals older than 60 (Ness). 
 
-Not only does this create a bitter sentiment towards technology, but as this digital divide grows, it hinders the opportunity of the younger and older people of the world to connect.
+        Not only does this create a bitter sentiment towards technology, but as this digital divide grows, it hinders the opportunity of the younger and older people of the world to connect.
 
-After all, a simple phone call with a relative is one of the single most effective ways of combating feelings of social isolation in older adults (Hwang). and function of technological substitutes not proven to be significant
+        After all, a simple phone call with a relative is one of the single most effective ways of combating feelings of social isolation in older adults (Hwang). and function of technological substitutes not proven to be significant
 
-However, modern text-based communication methods don’t have the same social benefits as a phone call (Turkle). 
+        However, modern text-based communication methods don’t have the same social benefits as a phone call (Turkle). 
 
-Communication that someone is thinking of you, regardless of communication method, does help prevent loneliness (UK Government).
+        Communication that someone is thinking of you, regardless of communication method, does help prevent loneliness (UK Government).
 
-So, alternate communication methods ​are​ a valid way to decrease feelings of social isolation and combat loneliness. The important thing is that these alternate forms of communication do not replace a phone call.
+        So, alternate communication methods ​are​ a valid way to decrease feelings of social isolation and combat loneliness. The important thing is that these alternate forms of communication do not replace a phone call.
 
-As we age, our skin dries and it becomes harder to keep moisture in, which leads to difficulty operating touch screens (Consumer Reports). Other research also proved that touch-panels reduce age related differences for pointing tasks and provided the recommended dimensions of 16.5 mm x 16.5 mm and a maximum movement distance of 33 mm for touch screens (Murata). Another study concluded that the most ideal path for older adults to trace with the most accuracy on a touch screen was a spiral.*/}
+        As we age, our skin dries and it becomes harder to keep moisture in, which leads to difficulty operating touch screens (Consumer Reports). Other research also proved that touch-panels reduce age related differences for pointing tasks and provided the recommended dimensions of 16.5 mm x 16.5 mm and a maximum movement distance of 33 mm for touch screens (Murata). Another study concluded that the most ideal path for older adults to trace with the most accuracy on a touch screen was a spiral.*/}
 
 
 
@@ -66,14 +66,14 @@ As we age, our skin dries and it becomes harder to keep moisture in, which leads
 
         <h2>Research</h2>
         <p>Quickly, we realized older adults, often more at risk for developing severe COVID-19 infections, were becoming increasingly socially isolated as they tried to mitigate risk of exposure. This social isolation drove up loneliness, which was already acutely felt by the older population before the pandemic began. Older adults tended to receive a lot of their social interactions from scheduled events at local establishments like community centers, and libraries. Many of these shut down and transitioned to virtual programming, which didn't help these older adults since many of them did not feel confident using digital technology (NASEM, CDC, Span).</p>
+
+        <h3>Future</h3>
         <p>Later on, we discovered research showing a simple phone call with a relative was one of the single most effective ways of combatting feelings of social isolation in older adults. Apparently, modern text-based communication methods don't have the same social benefits as a phone call. Technological substitutes have not been proven to be significant, but some sources say communication that someone is thinking of you, regardless of communication method, does help prevent loneliness (Hwang, Turkle, UK Government).</p>
 
         <h3>Ethnography</h3>
-
+        <p>Together, we developed three key areas: tangible objects, spaces, and people interactions. We wanted to investigate how these areas have changed in order to prevent COVID transmission. Each member took 30 minutes to research and observe these three on the Internet before coming together to discuss our findings. This practice of diverging and then converging together proved effective and was used throughout. We then went out into the world and observed our own distinct communities at a safe distance. The recreation center was closed and the library was empty, which confirmed our earlier research. We aimed to take more spatial photos and the backs of individuals, for not desiring to interrupt individual's privacy.</p>
 
         {/*Together, we developed three main research spaces including tangible objects that reduced the contamination caused by COVID, space designed to help prevent disease transmission, and lastly people and their interactions living in the COVID state. Each member took half an hour to research and observe the three spaces described above and came together to discuss our findings and areas of interest. Not only was this design method our first step to team development, but also our first interaction with our design space.*/}
-
-        <p>ethnography recreational spaces and libraries</p>
 
         {/* observed our physical surroundings and interactions (in our own communities. Capturing individuals would strengthen documentation on communal interaction, but also disturbs their privacy. Our team tried to cope with this by taking more images of the space or images of the backs of individuals rather than their faces.*/}
 
@@ -82,14 +82,16 @@ As we age, our skin dries and it becomes harder to keep moisture in, which leads
         />
 
         <h2>Focus Area</h2>
+        <p>Now more immersed in the problem space, and now having established foundational team dynamics, we chose to hone a problem statement.</p>
         <Quote
           quote = {"How can we change the dynamics of how the elderly interact or bond with their friends & family during the pandemic in a safe, contactless method?"}
         />
 
-
         <h2>Concept Generation</h2>
-        <p>objective tree method to brainstorm and generate the goals and objectives - key objectives -> filtering down to greater granularity -- understanding each other's visions and develop one cohesive one as a result</p>
-        <p>Each member wrote down any ideas that came to their mind within the time frame. After the 10 minutes, the team started to connect and develop the randomized ideas into a mind map.</p>
+        <p>We then used the objective tree method to brainstorm and generate the goals and objectives of the project. Starting at our key objectives and filtering down to greater granularity, this exercise helped us understand each others' visions and develop a cohesive framework for our direction.</p>
+        <p>We also brainstormed off the problem statement to gather starting ideas. For 10 minutes, each team member wrote up any that came to mind. Then we reconvened, and started to connect and develop the randomized ideas into a mind map.</p>
+        <p>With these activities, we often found ourselves in deep silent thought. In the future, we decided we would use "analogies" to build off each other's ideas. This would make sure no ideas were criticized or discouraged, would help everyone participate, and would also help us find deeper more complex evolutions of those ideas. In other words, it would help us be simultaneously more creative and collaborative.</p>
+
         {/*We often found ourselves in silent or deep thought. In the future, we decided it would be preferable to make analogies (direct, personal, symbolic, and fantasy), or ‘synectics.’ in building off of previous ideas. prevent a locked in mindset where we thinking in terms of objectives in mind and allow us to ensure no ideas are criticized or discouraged.*/}
 
         <ImageGridVertical
@@ -98,7 +100,7 @@ As we age, our skin dries and it becomes harder to keep moisture in, which leads
 
 
         <h2>Peer Feedback</h2>
-        <p>The group’s favorite idea initially was a magnetic game board that could be played with one person online and the other in real time physically. We decided to run a survey with our user group to see which of our ideas they liked best and the results indicated that they liked our touch lamp idea best.</p>
+        <p>The group’s favorite idea initially was a magnetic game board that could be played with one person online and the other in real time physically.</p>
 
 
 {/*        <p>online game then hybrid digital/physical game - all our ideas were based on the idea of connecting and engaging through games - and at first these were too technical and solution-focused</p>
@@ -130,8 +132,9 @@ As we age, our skin dries and it becomes harder to keep moisture in, which leads
           quote = "'I have been lonely before. I usually connect with my friends once and awhile when we go out and do something, never really over the phone. We use the phone to make plans and that's about it. But that has changed with COVID, now I text people a lot more. And I send pictures back and forth with... [my family friend]. I would like to be able to see more people physically. All these Zoom potlucks are getting exhausting. I don’t think I enjoy connecting with people online.'"
         />
 
+        {/*We decided to run a survey with our user group to see which of our ideas they liked best and the results indicated that they liked our touch lamp idea best.*/}
 
-        <p>After carefully evaluating the preliminary survey, the team unanimously believed the touch lamp idea offers the greatest potential. The users claimed it was a good method to increase connection and interaction with family members. They were able to visualize themselves interacting with it as if it were a normal lamp, but also a form of casual communication.</p>
+        <p>After carefully evaluating the preliminary survey, the team unanimously believed the touch lamp idea offers the greatest potential. The users claimed it was a good method to increase connection and interaction with family members. They were able to visualize themselves interacting with it as if it were a normal lamp, but also a form of casual communication. </p>
 
 
         <h2>Second Iteration</h2>
