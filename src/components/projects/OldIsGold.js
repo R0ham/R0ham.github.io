@@ -67,33 +67,29 @@ function OldIsGold(props) {
         <h2>Research</h2>
         <p>Quickly, we realized older adults, often more at risk for developing severe COVID-19 infections, were becoming increasingly socially isolated as they tried to mitigate risk of exposure. This social isolation drove up loneliness, which was already acutely felt by the older population before the pandemic began. Older adults tended to receive a lot of their social interactions from scheduled events at local establishments like community centers, and libraries. Many of these shut down and transitioned to virtual programming, which didn't help these older adults since many of them did not feel confident using digital technology (NASEM, CDC, Span).</p>
 
-        <h3>Future</h3>
-        <p>Later on, we discovered research showing a simple phone call with a relative was one of the single most effective ways of combatting feelings of social isolation in older adults. Apparently, modern text-based communication methods don't have the same social benefits as a phone call. Technological substitutes have not been proven to be significant, but some sources say communication that someone is thinking of you, regardless of communication method, does help prevent loneliness (Hwang, Turkle, UK Government).</p>
-
         <h3>Ethnography</h3>
-        <p>Together, we developed three key areas: tangible objects, spaces, and people interactions. We wanted to investigate how these areas have changed in order to prevent COVID transmission. Each member took 30 minutes to research and observe these three on the Internet before coming together to discuss our findings. This practice of diverging and then converging together proved effective and was used throughout. We then went out into the world and observed our own distinct communities at a safe distance. The recreation center was closed and the library was empty, which confirmed our earlier research. We aimed to take more spatial photos and the backs of individuals, for not desiring to interrupt individual's privacy.</p>
+        <p>Each member took 30 minutes to investigate online to see how tangible objects, spaces, and people interactions have changed to prevent COVID tranmission. We came together to discuss our findings, then split up again. This time, we went out into the world and observed our own individual communities. The recreation center was closed and the library was empty, which confirmed earlier research.</p>
 
         <ImageGridHorizontal
           images = {imgs.research}
         />
 
         <h2>Focus Area</h2>
-        <p>Now more immersed in the problem space, and now having established foundational team dynamics, we chose to hone a problem statement.</p>
+        <p>Now more immersed, and having established the foundations of our team dynamics, we chose to focus on a problem statement.</p>
         <Quote
           quote = {"How can we change the dynamics of how the elderly interact or bond with their friends & family during the pandemic in a safe, contactless method?"}
         />
 
         <h2>Concept Generation</h2>
-        <p>We then used the objective tree method to brainstorm and generate the goals and objectives of the project. Starting at our key objectives and filtering down to greater granularity, this exercise helped us understand each others' visions and develop a cohesive framework for our direction.</p>
-        <p>We also brainstormed off the problem statement to gather starting ideas. For 10 minutes, each team member wrote up any that came to mind. Then we reconvened, and started to connect and develop the randomized ideas into a mind map.</p>
-        <p>With these activities, we often found ourselves in deep silent thought. In the future, we decided we would use "analogies" to build off each other's ideas. This would make sure no ideas were criticized or discouraged, would help everyone participate, and would also help us find deeper more complex evolutions of those ideas. In other words, it would help us be simultaneously more creative and collaborative.</p>
+        <p>Starting at our key objectives and filtering down to greater granularity, we used the objective tree method to understand each others' visions and develop a singular direction. With our problem statement as the guiding question, we individually brainstormed for 10 minutes. When we reconvened, we organized these ideas and connected them into a mind map.</p>
+        <p>With these activities, we often found ourselves in deep silent thought. In the future, we decided to use "analogies" to build off each other's ideas. This would help us participate, prevent ideas from being criticized, and enable us to dig deeper. A simultaneous boon for creativity and collaboration.</p>
 
         <ImageGridVertical
           images = {imgs.concept1}
         />
 
         <h2>Peer Feedback</h2>
-        <p>All the brainstormed ideas ended up on a central theme: the thought of connecting and engaging through an online game. Feedback from our peers convinced us this would be too high-tech and difficult to learn. The team's favorite idea then became a hybrid magnetic game board where one person could play online and the other physically in real life.</p>
+        <p>Our ideas settled on connecting through an online game. Feedback from our peers convinced us this would be too high-tech and difficult to learn. The team's favorite idea then became a hybrid magnetic game board where one person could play online and the other physically in real life.</p>
 
         {/*<p>The group’s favorite idea initially was a magnetic game board that could be played with one person online and the other in real time physically.</p>*/}
 
@@ -196,19 +192,46 @@ function OldIsGold(props) {
 
 
         <h2>Third Iteration</h2>
-        <h3>Series</h3>
+        <h3>Series Thinking</h3>
         <p>We grouped the most preferred designs into style categories, which were each called a "series."</p>
+
+
+        <h3>Research</h3>
+        <p>Later on, we discovered research showing a simple phone call with a relative was one of the single most effective ways of combatting feelings of social isolation in older adults. Apparently, modern text-based communication methods don't have the same social benefits as a phone call. Technological substitutes have not been proven to be significant, but some sources say communication that someone is thinking of you, regardless of communication method, does help prevent loneliness (Hwang, Turkle, UK Government).</p>
+
+        {/*As we age, our skin dries and it becomes harder to keep moisture in, which leads to difficulty operating touch screens (Consumer Reports). Other research also proved that touch-panels reduce age related differences for pointing tasks and provided the recommended dimensions of 16.5 mm x 16.5 mm and a maximum movement distance of 33 mm for touch screens (Murata). Another study concluded that the most ideal path for older adults to trace with the most accuracy on a touch screen was a spiral.*/}
+
+
+        <h3>Unification</h3>
+        interface + base
+
+
+        <h3>User Journey</h3>
+        storyboard
+
+
+        <h3>Prototyping</h3>
+        base types
+
+
+        <h3>Revision</h3>
 
 
 
         <h2>Reflection</h2>
         <p></p>
 
-          extraordinarly successful
-          incredibly invigorating team collaboration - one of the best experiences I've ever had
-          dividing and conquering
-          diverging and converging - brainstorming and grouping
-          constantly getting feedback and reflecting on our approach, and constantly refining
+
+        not being stuck to a design process - constantly revisiting and reiterating
+        testing assumptions with users
+
+
+        together-but-separate teamwork which we found to be extremely effective in delivering fast paced
+        extraordinarly successful
+        incredibly invigorating team collaboration - one of the best experiences I've ever had
+        dividing and conquering
+        diverging and converging - brainstorming and grouping
+        constantly getting feedback and reflecting on our approach, and constantly refining
 
 
 
