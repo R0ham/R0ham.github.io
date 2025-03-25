@@ -73,10 +73,6 @@ function OldIsGold(props) {
         <h3>Ethnography</h3>
         <p>Together, we developed three key areas: tangible objects, spaces, and people interactions. We wanted to investigate how these areas have changed in order to prevent COVID transmission. Each member took 30 minutes to research and observe these three on the Internet before coming together to discuss our findings. This practice of diverging and then converging together proved effective and was used throughout. We then went out into the world and observed our own distinct communities at a safe distance. The recreation center was closed and the library was empty, which confirmed our earlier research. We aimed to take more spatial photos and the backs of individuals, for not desiring to interrupt individual's privacy.</p>
 
-        {/*Together, we developed three main research spaces including tangible objects that reduced the contamination caused by COVID, space designed to help prevent disease transmission, and lastly people and their interactions living in the COVID state. Each member took half an hour to research and observe the three spaces described above and came together to discuss our findings and areas of interest. Not only was this design method our first step to team development, but also our first interaction with our design space.*/}
-
-        {/* observed our physical surroundings and interactions (in our own communities. Capturing individuals would strengthen documentation on communal interaction, but also disturbs their privacy. Our team tried to cope with this by taking more images of the space or images of the backs of individuals rather than their faces.*/}
-
         <ImageGridHorizontal
           images = {imgs.research}
         />
@@ -92,16 +88,14 @@ function OldIsGold(props) {
         <p>We also brainstormed off the problem statement to gather starting ideas. For 10 minutes, each team member wrote up any that came to mind. Then we reconvened, and started to connect and develop the randomized ideas into a mind map.</p>
         <p>With these activities, we often found ourselves in deep silent thought. In the future, we decided we would use "analogies" to build off each other's ideas. This would make sure no ideas were criticized or discouraged, would help everyone participate, and would also help us find deeper more complex evolutions of those ideas. In other words, it would help us be simultaneously more creative and collaborative.</p>
 
-        {/*We often found ourselves in silent or deep thought. In the future, we decided it would be preferable to make analogies (direct, personal, symbolic, and fantasy), or ‘synectics.’ in building off of previous ideas. prevent a locked in mindset where we thinking in terms of objectives in mind and allow us to ensure no ideas are criticized or discouraged.*/}
-
         <ImageGridVertical
           images = {imgs.concept1}
         />
 
-
         <h2>Peer Feedback</h2>
-        <p>The group’s favorite idea initially was a magnetic game board that could be played with one person online and the other in real time physically.</p>
+        <p>All the brainstormed ideas ended up on a central theme: the thought of connecting and engaging through an online game. Feedback from our peers convinced us this would be too high-tech and difficult to learn. The team's favorite idea then became a hybrid magnetic game board where one person could play online and the other physically in real life.</p>
 
+        {/*<p>The group’s favorite idea initially was a magnetic game board that could be played with one person online and the other in real time physically.</p>*/}
 
 {/*        <p>online game then hybrid digital/physical game - all our ideas were based on the idea of connecting and engaging through games - and at first these were too technical and solution-focused</p>
         <p>wizard chess - The idea is that the in-person player can physically move while the opponent will have an integrated digital control that allows them to to move their piece on their laptop/tablet device, but signal the magnetic sensors on the physical chess board to physically move those chess pieces.</p>*/}
@@ -111,7 +105,7 @@ function OldIsGold(props) {
 
 
         <h2>Pivot</h2>
-        <p>After a period of rapid prototyping, we found ourselves feeling unsatisfied with our concepts and unconfident  our designs would satisfy our users needs and wants. We realized that our solutions were too designer-centric and needed additional user insight. To prevent early lock-in and ensure we wanted to take the route of games to help seniors cope with loneliness, we decided to take a step back and evaluate our plans. We created two rounds of surveying with the first asking general questions relating to the lifestyle of older adults. This survey then ended with an evaluation and test on three of our main prototype ideas we decided to move forth with.</p>
+        <p>But, after a period of rapid prototyping, we felt unsatisfied with our concepts and unconfident our designs would satisfy our users needs and wants. We realized our solutions were designer-centric and needed user insight, so we took a step back to prevent early lock-in. We tested a round of surveys on our close older adult family members, and then on a larger audience. We asked general questions about lifestyle and asked for evaulations on each of our prototype ideas. The aim of our survey design was to make this information digestible, and easy to answer (note the intentional lack of required fields).</p>
 
         {/*As mentioned earlier, our research said that older adults prefer card and physical strategy games. However, this was based on research, not from asking the people around us.*/}
 
@@ -128,40 +122,47 @@ function OldIsGold(props) {
           images = {imgs.survey1}
         />
 
+        <p>The survey results showed older adults did not spend a lot of their time playing games, and only enjoyed it when it enabled them to spend time with family and friends. But, importantly, they weren't fond of technology and often found it frustrating to adapt to.</p>
+
         <Quote
           quote = "'I have been lonely before. I usually connect with my friends once and awhile when we go out and do something, never really over the phone. We use the phone to make plans and that's about it. But that has changed with COVID, now I text people a lot more. And I send pictures back and forth with... [my family friend]. I would like to be able to see more people physically. All these Zoom potlucks are getting exhausting. I don’t think I enjoy connecting with people online.'"
         />
 
+        <p>We also found that phone calling was the preferred method for connecting with family members who were separated by distance when physical meeting wasn't an option. Of the prototype ideas, our survey results showed the "touch lamp" idea had the most potential. Respondees were able to *visualize* themselves interacting with it as not only a normal lamp but also a form of casual communication to family members.</p>
+
+
         {/*We decided to run a survey with our user group to see which of our ideas they liked best and the results indicated that they liked our touch lamp idea best.*/}
 
-        <p>After carefully evaluating the preliminary survey, the team unanimously believed the touch lamp idea offers the greatest potential. The users claimed it was a good method to increase connection and interaction with family members. They were able to visualize themselves interacting with it as if it were a normal lamp, but also a form of casual communication. </p>
+        {/*<p>After carefully evaluating the preliminary survey, the team unanimously believed the touch lamp idea offers the greatest potential. The users claimed it was a good method to increase connection and interaction with family members. They were able to visualize themselves interacting with it as if it were a normal lamp, but also a form of casual communication. </p>*/}
 
 
         <h2>Second Iteration</h2>
         <h3>Revised Stakeholders</h3>
-        <p>Narrowed our focus to grandparents and grandchildren. And increasingly, as we got further along our design process, we realized that since we were facilitating connections between younger and the older individuals, we were actually designing for more than one demographic. Revised stakeholders: “children/preteens” (1-12), “teens” (13-19), “adults” (20-60), and “older adults” (60+).</p>
-        <p>We assumed each category of the intended audience would have different preferences: children, teenagers, adults, and older generation adults. / brainstormed lots of ideas: functionality, structure, size, and features of the lamp / We then organized the different ideas to enforce cohesion and develop a uniform design which not only helped organize our thoughts, but also visualize our team’s thoughts. / accumulation of ideas also comes indecisiveness and opposing choices / This led us to conduct market research on existing products and compare its user feedback. / We noticed that using color as a form of communication was common and intuitive hence the idea of mood rings and colors as representation of certain emotions. As we delved into color theory we realized the power that just colors can convey and decided to develop a color communication lamp. / We also then went back and refined our problem statement.</p>
+        <p>We narrowed our focus to grandparents and grandchildren, and realized we were actually designing for more than one demographic. So we revised our stakeholders: children, teens, adults, and older adults. We assumed each would have different preferences, so we brainstormed many ideas around functionality, structure, size, and features. Here we realized color as a form of communication of emotions was common and intuitive and had a clear precedent (e.g. mood rings).</p>
+        {/*<p>We assumed each category of the intended audience would have different preferences: children, teenagers, adults, and older generation adults. / brainstormed lots of ideas: functionality, structure, size, and features of the lamp / We then organized the different ideas to enforce cohesion and develop a uniform design which not only helped organize our thoughts, but also visualize our team’s thoughts. / 
+
+        accumulation of ideas also comes indecisiveness and opposing choices / This led us to conduct market research on existing products and compare its user feedback. / We noticed that using color as a form of communication was common and intuitive hence the idea of mood rings and colors as representation of certain emotions. As we delved into color theory we realized the power that just colors can convey and decided to develop a color communication lamp. / We also then went back and refined our problem statement.</p>*/}
 
         <ImageGridVertical
           images = {imgs.concept2}
         />
 
-        <h3>Concept Generation</h3>
-        <p>refining the ideas + features</p>
+        <h3>Brand Cohesion</h3>
+        <p>We then organized these thoughts to refine our overall vision and ensure our different design ideas were cohesive.</p>
 
         <ImageGridVertical
           images = {imgs.concept3}
         />
 
         <h3>Comparative Analysis</h3>
-        <p>moodboard</p>
+        <p>With this accumulation of ideas, there was indecisiveness. To help define a direction, we conducted market research on existing products. Here we came up with our "Gold Star" method to further narrow choices. Each of us had a set number of "stars" they could give to their favorite designs. We did this anonymously, so we wouldn't be affected by others' choices. The ones with the most stars were selected.</p>
 
         <ImageGridHorizontal
           images = {imgs.concept4}
         />
 
-
         <h3>Refined Focus Area</h3>
+        <p>With everything we had learned, we revisited our problem statement. We decided our real intention was to facilitate a third-form of connection that would *encourage* and not replace phone conversation. Why? Phone calls already exist and they work really well! Why reinvent it? Instead, could we enable it, with something easy to learn and with a low-technological barrier to entry?</p>
         <Quote
           quote = {"How can we create a meaningful yet effortless method of communication between older adults and their younger relatives that facilitates meaningful social connection and encourages phone conversation?"}
         />
@@ -173,22 +174,21 @@ function OldIsGold(props) {
         />*/}
 
         <h3>Sketches</h3>
-        <p></p>
+        <p>We created detailed sketches showing the interactions we were imagining.</p>
 
         <ImageGridVertical
           images = {imgs.sketch}
         />
 
         <h3>Prototyping</h3>
-        <p></p>
+        <p>And then created a proof of concept.</p>
 
         <ImageGridVertical
           images = {imgs.prototype}
         />
 
         <h3>Survey</h3>
-        <p>After recognizing we were making assumptions about which styles of lamps would be most aesthetically attractive for consumers, we constructed an ‘aesthetic survey,’ made up of approximately twenty images of lamp designs of various different styles. Every survey applicant was asked which age category they fit into, and was prompted to select their favorite lamp styles from the bunch.</p>
-        <p>Contrary to our initial presumption, after approximately 250 responses from users aged mostly from 13-59 years old, we discovered there was no discernible difference in aesthetic preference across different ages. Instead, people seemed to gravitate towards similar styles regardless of their age group.</p>
+        <p>Again we realized we were making assumptions about which styles of lamps our users would gravitate towards. We created an "aesthetic" survey made up of 20 lamp design images of various styles. Respondees were asked to select their age category and their favorites of the bunch. Contrary to our initial hypothesis, after approximately 250 responses from users aged mostly from 13-59 years old, we discovered there was no discernible difference in aesthetic preference across age groups. Instead, people seemed to favor similar styles regardless of their age. The most preferred are below.</p>
 
         <ImageGridHorizontal
           images = {imgs.survey2}
@@ -197,7 +197,7 @@ function OldIsGold(props) {
 
         <h2>Third Iteration</h2>
         <h3>Series</h3>
-        <p>We grouped the most preferred designs into style categories, which we each aptly call, a ‘series.’</p>
+        <p>We grouped the most preferred designs into style categories, which were each called a "series."</p>
 
 
 
