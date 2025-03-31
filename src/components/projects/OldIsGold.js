@@ -180,43 +180,74 @@ function OldIsGold(props) {
         <p>And then created a proof of concept.</p>
 
         <ImageGridVertical
-          images = {imgs.prototype}
+          images = {imgs.prototype1}
         />
 
         <h3>Survey</h3>
-        <p>Again we realized we were making assumptions about which styles of lamps our users would gravitate towards. We created an "aesthetic" survey made up of 20 lamp design images of various styles. Respondees were asked to select their age category and their favorites of the bunch. Contrary to our initial hypothesis, after approximately 250 responses from users aged mostly from 13-59 years old, we discovered there was no discernible difference in aesthetic preference across age groups. Instead, people seemed to favor similar styles regardless of their age. The most preferred are below.</p>
+        <p>Again we realized we were making assumptions about which styles of lamps our users would gravitate towards. We created an "aesthetic" survey made up of 20 lamp design images of various styles. Respondees were asked to select their age category and their favorites of the bunch. Contrary to our initial hypothesis, after approximately 250 responses from users aged mostly from 13-59 years old, we discovered there was no discernible difference in aesthetic preference across age groups. Instead, people seemed to favor similar styles regardless of their age.</p>
 
-        <ImageGridHorizontal
-          images = {imgs.survey2}
-        />
 
 
         <h2>Third Iteration</h2>
         <h3>Series Thinking</h3>
-        <p>We grouped the most preferred designs into style categories, which were each called a "series."</p>
-
+        <p>The most preferred designs were grouped into style categories.</p>
+        <ImageGridHorizontal
+          images = {imgs.survey2}
+        />
 
         <h3>Research</h3>
-        <p>Later on, we discovered research showing a simple phone call with a relative was one of the single most effective ways of combatting feelings of social isolation in older adults. Apparently, modern text-based communication methods don't have the same social benefits as a phone call. Technological substitutes have not been proven to be significant, but some sources say communication that someone is thinking of you, regardless of communication method, does help prevent loneliness (Hwang, Turkle, UK Government).</p>
+        <p>We discovered a simple phone call with a relative was one of the single most effective ways of combatting feelings of social isolation in older adults. Apparently, modern text-based communication methods don't have the same social benefits as a phone call. Technological substitutes have not been proven to be significant, but some sources say communication that someone is thinking of you, regardless of communication method, does help prevent loneliness (Hwang, Turkle, UK Government).</p>
 
         {/*As we age, our skin dries and it becomes harder to keep moisture in, which leads to difficulty operating touch screens (Consumer Reports). Other research also proved that touch-panels reduce age related differences for pointing tasks and provided the recommended dimensions of 16.5 mm x 16.5 mm and a maximum movement distance of 33 mm for touch screens (Murata). Another study concluded that the most ideal path for older adults to trace with the most accuracy on a touch screen was a spiral.*/}
 
 
         <h3>Unification</h3>
         interface + base
+        <ImageGridVertical
+          images = {imgs.unify1}
+        />
 
+
+
+        <h3>Interaction</h3>
+        <ImageGridVertical
+          images = {imgs.prototype2}
+        />
+
+        <h3>Revision</h3>
+        <ImageGridVertical
+          images = {imgs.revision}
+        />
+
+
+        <h2>Final Proposal</h2>
+        <p></p>
 
         <h3>User Journey</h3>
         storyboard
+        <ImageGridHorizontal
+          images = {imgs.journey}
+        />
 
+        <h3>Metamorphic</h3>
+        <ImageGridVertical
+          images = {imgs.metamorphic}
+        />
 
-        <h3>Prototyping</h3>
-        base types
+        <h3>Modern</h3>
+        <ImageGridHorizontal
+          images = {imgs.modern}
+        />
 
+        <h3>Paper</h3>
+        <ImageGridVertical
+          images = {imgs.paper}
+        />
 
-        <h3>Revision</h3>
-
-
+        <h3>Mini</h3>
+        <ImageGridVertical
+          images = {imgs.mini}
+        />
 
         <h2>Reflection</h2>
         <p></p>

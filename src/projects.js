@@ -14,9 +14,26 @@ import oldisgold_concept3_2 from './images/projects/oldisgold/concept3_2.png';
 import oldisgold_concept4 from './images/projects/oldisgold/concept4.png';
 import oldisgold_sketch_1 from './images/projects/oldisgold/sketch_1.png';
 import oldisgold_sketch_2 from './images/projects/oldisgold/sketch_2.png';
-import oldisgold_prototype_1 from './images/projects/oldisgold/prototype_1.png';
-import oldisgold_prototype_2 from './images/projects/oldisgold/prototype_2.gif';
+import oldisgold_prototype1_1 from './images/projects/oldisgold/prototype1_1.png';
+import oldisgold_prototype1_2 from './images/projects/oldisgold/prototype1_2.gif';
 import oldisgold_survey2 from './images/projects/oldisgold/survey2.png';
+import oldisgold_unify1_1 from './images/projects/oldisgold/unify1_1.jpg';
+import oldisgold_unify1_2 from './images/projects/oldisgold/unify1_2.png';
+import oldisgold_journey from './images/projects/oldisgold/journey.png';
+import oldisgold_prototype2_1 from './images/projects/oldisgold/prototype2_1.png';
+import oldisgold_prototype2_2 from './images/projects/oldisgold/prototype2_2.png';
+
+import oldisgold_interaction_1 from './images/projects/oldisgold/interaction_1.png';
+import oldisgold_interaction_2 from './images/projects/oldisgold/interaction_2.png';
+
+import oldisgold_revision from './images/projects/oldisgold/revision.png';
+import oldisgold_metamorphic_1 from './images/projects/oldisgold/metamorphic_1.png';
+import oldisgold_metamorphic_2 from './images/projects/oldisgold/metamorphic_2.png';
+import oldisgold_modern from './images/projects/oldisgold/modern.png';
+import oldisgold_paper_1 from './images/projects/oldisgold/paper_1.png';
+import oldisgold_paper_2 from './images/projects/oldisgold/paper_2.png';
+import oldisgold_mini from './images/projects/oldisgold/mini.png';
+
 
 
 
@@ -207,13 +224,13 @@ export default {
             alt: "moon sketch",
           },
         ],
-        prototype: [
+        prototype1: [
           {
-            image: oldisgold_prototype_1,
+            image: oldisgold_prototype1_1,
             alt: "moon CAD",
           },
           {
-            image: oldisgold_prototype_2,
+            image: oldisgold_prototype1_2,
             alt: "moon prototype",
           },
         ],
@@ -223,6 +240,86 @@ export default {
             alt: "most preferred designs",
           },
         ],
+        unify1: [
+          {
+            image: oldisgold_unify1_1,
+            alt: "interface sketch",
+          },
+          // {
+          //   image: oldisgold_unify1_2,
+          //   alt: "base sketch",
+          // },
+          {
+            image: oldisgold_prototype2_2,
+            alt: "base CAD iterations",
+          },
+          {
+            image: oldisgold_prototype2_1,
+            alt: "wood prototype of base",
+          },
+
+        ],
+        journey: [
+          {
+            image: oldisgold_journey,
+            alt: "user journey",
+          },
+        ],
+        prototype2: [
+          {
+            image: oldisgold_interaction_1,
+            alt: "tactile idea for interface",
+          },
+          {
+            image: oldisgold_interaction_2,
+            alt: "final base",
+          },
+        ],
+        revision: [
+          {
+            image: oldisgold_revision,
+            alt: "series revision",
+          },
+
+
+
+        ],
+        metamorphic: [
+          {
+            image: oldisgold_metamorphic_1,
+            alt: "metamorphic lamp series (closed)",
+          },
+          {
+            image: oldisgold_metamorphic_2,
+            alt: "metamorphic lamp series (open)",
+          },
+        ],
+        modern: [
+          {
+            image: oldisgold_modern,
+            alt: "modern lamp series",
+          },
+        ],
+        paper: [
+          {
+            image: oldisgold_paper_1,
+            alt: "paper lamp series type 1",
+          },
+          {
+            image: oldisgold_paper_2,
+            alt: "paper lamp series type 2",
+          },
+        ],
+        mini: [
+          {
+            image: oldisgold_mini,
+            alt: "mini lamp series",
+          },
+        ],
+
+
+
+
 
 
       }],
