@@ -261,6 +261,20 @@ footer {
 
 .canvas_page_header img {
   border-radius: var(--border-radius);
+  // max-height: 60vh;
+}
+
+.canvas_large {
+  display: flex;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+
+  border-radius: var(--border-radius);
+
+  // potential idea!!:
+  // border-top-left-radius: 0;
+  // border-bottom-right-radius: 0;
 }
 
 .canvas_large img {
@@ -277,13 +291,7 @@ footer {
 // }
 
 .canvas_vertical {
-  display: flex;
   justify-content: space-between;
-  margin: 0;
-  padding: 0;
-
-  overflow: hidden;
-  border-radius: var(--border-radius);
 
   .canvas:not(:last-child) {
     padding-right: 5px;
@@ -292,13 +300,7 @@ footer {
 }
 
 .canvas_horizontal {
-  display: flex;
   flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-
-  overflow: hidden;
-  border-radius: var(--border-radius);
 
   .canvas:not(:last-child) {
     padding-right: 5px;
@@ -781,6 +783,7 @@ footer {
       text-transform: uppercase;
       font-size: 1.0rem;
       margin-top: 25px;
+      // margin-bottom: 5px;
 
       // margin-top: 35px;
       // margin-bottom: 0;

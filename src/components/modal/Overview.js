@@ -33,7 +33,7 @@ function Overview(props) {
       <ScrollToTop/>
 
 
-      <li className="canvas canvas_page_header canvas_large">
+      <li className="canvas canvas_page_header">
         <Zoom>
           <img src={image} alt={title}/>
         </Zoom>
