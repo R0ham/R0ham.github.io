@@ -14,8 +14,12 @@ import oldisgold_concept3_2 from './images/projects/oldisgold/concept3_2.png';
 import oldisgold_concept4 from './images/projects/oldisgold/concept4.png';
 import oldisgold_sketch_1 from './images/projects/oldisgold/sketch_1.png';
 import oldisgold_sketch_2 from './images/projects/oldisgold/sketch_2.png';
+
 import oldisgold_prototype1_1 from './images/projects/oldisgold/prototype1_1.png';
-import oldisgold_prototype1_2 from './images/projects/oldisgold/prototype1_2.gif';
+// import oldisgold_prototype1_2 from './images/projects/oldisgold/prototype1_2.gif';
+import oldisgold_prototype1_2 from './images/projects/oldisgold/prototype1_2.png';
+import oldisgold_prototype1_3 from './images/projects/oldisgold/prototype1_3.png';
+
 import oldisgold_survey2 from './images/projects/oldisgold/survey2.png';
 import oldisgold_unify1_1 from './images/projects/oldisgold/unify1_1.jpg';
 import oldisgold_unify1_2 from './images/projects/oldisgold/unify1_2.png';
@@ -227,11 +231,15 @@ export default {
         prototype1: [
           {
             image: oldisgold_prototype1_1,
-            alt: "moon CAD",
+            alt: "moon prototype (open)",
           },
           {
             image: oldisgold_prototype1_2,
-            alt: "moon prototype",
+            alt: "moon prototype (halfway)",
+          },
+          {
+            image: oldisgold_prototype1_3,
+            alt: "moon prototype (closed)",
           },
         ],
         survey2: [
