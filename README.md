@@ -17,3 +17,5 @@ You will also see any lint errors in the console.
 ### `npm run deploy`
 
 Publish website to GitHub Pages.
+
+#### Note: nightmode toggle requires dependency changes - keep package-lock.json
