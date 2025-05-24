@@ -21,6 +21,11 @@
     "use-dark-mode": "^2.3.1",
     "web-vitals": "^4.2.4"
   },
+  "overrides": {
+    "use-dark-mode": {
+      "react": "^18.0.0 || ^19.0.0"
+    }
+  },
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
