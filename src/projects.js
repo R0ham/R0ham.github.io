@@ -22,10 +22,10 @@ import oldisgold_prototype1_3 from './images/projects/oldisgold/prototype1_3.png
 
 import oldisgold_survey2 from './images/projects/oldisgold/survey2.png';
 import oldisgold_unify1_1 from './images/projects/oldisgold/unify1_1.jpg';
-import oldisgold_unify1_2 from './images/projects/oldisgold/unify1_2.png';
+// import oldisgold_unify1_2 from './images/projects/oldisgold/unify1_2.png';
 import oldisgold_journey from './images/projects/oldisgold/journey.png';
 import oldisgold_prototype2_1 from './images/projects/oldisgold/prototype2_1.png';
-import oldisgold_prototype2_2 from './images/projects/oldisgold/prototype2_2.png';
+// import oldisgold_prototype2_2 from './images/projects/oldisgold/prototype2_2.png';
 
 import oldisgold_interaction_1 from './images/projects/oldisgold/interaction_1.png';
 import oldisgold_interaction_2 from './images/projects/oldisgold/interaction_2.png';
@@ -257,10 +257,10 @@ export default {
           //   image: oldisgold_unify1_2,
           //   alt: "base sketch",
           // },
-          {
-            image: oldisgold_prototype2_2,
-            alt: "base CAD iterations",
-          },
+          // {
+          //   image: oldisgold_prototype2_2,
+          //   alt: "base CAD iterations",
+          // },
           {
             image: oldisgold_prototype2_1,
             alt: "wood prototype of base",

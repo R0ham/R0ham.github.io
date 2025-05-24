@@ -170,14 +170,14 @@ function OldIsGold(props) {
         />*/}
 
         <h3>Sketches</h3>
-        <p>We created detailed sketches showing the interactions we were imagining.</p>
+        {/*<p>We created detailed sketches showing the interactions we were imagining.</p>*/}
 
         <ImageGridVertical
           images = {imgs.sketch}
         />
 
         <h3>Prototyping</h3>
-        <p>And then created a proof of concept.</p>
+        {/*<p>And then created a proof of concept.</p>*/}
 
         <ImageGridVertical
           images = {imgs.prototype1}
@@ -202,7 +202,7 @@ function OldIsGold(props) {
 
 
         <h3>Unification</h3>
-        interface + base
+        {/*interface + base*/}
         <ImageGridVertical
           images = {imgs.unify1}
         />
@@ -215,7 +215,7 @@ function OldIsGold(props) {
         />
 
         <h3>Revision</h3>
-        <ImageGridVertical
+        <ImageGridHorizontal
           images = {imgs.revision}
         />
 
