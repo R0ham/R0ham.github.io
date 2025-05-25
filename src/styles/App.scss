@@ -26,6 +26,7 @@
   // --dark-overlay: rgba(241, 126, 126, 0.9);
 
   --border-radius: 15px;
+  --border-image: 3px;
 }
 
 /*
@@ -294,7 +295,7 @@ footer {
   justify-content: space-between;
 
   .canvas:not(:last-child) {
-    padding-right: 5px;
+    padding-right: var(--border-image);
     flex-grow: 1;
   }
 }
@@ -303,8 +304,8 @@ footer {
   flex-wrap: wrap;
 
   .canvas:not(:last-child) {
-    padding-right: 5px;
-    padding-bottom: 5px;
+    padding-right: var(--border-image);
+    padding-bottom: var(--border-image);
   }
 
   .canvas:nth-child(2n) {
@@ -325,7 +326,7 @@ footer {
 
   @media screen and (max-width: 850px) {
     .canvas:not(:last-child) {
-      padding-bottom: 5px;
+      padding-bottom: var(--border-image);
       padding-right: 0;
     }
 
