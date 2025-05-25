@@ -1,6 +1,8 @@
 import React from 'react';
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// HashRouter is used purposefully here to properly serve routes on GitHub Pages, as a single-page application
+//   otherwise, GitHub Pages will attempt to route to static files on the server when given a route
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Grid from './Grid.js';
 
 import OldIsGold from './projects/OldIsGold.js';
@@ -15,7 +17,7 @@ import useDarkMode from 'use-dark-mode';
 
 // import data from '../projects.js';
 import '../styles/App.scss';
- 
+
 function App() {
   const darkMode = useDarkMode(false);
 
@@ -27,7 +29,7 @@ function App() {
   // ));
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="navbar">
         <DarkModeToggle
           onChange={darkMode.toggle}
@@ -50,7 +52,7 @@ function App() {
         </Routes>
       </div>
 
-    </BrowserRouter>
+    </HashRouter>
   );
 }
  
