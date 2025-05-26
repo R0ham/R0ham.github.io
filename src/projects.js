@@ -212,22 +212,13 @@ export default {
         ],
         unify1: [
           {
-            image: cache["oldisgold_unify1_1"],
-            alt: "interface sketch",
-          },
-          // {
-          //   image: oldisgold_unify1_2,
-          //   alt: "base sketch",
-          // },
-          // {
-          //   image: oldisgold_prototype2_2,
-          //   alt: "base CAD iterations",
-          // },
-          {
             image: cache["oldisgold_prototype2_1"],
             alt: "wood prototype of base",
           },
-
+          {
+            image: cache["oldisgold_unify1_1"],
+            alt: "interface sketch",
+          },
         ],
         journey: [
           {
@@ -237,12 +228,12 @@ export default {
         ],
         prototype2: [
           {
-            image: cache["oldisgold_interaction_1"],
-            alt: "tactile idea for interface",
-          },
-          {
             image: cache["oldisgold_interaction_2"],
             alt: "final base",
+          },
+          {
+            image: cache["oldisgold_interaction_1"],
+            alt: "tactile idea for interface",
           },
         ],
         revision: [

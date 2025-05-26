@@ -70,7 +70,7 @@ function OldIsGold(props) {
         <h3>Ethnography</h3>
         <p>Each member took 30 minutes to investigate online to see how tangible objects, spaces, and people interactions have changed to prevent COVID tranmission. We came together to discuss our findings, then split up again. This time, we went out into the world and observed our own individual communities. The recreation center was closed and the library was empty, which confirmed earlier research.</p>
 
-        <ImageGridHorizontal
+        <ImageGridVertical
           images = {imgs.research}
         />
 
@@ -84,7 +84,7 @@ function OldIsGold(props) {
         <p>Starting at our key objectives and filtering down to greater granularity, we used the objective tree method to understand each others' visions and develop a singular direction. With our problem statement as the guiding question, we individually brainstormed for 10 minutes. When we reconvened, we organized these ideas and connected them into a mind map.</p>
         <p>With these activities, we often found ourselves in deep silent thought. In the future, we decided to use "analogies" to build off each other's ideas. This would help us participate, prevent ideas from being criticized, and enable us to dig deeper. A simultaneous boon for creativity and collaboration.</p>
 
-        <ImageGridVertical
+        <ImageGridHorizontal
           images = {imgs.concept1}
         />
 
@@ -131,6 +131,7 @@ function OldIsGold(props) {
 
         {/*<p>After carefully evaluating the preliminary survey, the team unanimously believed the touch lamp idea offers the greatest potential. The users claimed it was a good method to increase connection and interaction with family members. They were able to visualize themselves interacting with it as if it were a normal lamp, but also a form of casual communication. </p>*/}
 
+        {/* ------ */}
 
         <h2>Second Iteration</h2>
         <h3>Revised Stakeholders</h3>
@@ -139,7 +140,7 @@ function OldIsGold(props) {
 
         accumulation of ideas also comes indecisiveness and opposing choices / This led us to conduct market research on existing products and compare its user feedback. / We noticed that using color as a form of communication was common and intuitive hence the idea of mood rings and colors as representation of certain emotions. As we delved into color theory we realized the power that just colors can convey and decided to develop a color communication lamp. / We also then went back and refined our problem statement.</p>*/}
 
-        <ImageGridVertical
+        <ImageGridHorizontal
           images = {imgs.concept2}
         />
 
@@ -172,7 +173,7 @@ function OldIsGold(props) {
         <h3>Sketches</h3>
         {/*<p>We created detailed sketches showing the interactions we were imagining.</p>*/}
 
-        <ImageGridVertical
+        <ImageGridHorizontal
           images = {imgs.sketch}
         />
 
@@ -186,8 +187,6 @@ function OldIsGold(props) {
         <h3>Survey</h3>
         <p>Again we realized we were making assumptions about which styles of lamps our users would gravitate towards. We created an "aesthetic" survey made up of 20 lamp design images of various styles. Respondees were asked to select their age category and their favorites of the bunch. Contrary to our initial hypothesis, after approximately 250 responses from users aged mostly from 13-59 years old, we discovered there was no discernible difference in aesthetic preference across age groups. Instead, people seemed to favor similar styles regardless of their age.</p>
 
-
-
         <h2>Third Iteration</h2>
         <h3>Series Thinking</h3>
         <p>The most preferred designs were grouped into style categories.</p>
@@ -200,14 +199,11 @@ function OldIsGold(props) {
 
         {/*As we age, our skin dries and it becomes harder to keep moisture in, which leads to difficulty operating touch screens (Consumer Reports). Other research also proved that touch-panels reduce age related differences for pointing tasks and provided the recommended dimensions of 16.5 mm x 16.5 mm and a maximum movement distance of 33 mm for touch screens (Murata). Another study concluded that the most ideal path for older adults to trace with the most accuracy on a touch screen was a spiral.*/}
 
-
         <h3>Unification</h3>
         {/*interface + base*/}
         <ImageGridVertical
           images = {imgs.unify1}
         />
-
-
 
         <h3>Interaction</h3>
         <ImageGridVertical
@@ -219,6 +215,7 @@ function OldIsGold(props) {
           images = {imgs.revision}
         />
 
+        {/* ------ */}
 
         <h2>Final Proposal</h2>
         <p></p>
@@ -248,6 +245,8 @@ function OldIsGold(props) {
         <ImageGridVertical
           images = {imgs.mini}
         />
+
+        {/* ------ */}
 
         <h2>Reflection</h2>
         <p></p>

@@ -291,8 +291,14 @@ footer {
 //   border-radius: var(--border-radius);
 // }
 
+
+// Canvas vertical and horizontal images have a fixed height for now to ensure they scale properly, and don't break brick format
 .canvas_vertical {
   justify-content: space-between;
+
+  img {
+    height: 30vh;
+  }
 
   .canvas:not(:last-child) {
     padding-right: var(--border-image);
@@ -302,6 +308,10 @@ footer {
 
 .canvas_horizontal {
   flex-wrap: wrap;
+
+  img {
+    height: 40vh;
+  }
 
   .canvas:not(:last-child) {
     padding-right: var(--border-image);
