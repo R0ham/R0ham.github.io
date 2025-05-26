@@ -1,6 +1,17 @@
 
 // Import all images in bulk, traverse over all images in folder (including subdirectories)
 //   and nicely cleans up the variables, so they can be easily called
+//
+//   here's the syntax required to call an image from the ./images/projects directory:
+//     - if image file path is:
+//         ./images/projects/oldisgold_cover.png -> cache["oldisgold_cover"]
+//     - if image is under a project subdirectory, and the file path is:
+//         ./images/projects/oldisgold/research_1.png -> cache["oldisgold_research_1"]
+//
+//   in other words, follow the naming and nesting conventions of the images folder,
+//     then the image becomes easy to call - use the project name, underscore,
+//     then the filename (without the file extension)
+
 var cache = {};
 function importAll(img) {
   img.keys().forEach((key) => { 
