@@ -62,34 +62,34 @@ function OldIsGold(props) {
 
 
         <h2>Background</h2>
-        <p>Our team's only constraint was to choose a "current affairs topic." At this point, we had no idea what the future held, and things were very much in flux from COVID-19. For now we were fully remote, each in our own home towns located physically disparate from each other, and very far from our fiercely collaborative design studio. We did not know how we would work together creatively in this environment. But this led us to think, what else has been dramatically affected by the pandemic?</p>
+        <p>Our team was asked to choose a "current affairs topic." At this point, we had no idea what the future held, and things were very much in flux from COVID-19. For now we were fully remote, each back in our own hometowns located physically disparate from each other, and very far from our fiercely collaborative design studio. We did not know how we would work together creatively in this environment. But this led us to think, what else had been dramatically affected by the pandemic?</p>
 
         <h2>Research</h2>
-        <p>Quickly, we realized older adults, often more at risk for developing severe COVID-19 infections, were becoming increasingly socially isolated as they tried to mitigate risk of exposure. This social isolation drove up loneliness, which was already acutely felt by the older population before the pandemic began. Older adults tended to receive a lot of their social interactions from scheduled events at local establishments like community centers, and libraries. Many of these shut down and transitioned to virtual programming, which didn't help these older adults since many of them did not feel confident using digital technology (NASEM, CDC, Span).</p>
+        <p>Quickly we realized older adults, often more at risk for developing severe COVID-19 infections, were becoming increasingly socially isolated as they tried to mitigate risk of exposure. This social isolation drove up loneliness, past already high levels from before the pandemic. Older adults tended to receive a lot of their social interactions from scheduled events at local establishments like community centers, and libraries. Many of these shut down and transitioned to virtual programming, which didn't help these older adults since many of them did not feel confident using digital technology (NASEM, CDC, Span).</p>
 
         <h3>Ethnography</h3>
-        <p>Each member took 30 minutes to investigate online to see how tangible objects, spaces, and people interactions have changed to prevent COVID tranmission. We came together to discuss our findings, then split up again. This time, we went out into the world and observed our own individual communities. The recreation center was closed and the library was empty, which confirmed earlier research.</p>
+        <p>Each member took 30 minutes to investigate online to see how objects, spaces, and people interactions had tangibly changed to prevent COVID transmission. We came together to discuss our findings, then split up again. This time, we went out into the world and observed our own individual communities. Our local recreation center was closed and the library was empty, which confirmed earlier research.</p>
 
         <ImageGridVertical
           images = {imgs.research}
         />
 
         <h2>Focus Area</h2>
-        <p>Now more immersed, and having established the foundations of our team dynamics, we chose to focus on a problem statement.</p>
+        <p>Now more immersed, and having established the foundations of our team dynamic, we chose a problem statement to focus our work.</p>
         <Quote
           quote = {"How can we change the dynamics of how the elderly interact or bond with their friends & family during the pandemic in a safe, contactless method?"}
         />
 
         <h2>Concept Generation</h2>
-        <p>Starting at our key objectives and filtering down to greater granularity, we used the objective tree method to understand each others' visions and develop a singular direction. With our problem statement as the guiding question, we individually brainstormed for 10 minutes. When we reconvened, we organized these ideas and connected them into a mind map.</p>
-        <p>With these activities, we often found ourselves in deep silent thought. In the future, we decided to use "analogies" to build off each other's ideas. This would help us participate, prevent ideas from being criticized, and enable us to dig deeper. A simultaneous boon for creativity and collaboration.</p>
+        <p>We settled on key goals, and drew up a tree of objectives, which filtered down to greater granularity. This helped us understand each others' visions and develop a singular collective direction. Then, using our problem statement as the guiding question, we individually brainstormed ideas for 10 minutes. When we reconvened, we organized these thoughts into a mind map of connections.</p>
+        <p>With these activities, we often found ourselves in deep silent thought. In the future, we decided to use "analogies" to build off one another. We reasoned this would help us participate equally, prevent ideas from being criticized, and enable us to dig deeper.</p>
 
         <ImageGridHorizontal
           images = {imgs.concept1}
         />
 
         <h2>Peer Feedback</h2>
-        <p>Our ideas settled on connecting through an online game. Feedback from our peers convinced us this would be too high-tech and difficult to learn. The team's favorite idea then became a hybrid magnetic game board where one person could play online and the other physically in real life.</p>
+        <p>Our ideas culminated on connecting through an online game. But, feedback from our peers convinced us this would be too high-tech and difficult to learn. So our preference shifted to a hybrid magnetic game board where one person could play online and the other physically in real life.</p>
 
         {/*<p>The group’s favorite idea initially was a magnetic game board that could be played with one person online and the other in real time physically.</p>*/}
 
@@ -101,7 +101,8 @@ function OldIsGold(props) {
 
 
         <h2>Pivot</h2>
-        <p>But, after a period of rapid prototyping, we felt unsatisfied with our concepts and unconfident our designs would satisfy our users needs and wants. We realized our solutions were designer-centric and needed user insight, so we took a step back to prevent early lock-in. We tested a round of surveys on our close older adult family members, and then on a larger audience. We asked general questions about lifestyle and asked for evaulations on each of our prototype ideas. The aim of our survey design was to make this information digestible, and easy to answer (note the intentional lack of required fields).</p>
+        <p>After a period of rapid prototyping, we felt unsatisfied with our concepts and unconfident our designs would satisfy the needs and wants of our target audience. We realized our solutions were too designer-centric and needed user insight, so we took a step back to prevent early stage lock-in. We tested a round of surveys on our close older adult family members, before sharing it broadly.</p>
+        <p>We asked general questions about lifestyle and asked for evaulations on each of our prototype ideas. The aim of our survey design was to make this information digestible, and easy to answer (note the intentional lack of required fields).</p>
 
         {/*As mentioned earlier, our research said that older adults prefer card and physical strategy games. However, this was based on research, not from asking the people around us.*/}
 
@@ -118,13 +119,13 @@ function OldIsGold(props) {
           images = {imgs.survey1}
         />
 
-        <p>The survey results showed older adults did not spend a lot of their time playing games, and only enjoyed it when it enabled them to spend time with family and friends. But, importantly, they weren't fond of technology and often found it frustrating to adapt to.</p>
+        <p>The survey results showed older adults did not spend a lot of their time playing games, and only enjoyed them when it enabled spending time with family and friends. But, most importantly, they weren't fond of technology and often found it frustrating to adapt to, which meant learning a new game/interface would likely be burdensome.</p>
 
         <Quote
-          quote = "'I have been lonely before. I usually connect with my friends once and awhile when we go out and do something, never really over the phone. We use the phone to make plans and that's about it. But that has changed with COVID, now I text people a lot more. And I send pictures back and forth with... [my family friend]. I would like to be able to see more people physically. All these Zoom potlucks are getting exhausting. I don’t think I enjoy connecting with people online.'"
+          quote = "A survey respondent - 'I have been lonely before. I usually connect with my friends once and awhile when we go out and do something, never really over the phone. We use the phone to make plans and that's about it. But that has changed with COVID, now I text people a lot more. And I send pictures back and forth with... [my family friend]. I would like to be able to see more people physically. All these Zoom potlucks are getting exhausting. I don’t think I enjoy connecting with people online.'"
         />
 
-        <p>We also found that phone calling was the preferred method for connecting with family members who were separated by distance when physical meeting wasn't an option. Of the prototype ideas, our survey results showed the "touch lamp" idea had the most potential. Respondees were able to *visualize* themselves interacting with it as not only a normal lamp but also a form of casual communication to family members.</p>
+        <p>We also found phone calling was the preferred method for connecting with family members when physically meeting wasn't an option. Of the prototype ideas, our survey results showed the "touch lamp" idea had the most potential. Respondees were able to *visualize* themselves interacting with it as a normal lamp and as a form of casual communication to family members.</p>
 
 
         {/*We decided to run a survey with our user group to see which of our ideas they liked best and the results indicated that they liked our touch lamp idea best.*/}
@@ -135,7 +136,7 @@ function OldIsGold(props) {
 
         <h2>Second Iteration</h2>
         <h3>Revised Stakeholders</h3>
-        <p>We narrowed our focus to grandparents and grandchildren, and realized we were actually designing for more than one demographic. So we revised our stakeholders: children, teens, adults, and older adults. We assumed each would have different preferences, so we brainstormed many ideas around functionality, structure, size, and features. Here we realized color as a form of communication of emotions was common and intuitive and had a clear precedent (e.g. mood rings).</p>
+        <p>We narrowed our focus to grandparents and grandchildren, and realized we were actually designing for more than one demographic. So we revised our stakeholders to children, teens, adults, and older adults. We assumed each would have different preferences, so we brainstormed many ideas around functionality, structure, size, and features. Here we realized color as a way to communicate emotions was common, intuitive, and had a clear precedent (e.g. mood rings).</p>
         {/*<p>We assumed each category of the intended audience would have different preferences: children, teenagers, adults, and older generation adults. / brainstormed lots of ideas: functionality, structure, size, and features of the lamp / We then organized the different ideas to enforce cohesion and develop a uniform design which not only helped organize our thoughts, but also visualize our team’s thoughts. / 
 
         accumulation of ideas also comes indecisiveness and opposing choices / This led us to conduct market research on existing products and compare its user feedback. / We noticed that using color as a form of communication was common and intuitive hence the idea of mood rings and colors as representation of certain emotions. As we delved into color theory we realized the power that just colors can convey and decided to develop a color communication lamp. / We also then went back and refined our problem statement.</p>*/}
@@ -152,14 +153,14 @@ function OldIsGold(props) {
         />
 
         <h3>Comparative Analysis</h3>
-        <p>With this accumulation of ideas, there was indecisiveness. To help define a direction, we conducted market research on existing products. Here we came up with our "Gold Star" method to further narrow choices. Each of us had a set number of "stars" they could give to their favorite designs. We did this anonymously, so we wouldn't be affected by others' choices. The ones with the most stars were selected.</p>
+        <p>With this many ideas, we became indecisive. To move forward, we conducted market research on existing products. Here we came up with our "Gold Star" method to narrow down choices. Each of us had a set number of "stars" they could give to their favorite designs. We did this anonymously, so we wouldn't be affected by others' choices. The ones with the most stars were selected.</p>
 
         <ImageGridHorizontal
           images = {imgs.concept4}
         />
 
         <h3>Refined Focus Area</h3>
-        <p>With everything we had learned, we revisited our problem statement. We decided our real intention was to facilitate a third-form of connection that would *encourage* and not replace phone conversation. Why? Phone calls already exist and they work really well! Why reinvent it? Instead, could we enable it, with something easy to learn and with a low-technological barrier to entry?</p>
+        <p>We decided to revisit our problem statement to build in everything we had learned. We realized our real intention was to facilitate a third-form of connection that would *encourage* and not replace phone conversation. Why? Because phone calls are familiar and already work really well!</p>
         <Quote
           quote = {"How can we create a meaningful yet effortless method of communication between older adults and their younger relatives that facilitates meaningful social connection and encourages phone conversation?"}
         />
@@ -171,6 +172,7 @@ function OldIsGold(props) {
         />*/}
 
         <h3>Sketches</h3>
+        <p>Detailed sketches helped flesh out our Plant and Moon lamps. The idea was: could we create an engaging and rewarding experience by having the lamps become *alive* when interacted with. In other words, by having a plant bloom, and having a moon become full.</p>
         {/*<p>We created detailed sketches showing the interactions we were imagining.</p>*/}
 
         <ImageGridHorizontal
@@ -178,14 +180,16 @@ function OldIsGold(props) {
         />
 
         <h3>Prototyping</h3>
-        {/*<p>And then created a proof of concept.</p>*/}
+        <p>Wood, foamcore, and paper origami was used to prove the mechanics of the concept.</p>
 
         <ImageGridVertical
           images = {imgs.prototype1}
         />
 
         <h3>Survey</h3>
-        <p>Again we realized we were making assumptions about which styles of lamps our users would gravitate towards. We created an "aesthetic" survey made up of 20 lamp design images of various styles. Respondees were asked to select their age category and their favorites of the bunch. Contrary to our initial hypothesis, after approximately 250 responses from users aged mostly from 13-59 years old, we discovered there was no discernible difference in aesthetic preference across age groups. Instead, people seemed to favor similar styles regardless of their age.</p>
+        <p>Pausing again, we realized we had made assumptions about lamps our users would enjoy. We created an "aesthetic" survey made up of 20 images of lamp design styles. Respondees were asked to select an age category and choose favorites.</p>
+
+        <p>Contrary to our initial hypothesis, approximately 250 responses from users mostly 13-59 years old showed there was no discernible difference in aesthetic preference. Instead, people seemed to favor similar styles regardless of age group.</p>
 
         <h2>Third Iteration</h2>
         <h3>Series Thinking</h3>
@@ -195,22 +199,23 @@ function OldIsGold(props) {
         />
 
         <h3>Research</h3>
-        <p>We discovered a simple phone call with a relative was one of the single most effective ways of combatting feelings of social isolation in older adults. Apparently, modern text-based communication methods don't have the same social benefits as a phone call. Technological substitutes have not been proven to be significant, but some sources say communication that someone is thinking of you, regardless of communication method, does help prevent loneliness (Hwang, Turkle, UK Government).</p>
-
-        {/*As we age, our skin dries and it becomes harder to keep moisture in, which leads to difficulty operating touch screens (Consumer Reports). Other research also proved that touch-panels reduce age related differences for pointing tasks and provided the recommended dimensions of 16.5 mm x 16.5 mm and a maximum movement distance of 33 mm for touch screens (Murata). Another study concluded that the most ideal path for older adults to trace with the most accuracy on a touch screen was a spiral.*/}
+        <p>Additional research confirmed a simple phone call with a relative was one of the single most effective ways of combatting feelings of social isolation in older adults. Apparently, modern text-based communication methods don't have the same social benefits. Although technological substitutes have not been proven to be significant, some sources say communication that someone is thinking of you, regardless of communication method, does help prevent loneliness (Hwang, Turkle, UK Government).</p>
+        <p>We also learned with age, our skin dries and it becomes harder to keep moisture in, which leads to difficulty operating touch screens. Other research proved the recommended dimensions to reduce age related differences with touch-panels were 16.5mm x 16.5mm, with a maximum movement distance of 33mm. And the most ideal path for older adults to trace with the greatest accuracy on a touch screen was a spiral (Consumer Reports, Murata, Heintz).</p>
 
         <h3>Unification</h3>
-        {/*interface + base*/}
+        <p>With these insights, we created prototypes for our unifying elements across the lamp styles - the base and the interface. A balsa wood mount helped test for optimal surface incline, and a sketch of the interface, inspired by classic tactile click dials like the iPod, would allow a user to select a color and brightness to communicate.</p>
         <ImageGridVertical
           images = {imgs.unify1}
         />
 
         <h3>Interaction</h3>
+        <p>CAD prototyping helped further refine the interaction. Beveled edges, Braille-inspired dots, and material differences were added to create textural differentiation between components. The goal was to enhance the sensory experience and make it clear what was being interacted with through touch.</p>
         <ImageGridVertical
           images = {imgs.prototype2}
         />
 
         <h3>Revision</h3>
+        <p>The earlier style categories, and continued emphasis on consistent elements were used to create a throughline between lamp series categories.</p>
         <ImageGridHorizontal
           images = {imgs.revision}
         />
@@ -218,10 +223,8 @@ function OldIsGold(props) {
         {/* ------ */}
 
         <h2>Final Proposal</h2>
-        <p></p>
-
         <h3>User Journey</h3>
-        storyboard
+        <p>The storyboard illustrates a grandparent and a grandchild connecting through a pair of touch lamps.</p>
         <ImageGridHorizontal
           images = {imgs.journey}
         />

@@ -117,10 +117,7 @@ export default {
       "CAD designer",
       ],
 
-      overview: "Older adults (60+) have historically reported high levels of loneliness for a variety of factors, including age-related disability and living situation. Social distancing policies enacted to limit the spread of COVID-19, ended up exacerbating these conditions. This project seeks to establish new modes of social interaction between older adults and family/friends, to help mitigate feelings of social isolation within the context of the global pandemic.",
-
-
-
+      overview: "Older adults (60+) have historically reported high levels of loneliness for a variety of factors, including age-related disability and living situation. Social distancing policies enacted to limit the spread of COVID-19, exacerbated these conditions unintentionally. This project sought to establish new modes of social interaction between older adults and family/friends, to help mitigate feelings of social isolation within the context of the global pandemic especially.",
 
       images: [{
 
