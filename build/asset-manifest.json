@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5b3c83e8.css",
-    "main.js": "/static/js/main.2bb76967.js",
+    "main.js": "/static/js/main.528e1fa7.js",
     "static/js/488.1446b851.chunk.js": "/static/js/488.1446b851.chunk.js",
     "static/media/mini.png": "/static/media/mini.9cc45c90f853dab1faa2.png",
     "static/media/modern.png": "/static/media/modern.d62148ec3894fe87210f.png",
@@ -46,15 +46,19 @@
     "static/media/survey1_1.png": "/static/media/survey1_1.1236253d81b3f70d39a7.png",
     "static/media/pushpin_cover.png": "/static/media/pushpin_cover.a0ae8bc574b5d3ab04b3.png",
     "static/media/survey1_2.png": "/static/media/survey1_2.5ea5dba887ef8d2934dd.png",
+    "static/media/----unify1_1.png": "/static/media/----unify1_1.a3dbffbd32d890bd0104.png",
     "static/media/degreezy_cover.png": "/static/media/degreezy_cover.972f79aa77ff30e32064.png",
+    "static/media/----prototype1_1.png": "/static/media/----prototype1_1.ddec3a3a6e5751f88fd6.png",
     "static/media/outcome_3.jpg": "/static/media/outcome_3.2493549ec945b78044e0.jpg",
+    "static/media/----prototype2_2.png": "/static/media/----prototype2_2.9775d8f6db3fed8a4b81.png",
+    "static/media/----unify1_2.png": "/static/media/----unify1_2.aa9adc187748a6349ea0.png",
     "index.html": "/index.html",
     "main.5b3c83e8.css.map": "/static/css/main.5b3c83e8.css.map",
-    "main.2bb76967.js.map": "/static/js/main.2bb76967.js.map",
+    "main.528e1fa7.js.map": "/static/js/main.528e1fa7.js.map",
     "488.1446b851.chunk.js.map": "/static/js/488.1446b851.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b3c83e8.css",
-    "static/js/main.2bb76967.js"
+    "static/js/main.528e1fa7.js"
   ]
 }
