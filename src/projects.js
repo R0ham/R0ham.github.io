@@ -1,61 +1,25 @@
-import oldisgold_cover from './images/projects/oldisgold_cover.png';
-import oldisgold_research_1 from './images/projects/oldisgold/research_1.png';
-import oldisgold_research_2 from './images/projects/oldisgold/research_2.png';
-import oldisgold_research_3 from './images/projects/oldisgold/research_3.png';
-import oldisgold_research_4 from './images/projects/oldisgold/research_4.png';
-import oldisgold_concept1_1 from './images/projects/oldisgold/concept1_1.png';
-import oldisgold_concept1_2 from './images/projects/oldisgold/concept1_2.png';
-import oldisgold_survey1_1 from './images/projects/oldisgold/survey1_1.png';
-import oldisgold_survey1_2 from './images/projects/oldisgold/survey1_2.png';
-import oldisgold_concept2_1 from './images/projects/oldisgold/concept2_1.png';
-import oldisgold_concept2_2 from './images/projects/oldisgold/concept2_2.png';
-import oldisgold_concept3_1 from './images/projects/oldisgold/concept3_1.png';
-import oldisgold_concept3_2 from './images/projects/oldisgold/concept3_2.png';
-import oldisgold_concept4 from './images/projects/oldisgold/concept4.png';
-import oldisgold_sketch_1 from './images/projects/oldisgold/sketch_1.png';
-import oldisgold_sketch_2 from './images/projects/oldisgold/sketch_2.png';
 
-import oldisgold_prototype1_1 from './images/projects/oldisgold/prototype1_1.png';
-// import oldisgold_prototype1_2 from './images/projects/oldisgold/prototype1_2.gif';
-import oldisgold_prototype1_2 from './images/projects/oldisgold/prototype1_2.png';
-import oldisgold_prototype1_3 from './images/projects/oldisgold/prototype1_3.png';
+// Import all images in bulk, traverse over all images in folder (including subdirectories)
+//   and nicely cleans up the variables, so they can be easily called
+var cache = {};
+function importAll(img) {
+  img.keys().forEach((key) => { 
+    // save off source path of the image
+    const source = img(key);
 
-import oldisgold_survey2 from './images/projects/oldisgold/survey2.png';
-import oldisgold_unify1_1 from './images/projects/oldisgold/unify1_1.jpg';
-// import oldisgold_unify1_2 from './images/projects/oldisgold/unify1_2.png';
-import oldisgold_journey from './images/projects/oldisgold/journey.png';
-import oldisgold_prototype2_1 from './images/projects/oldisgold/prototype2_1.png';
-// import oldisgold_prototype2_2 from './images/projects/oldisgold/prototype2_2.png';
+    // clean up image key, to make it easy to locate
+    key = key.replace('./', '');
+    key = key.replace('.png', '');
+    key = key.replace('.jpg', '');
+    key = key.replace('.svg', '');
+    key = key.replace('/', '_');
+    cache[key] = source;
 
-import oldisgold_interaction_1 from './images/projects/oldisgold/interaction_1.png';
-import oldisgold_interaction_2 from './images/projects/oldisgold/interaction_2.png';
+  });
+}
 
-import oldisgold_revision from './images/projects/oldisgold/revision.png';
-import oldisgold_metamorphic_1 from './images/projects/oldisgold/metamorphic_1.png';
-import oldisgold_metamorphic_2 from './images/projects/oldisgold/metamorphic_2.png';
-import oldisgold_modern from './images/projects/oldisgold/modern.png';
-import oldisgold_paper_1 from './images/projects/oldisgold/paper_1.png';
-import oldisgold_paper_2 from './images/projects/oldisgold/paper_2.png';
-import oldisgold_mini from './images/projects/oldisgold/mini.png';
-
-
-
-
-
-import zoom_cover from './images/projects/zoom_cover.png';
-import degreezy_cover from './images/projects/degreezy_cover.png';
-import nook_cover from './images/projects/nook_cover.jpg';
-import pushpin_cover from './images/projects/pushpin_cover.png';
-
-import magnet_cover from './images/projects/magnet_cover.jpg';
-import magnet_focus_1 from './images/projects/magnet/focus_1.jpg';
-import magnet_focus_2 from './images/projects/magnet/focus_2.jpg';
-import magnet_process_1 from './images/projects/magnet/process_1.jpg';
-import magnet_outcome_1 from './images/projects/magnet/outcome_1.jpg';
-import magnet_outcome_2 from './images/projects/magnet/outcome_2.jpg';
-import magnet_outcome_3 from './images/projects/magnet/outcome_3.jpg';
-
-// const oldisgold_imgs = './images/projects/oldisgold/';
+importAll(require.context('./images/projects', true, /\.(png|jpe?g|svg)$/));
+// console.log(cache);
 
 
 export default {
@@ -129,7 +93,7 @@ export default {
     {
       id: 0,
       link: "/oldisgold",
-      image: oldisgold_cover,
+      image: cache["oldisgold_cover"],
       title: "Old is Gold",
       tagline: "using design to connect generations",
 
@@ -151,106 +115,93 @@ export default {
 
         research: [
           {
-            image: oldisgold_research_1,
+            image: cache["oldisgold_research_1"],
             alt: "recreational center",
           },
-          // {
-          //   image: oldisgold_research_2,
-          //   alt: "recreational center pool",
-          // },
           {
-            image: oldisgold_research_3,
+            image: cache["oldisgold_research_3"],
             alt: "library",
           },
-          // {
-          //   image: oldisgold_research_4,
-          //   alt: "library board",
-          // },
-
-          // {
-          //   image: `${oldisgold_imgs}research_1.png`,
-          //   alt: "hgfghfhgf sketch",
-          // },
         ],
         concept1: [
           {
-            image: oldisgold_concept1_1,
+            image: cache["oldisgold_concept1_1"],
             alt: "objective tree",
           },
           {
-            image: oldisgold_concept1_2,
+            image: cache["oldisgold_concept1_2"],
             alt: "mindmap",
           },
         ],
         survey1: [
           {
-            image: oldisgold_survey1_1,
+            image: cache["oldisgold_survey1_1"],
             alt: "survey general questions",
           },
           {
-            image: oldisgold_survey1_2,
+            image: cache["oldisgold_survey1_2"],
             alt: "survey artifact questions",
           }
         ],
         concept2: [
           {
-            image: oldisgold_concept2_1,
+            image: cache["oldisgold_concept2_1"],
             alt: "sketches",
           },
           {
-            image: oldisgold_concept2_2,
+            image: cache["oldisgold_concept2_2"],
             alt: "graph",
           },
         ],
         concept3: [
           {
-            image: oldisgold_concept3_1,
+            image: cache["oldisgold_concept3_1"],
             alt: "feature ideas",
           },
           {
-            image: oldisgold_concept3_2,
+            image: cache["oldisgold_concept3_2"],
             alt: "deciding",
           },
         ],
         concept4: [
           {
-            image: oldisgold_concept4,
+            image: cache["oldisgold_concept4"],
             alt: "moodboard",
           },
         ],
         sketch: [
           {
-            image: oldisgold_sketch_1,
+            image: cache["oldisgold_sketch_1"],
             alt: "plant sketch",
           },
           {
-            image: oldisgold_sketch_2,
+            image: cache["oldisgold_sketch_2"],
             alt: "moon sketch",
           },
         ],
         prototype1: [
           {
-            image: oldisgold_prototype1_1,
+            image: cache["oldisgold_prototype1_1"],
             alt: "moon prototype (open)",
           },
           {
-            image: oldisgold_prototype1_2,
+            image: cache["oldisgold_prototype1_2"],
             alt: "moon prototype (halfway)",
           },
           {
-            image: oldisgold_prototype1_3,
+            image: cache["oldisgold_prototype1_3"],
             alt: "moon prototype (closed)",
           },
         ],
         survey2: [
           {
-            image: oldisgold_survey2,
+            image: cache["oldisgold_survey2"],
             alt: "most preferred designs",
           },
         ],
         unify1: [
           {
-            image: oldisgold_unify1_1,
+            image: cache["oldisgold_unify1_1"],
             alt: "interface sketch",
           },
           // {
@@ -262,30 +213,30 @@ export default {
           //   alt: "base CAD iterations",
           // },
           {
-            image: oldisgold_prototype2_1,
+            image: cache["oldisgold_prototype2_1"],
             alt: "wood prototype of base",
           },
 
         ],
         journey: [
           {
-            image: oldisgold_journey,
+            image: cache["oldisgold_journey"],
             alt: "user journey",
           },
         ],
         prototype2: [
           {
-            image: oldisgold_interaction_1,
+            image: cache["oldisgold_interaction_1"],
             alt: "tactile idea for interface",
           },
           {
-            image: oldisgold_interaction_2,
+            image: cache["oldisgold_interaction_2"],
             alt: "final base",
           },
         ],
         revision: [
           {
-            image: oldisgold_revision,
+            image: cache["oldisgold_revision"],
             alt: "series revision",
           },
 
@@ -294,33 +245,33 @@ export default {
         ],
         metamorphic: [
           {
-            image: oldisgold_metamorphic_1,
+            image: cache["oldisgold_metamorphic_1"],
             alt: "metamorphic lamp series (closed)",
           },
           {
-            image: oldisgold_metamorphic_2,
+            image: cache["oldisgold_metamorphic_2"],
             alt: "metamorphic lamp series (open)",
           },
         ],
         modern: [
           {
-            image: oldisgold_modern,
+            image: cache["oldisgold_modern"],
             alt: "modern lamp series",
           },
         ],
         paper: [
           {
-            image: oldisgold_paper_1,
+            image: cache["oldisgold_paper_1"],
             alt: "paper lamp series type 1",
           },
           {
-            image: oldisgold_paper_2,
+            image: cache["oldisgold_paper_2"],
             alt: "paper lamp series type 2",
           },
         ],
         mini: [
           {
-            image: oldisgold_mini,
+            image: cache["oldisgold_mini"],
             alt: "mini lamp series",
           },
         ],
@@ -339,7 +290,7 @@ export default {
     {
       id: 1,
       link: "/zoom",
-      image: zoom_cover,
+      image: cache["zoom_cover"],
       title: "Zoom++",
       tagline: "education within the remote world",
 
@@ -355,7 +306,7 @@ export default {
     {
       id: 2,
       link: "/degreezy",
-      image: degreezy_cover,
+      image: cache["degreezy_cover"],
       title: "Degreezy",
       tagline: "a friendly degree planner",
 
@@ -373,7 +324,7 @@ export default {
     {
       id: 3,
       link: "/nookhook",
-      image: nook_cover,
+      image: cache["nook_cover"],
       title: "Nook Hook",
       tagline: "combatting everyday annoyances",
 
@@ -389,7 +340,7 @@ export default {
     {
       id: 4,
       link: "/pushpin",
-      image: pushpin_cover,
+      image: cache["pushpin_cover"],
       title: "PushPin",
       tagline: "digital poster bulletin board",
 
@@ -406,7 +357,7 @@ export default {
     {
       id: 5,
       link: "/magnet",
-      image: magnet_cover,
+      image: cache["magnet_cover"],
       title: "Magnet",
       tagline: "privacy within shared accommodations",
 
@@ -430,33 +381,33 @@ export default {
 
         focus: [
           {
-            image: magnet_focus_1,
+            image: cache["magnet_focus_1"],
             alt: "chair sketch",
           },
           {
-            image: magnet_focus_2,
+            image: cache["magnet_focus_2"],
             alt: "bench sketch",
           },
         ],
 
         process: [
           {
-            image: magnet_process_1,
+            image: cache["magnet_process_1"],
             alt: "magnet mindmap",
           },
         ],
 
         outcome: [
           {
-            image: magnet_outcome_1,
+            image: cache["magnet_outcome_1"],
             alt: "magnet alternate views",
           },
           {
-            image: magnet_outcome_2,
+            image: cache["magnet_outcome_2"],
             alt: "magnet main components",
           },
           {
-            image: magnet_outcome_3,
+            image: cache["magnet_outcome_3"],
             alt: "magnet door sketch",
           },
         ],
