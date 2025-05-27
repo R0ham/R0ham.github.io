@@ -24,43 +24,6 @@ function OldIsGold(props) {
           data = {data.projects[curr_id]}
         />
 
-
-
-        {/* RESEARCH */}
-
-        {/*Loneliness Among Older Adults -> Worsening Loneliness due to COVID-19 -> Older Adults Interactions with Technology
-
-        A study performed by the American Association of Retired Persons (AARP) found that thirty-five percent of adults aged 45 and older are lonely (NASEM). And, unsurprisingly, the vast majority of these individuals who reported feeling lonely were also considered socially isolated (NASEM).
-
-        older members of our society are much
-        more likely to be socially isolated (NASEM)
-
-        loss of friends or family—all of which are more prevalent at older ages—contribute to one's risk of feeling lonely (Hwang). Interestingly, untreated hearing loss is one of the key contributors to loneliness as it directly affects one's ability to have meaningful social interaction (CDC). 
-
-        Given their susceptibility to serious COVID-19 infections, older adults are likely to be even more cut off from outside life” (Ducharme).
-
-        older adults tend to get a lot of their social interaction from scheduled events at local resources such as recreation centers, community centers, and libraries (Span). And, due to the pandemic, many of these establishments have shut down. 
-
-        the majority of them are virtual (Span). And these virtual programs don’t help a large portion of older adults (65+) “who told Pew Research that they were not confident about using digital technologies”(Span).
-
-        before the pandemic, Zoom had engagement from only 3% of individuals older than 60 (Ness). 
-
-        Not only does this create a bitter sentiment towards technology, but as this digital divide grows, it hinders the opportunity of the younger and older people of the world to connect.
-
-        After all, a simple phone call with a relative is one of the single most effective ways of combating feelings of social isolation in older adults (Hwang). and function of technological substitutes not proven to be significant
-
-        However, modern text-based communication methods don’t have the same social benefits as a phone call (Turkle). 
-
-        Communication that someone is thinking of you, regardless of communication method, does help prevent loneliness (UK Government).
-
-        So, alternate communication methods ​are​ a valid way to decrease feelings of social isolation and combat loneliness. The important thing is that these alternate forms of communication do not replace a phone call.
-
-        As we age, our skin dries and it becomes harder to keep moisture in, which leads to difficulty operating touch screens (Consumer Reports). Other research also proved that touch-panels reduce age related differences for pointing tasks and provided the recommended dimensions of 16.5 mm x 16.5 mm and a maximum movement distance of 33 mm for touch screens (Murata). Another study concluded that the most ideal path for older adults to trace with the most accuracy on a touch screen was a spiral.*/}
-
-
-
-
-
         <h2>Background</h2>
         <p>Our team was asked to choose a "current affairs topic." At this point, we had no idea what the future held, and things were very much in flux from COVID-19. For now we were fully remote, each back in our own hometowns located physically disparate from each other, and very far from our fiercely collaborative design studio. We did not know how we would work together creatively in this environment. But this led us to think, what else had been dramatically affected by the pandemic?</p>
 
@@ -91,29 +54,13 @@ function OldIsGold(props) {
         <h2>Peer Feedback</h2>
         <p>Our ideas culminated on connecting through an online game. But, feedback from our peers convinced us this would be too high-tech and difficult to learn. So our preference shifted to a hybrid magnetic game board where one person could play online and the other physically in real life.</p>
 
-        {/*<p>The group’s favorite idea initially was a magnetic game board that could be played with one person online and the other in real time physically.</p>*/}
-
-{/*        <p>online game then hybrid digital/physical game - all our ideas were based on the idea of connecting and engaging through games - and at first these were too technical and solution-focused</p>
-        <p>wizard chess - The idea is that the in-person player can physically move while the opponent will have an integrated digital control that allows them to to move their piece on their laptop/tablet device, but signal the magnetic sensors on the physical chess board to physically move those chess pieces.</p>*/}
-        {/*pitched our idea to the class and met with design thinking stakeholders*/}
-        {/*consider a social science approach and that our current design was too high tech for our uses, older generation adults would have to overcome learning new interfaces and interacting with touchscreens*/}
         {/*To take into consideration users who dislike games, the team also developed a touch lamp scheme that allows for communication between two people using a synchronous lamp to provide visual light signals to each other.*/}
-
 
         <h2>Pivot</h2>
         <p>After a period of rapid prototyping, we felt unsatisfied with our concepts and unconfident our designs would satisfy the needs and wants of our target audience. We realized our solutions were too designer-centric and needed user insight, so we took a step back to prevent early stage lock-in. We tested a round of surveys on our close older adult family members, before sharing it broadly.</p>
         <p>We asked general questions about lifestyle and asked for evaulations on each of our prototype ideas. The aim of our survey design was to make this information digestible, and easy to answer (note the intentional lack of required fields).</p>
 
-        {/*As mentioned earlier, our research said that older adults prefer card and physical strategy games. However, this was based on research, not from asking the people around us.*/}
-
         {/*Our ideas changed drastically from initially being an online game, then moving to a hybrid of online and tangible object game, and now to focusing on communication and connection through an object.*/}
-
-        {/*From the results we learned that unlike what we have intended, older adults do not spend a lot of their time playing games and only enjoy it as a form of spending time with their family and friends. In fact, they weren’t fond of technology. They find it frustrating to adapt to technology, often requiring help from their family to set up their phones or download apps.*/}
-
-        {/*Phone calling was a preferred method for connecting with family members who were separated by distance when physically meeting isn’t an option.*/}
-
-        {/*used close family members as a "beta" test to refine these questions and to give to a larger audience*/}
-
 
         <ImageGridVertical
           images = {imgs.survey1}
@@ -127,19 +74,11 @@ function OldIsGold(props) {
 
         <p>We also found phone calling was the preferred method for connecting with family members when physically meeting wasn't an option. Of the prototype ideas, our survey results showed the "touch lamp" idea had the most potential. Respondees were able to *visualize* themselves interacting with it as a normal lamp and as a form of casual communication to family members.</p>
 
-
-        {/*We decided to run a survey with our user group to see which of our ideas they liked best and the results indicated that they liked our touch lamp idea best.*/}
-
-        {/*<p>After carefully evaluating the preliminary survey, the team unanimously believed the touch lamp idea offers the greatest potential. The users claimed it was a good method to increase connection and interaction with family members. They were able to visualize themselves interacting with it as if it were a normal lamp, but also a form of casual communication. </p>*/}
-
         {/* ------ */}
 
         <h2>Second Iteration</h2>
         <h3>Revised Stakeholders</h3>
         <p>We narrowed our focus to grandparents and grandchildren, and realized we were actually designing for more than one demographic. So we revised our stakeholders to children, teens, adults, and older adults. We assumed each would have different preferences, so we brainstormed many ideas around functionality, structure, size, and features. Here we realized color as a way to communicate emotions was common, intuitive, and had a clear precedent (e.g. mood rings).</p>
-        {/*<p>We assumed each category of the intended audience would have different preferences: children, teenagers, adults, and older generation adults. / brainstormed lots of ideas: functionality, structure, size, and features of the lamp / We then organized the different ideas to enforce cohesion and develop a uniform design which not only helped organize our thoughts, but also visualize our team’s thoughts. / 
-
-        accumulation of ideas also comes indecisiveness and opposing choices / This led us to conduct market research on existing products and compare its user feedback. / We noticed that using color as a form of communication was common and intuitive hence the idea of mood rings and colors as representation of certain emotions. As we delved into color theory we realized the power that just colors can convey and decided to develop a color communication lamp. / We also then went back and refined our problem statement.</p>*/}
 
         <ImageGridHorizontal
           images = {imgs.concept2}
@@ -173,7 +112,6 @@ function OldIsGold(props) {
 
         <h3>Sketches</h3>
         <p>Detailed sketches helped flesh out our Plant and Moon lamps. The idea was: could we create an engaging and rewarding experience by having the lamps become *alive* when interacted with. In other words, by having a plant bloom, and having a moon become full.</p>
-        {/*<p>We created detailed sketches showing the interactions we were imagining.</p>*/}
 
         <ImageGridHorizontal
           images = {imgs.sketch}
@@ -230,21 +168,25 @@ function OldIsGold(props) {
         />
 
         <h3>Metamorphic</h3>
+        <p>Premium moving elements that animate when a light message is transmitted.</p>
         <ImageGridVertical
           images = {imgs.metamorphic}
         />
 
         <h3>Modern</h3>
+        <p>Minimalist lamps with exposed bulbs for a contemporary feel.</p>
         <ImageGridHorizontal
           images = {imgs.modern}
         />
 
         <h3>Paper</h3>
+        <p>Functional and conventional lamps with patterned or origami paper shades.</p>
         <ImageGridVertical
           images = {imgs.paper}
         />
 
         <h3>Mini</h3>
+        <p>Soft plastic, rounded edges, and pastel colors. Battery powered and can be cradled.</p>
         <ImageGridVertical
           images = {imgs.mini}
         />
@@ -252,21 +194,10 @@ function OldIsGold(props) {
         {/* ------ */}
 
         <h2>Reflection</h2>
-        <p></p>
-
-
-        not being stuck to a design process - constantly revisiting and reiterating
-        testing assumptions with users
-
-
-        together-but-separate teamwork which we found to be extremely effective in delivering fast paced
-        extraordinarly successful
-        incredibly invigorating team collaboration - one of the best experiences I've ever had
-        dividing and conquering
-        diverging and converging - brainstorming and grouping
-        constantly getting feedback and reflecting on our approach, and constantly refining
-
-
+        <p>The major lesson from this project was the importance of fluidity. Looking back, we were smart not to subscribe to a rigid design process. Because we allowed ourselves to be flexible, we were able to pivot and reiterate when we needed to. A planned process was useful as a starting guideline, but if followed too rigorously, it would have been inhibitory, preventing us from making the right choices.</p>
+        <p>This flexibility enabled a feedback-driven approach, where we continuously tested our assumptions. This repeatedly led to valuable and unexpected insight, which helped us refine our approach, and brought us closer to the most successful solution.</p>
+        <p>The together-but-separate teamwork strategy, where we divided and conquered by splitting ownership, was incredibly successful in delivering fast-paced iterations catered to our individual strengths. Our overall methods of diverging and converging, e.g., to individually brainstorm and then collaboratively assess, felt incredibly invigorating. To date, this remains one of the best team-based experiences I've ever had, and is one I look back on fondly.</p>
+        <p>I'm incredibly proud of the end result, and the journey we took to get there. I truly believe we designed a low-fidelity bandwidth of communication, able to connect generations together to reduce loneliness. I wish I could continue working with this team, so we could create a Minimum Viable Product (MVP), and bring it in front of our users to test!</p>
 
       </div>
 
