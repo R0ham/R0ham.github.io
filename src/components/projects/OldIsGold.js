@@ -33,7 +33,7 @@ function OldIsGold(props) {
         <h3>Ethnography</h3>
         <p>Each member took 30 minutes to investigate online to see how objects, spaces, and people interactions had tangibly changed to prevent COVID transmission. We came together to discuss our findings, then split up again. This time, we went out into the world and observed our own individual communities. Our local recreation center was closed and the library was empty, which confirmed earlier research.</p>
 
-        <ImageGridVertical
+        <ImageGridHorizontal
           images = {imgs.research}
         />
 
@@ -187,7 +187,7 @@ function OldIsGold(props) {
 
         <h3>Mini</h3>
         <p>Soft plastic, rounded edges, and pastel colors. Battery powered and can be cradled.</p>
-        <ImageGridVertical
+        <ImageGridHorizontal
           images = {imgs.mini}
         />
 
