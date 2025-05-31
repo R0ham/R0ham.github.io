@@ -29,9 +29,31 @@ function Degreezy(props) {
 
 
         <h2>Problem</h2>
-        <p></p>
+        <p>College is a period of uncertainty, freedom, and growth. You don't start planning and you don't know what you are going to achieve. lots of stumbling around, then near the end of your collegiate career suddenly you have to think about which courses you still need to graduate, how many credits you have left to fill etc. it becomes a headache to think about and manage. your advisors try their best to help you, but its usually a reactive process, after you're already a few years in and have already taken a bunch of seemingly unrelated classes. what if there was an easier way to keep track of the courses you're taking, understand what requirements you've already fulfilled, and which ones you still need to. And what if it helped during your conversations with your advisor and you both had the same source of truth? This is a degree scheduler that helps you visualize your degree progress, helps you decide and shoot for classes you want to take, and helps you figure out how many semesters it would take for you to graduate.</p>
 
-        <h2>Technologies Used</h2>
+        <h2>Competitive Analysis</h2>
+        <p>Plenty of solutions exist for managing your degree and planning your graduation timeline, but these interfaces are often clunky, difficult to use, and don't automatically incorporate your school's specific course requirements, especially for dual majors. Because of these difficulties, even though students may have access to these expensive enterprise tools, they frequently go underutilized.</p>
+
+        <h2>Value Proposition</h2>
+        <h3>Goal</h3>
+        <p>Develop a simple-to-use interface, with automatic reconciling of prerequisite and corequisite requirements. Enable flexibility, a planning mindset, and enable conversations with faculty advisors.</p>
+
+        <h3>Key Features</h3>
+        <ul>
+          <li>User accounts</li>
+          <li>Semester view</li>
+          <li>Search for courses from catalog</li>
+          <li>Easy planning - drag and drop between semesters</li>
+          <li>Track fulfillment of course and major requirements through automatic calculation</li>
+          <li>Export options</li>
+        </ul>
+
+        <h3>Mockups</h3>
+        <ImageGridHorizontal
+          images = {imgs.mockup}
+        />
+
+        <h2>Technologies</h2>
         <p>The MEAN stack was used - MongoDB (database), Express (HTTP requests), Angular, and Node.</p>
         <ul>
           <li>Frontend</li>
@@ -48,24 +70,13 @@ function Degreezy(props) {
           </ul>
         </ul>
 
-        <h2>Key Features</h2>
-
-
-        <h2>Mockups</h2>
-        <p></p>
-        {/* on google docs version of project proposal */}
-
-        <ImageGridHorizontal
-          images = {imgs.mockup}
-        />
-
         <h2>Database Schema</h2>
 
 
         <h2>Prototype</h2>
 
 
-        <h2>Implementing Changes</h2>
+        <h2>Iteration</h2>
         {/* google slides - how has degreezy changed */}
 
 
@@ -77,9 +88,8 @@ function Degreezy(props) {
 
 
 
-        <h2>Future State</h2>
         <h3>Business Model</h3>
-        <h3>Additional Features</h3>
+        <h3>Future State</h3>
 
 
 
