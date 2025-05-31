@@ -1,12 +1,17 @@
 import React from 'react';
 import BackBar from '../modal/BackBar.js';
 import Overview from '../modal/Overview.js';
+import ImageGridHorizontal from '../modal/ImageGridHorizontal.js';
+import ImageGridVertical from '../modal/ImageGridVertical.js';
+import Quote from '../modal/Quote.js';
 
 import data from '../../projects.js';
 import '../../styles/App.scss';
 
 function Degreezy(props) {
   const curr_id = 2;
+  const proj = data.projects[curr_id];
+  const imgs = data.projects[curr_id].images[0];
 
   return (
     <div className="page_modal">
@@ -16,7 +21,7 @@ function Degreezy(props) {
       <div className="content">
 
         <Overview
-          data = {data.projects[curr_id]}
+          data = {proj}
         />
 
         {/* REVISE overview paragraph */}
@@ -47,9 +52,12 @@ function Degreezy(props) {
 
 
         <h2>Mockups</h2>
+        <p></p>
         {/* on google docs version of project proposal */}
 
-
+        <ImageGridHorizontal
+          images = {imgs.mockup}
+        />
 
         <h2>Database Schema</h2>
 

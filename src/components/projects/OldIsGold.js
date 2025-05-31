@@ -21,7 +21,7 @@ function OldIsGold(props) {
       <div className="content">
 
         <Overview
-          data = {data.projects[curr_id]}
+          data = {proj}
         />
 
         <h2>Background</h2>
