@@ -123,11 +123,11 @@ export default {
 
         research: [
           {
-            image: cache["oldisgold_research_1"],
+            image: cache["oldisgold_research1"],
             alt: "recreational center",
           },
           {
-            image: cache["oldisgold_research_3"],
+            image: cache["oldisgold_research3"],
             alt: "library",
           },
         ],
@@ -179,11 +179,11 @@ export default {
         ],
         sketch: [
           {
-            image: cache["oldisgold_sketch_1"],
+            image: cache["oldisgold_sketch1"],
             alt: "plant sketch",
           },
           {
-            image: cache["oldisgold_sketch_2"],
+            image: cache["oldisgold_sketch2"],
             alt: "moon sketch",
           },
         ],
@@ -225,11 +225,11 @@ export default {
         ],
         prototype2: [
           {
-            image: cache["oldisgold_interaction_2"],
+            image: cache["oldisgold_interaction2"],
             alt: "final base",
           },
           {
-            image: cache["oldisgold_interaction_1"],
+            image: cache["oldisgold_interaction1"],
             alt: "tactile idea for interface",
           },
         ],
@@ -244,11 +244,11 @@ export default {
         ],
         metamorphic: [
           {
-            image: cache["oldisgold_metamorphic_1"],
+            image: cache["oldisgold_metamorphic1"],
             alt: "metamorphic lamp series (closed)",
           },
           {
-            image: cache["oldisgold_metamorphic_2"],
+            image: cache["oldisgold_metamorphic2"],
             alt: "metamorphic lamp series (open)",
           },
         ],
@@ -260,11 +260,11 @@ export default {
         ],
         paper: [
           {
-            image: cache["oldisgold_paper_1"],
+            image: cache["oldisgold_paper1"],
             alt: "paper lamp series type 1",
           },
           {
-            image: cache["oldisgold_paper_2"],
+            image: cache["oldisgold_paper2"],
             alt: "paper lamp series type 2",
           },
         ],
