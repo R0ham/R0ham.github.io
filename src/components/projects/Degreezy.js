@@ -91,7 +91,7 @@ function Degreezy(props) {
           images = {imgs.prototype1}
         />
         <p>Mobile view and print function.</p>
-        <ImageGridHorizontal
+        <ImageGridVertical
           images = {imgs.prototype2}
         />
 
@@ -100,7 +100,7 @@ function Degreezy(props) {
         {/*    ! ! !     */}
 
         {/* google slides - how has degreezy changed */}
-        <ImageGridVertical
+        <ImageGridHorizontal
           images = {imgs.iteration}
         />
 
