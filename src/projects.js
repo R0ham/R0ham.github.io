@@ -339,6 +339,37 @@ export default {
             alt: "export mockup",
           },
         ],
+        schema: [
+          {
+            image: cache["degreezy_schema"],
+            alt: "database schema for programs table",
+          },
+        ],
+        prototype1: [
+          {
+            image: cache["degreezy_prototype1_1"],
+            alt: "prototype homepage",
+          },
+        ],
+        prototype2: [
+          {
+            image: cache["degreezy_prototype2_1"],
+            alt: "prototype mobile view",
+          },
+          {
+            image: cache["degreezy_prototype2_2"],
+            alt: "prototype export print",
+          },
+        ],
+        iteration: [
+          {
+            image: cache["degreezy_iteration"],
+            alt: "iteration homepage",
+          },
+        ],
+
+
+
       }],
 
 

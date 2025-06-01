@@ -54,7 +54,7 @@ function Degreezy(props) {
         />
 
         <h2>Technologies</h2>
-        <p>The MEAN stack was used - MongoDB (database), Express (HTTP requests), Angular, and Node.</p>
+        <p>We used the MEAN stack - MongoDB (database), Express (HTTP requests), Angular, and Node.</p>
         <ul>
           <li>Frontend</li>
           <ul>
@@ -71,14 +71,35 @@ function Degreezy(props) {
         </ul>
 
         <h2>Database Schema</h2>
-
+        <p>Four tables were defined in the database.</p>
+        <ul>
+          <li>Users - user profile, maps user to a certain number of semesters</li>
+          <li>Courses - from school records</li>
+          <li>Semesters - stores courses in each semester, based on user selection</li>
+          <li>Programs - course requirements</li>
+        </ul>
+        <ImageGridHorizontal
+          images = {imgs.schema}
+        />
 
         <h2>Prototype</h2>
-
+        <p>The foundations of our single page application.</p>
+        <ImageGridHorizontal
+          images = {imgs.prototype1}
+        />
+        <p>Mobile view and print function.</p>
+        <ImageGridHorizontal
+          images = {imgs.prototype2}
+        />
 
         <h2>Iteration</h2>
-        {/* google slides - how has degreezy changed */}
+        <p>Dynamic semesters, login system, difficulty with duplicate courses.</p>
+        {/*    ! ! !     */}
 
+        {/* google slides - how has degreezy changed */}
+        <ImageGridVertical
+          images = {imgs.iteration}
+        />
 
         <h2>Outcome</h2>
 
