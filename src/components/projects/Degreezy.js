@@ -78,6 +78,9 @@ function Degreezy(props) {
           <li>Semesters - stores courses in each semester, based on user selection</li>
           <li>Programs - course requirements</li>
         </ul>
+
+        {/* CONSIDER using react-code-blocks package - https://www.npmjs.com/package/react-code-blocks  */}
+
         <ImageGridHorizontal
           images = {imgs.schema}
         />
