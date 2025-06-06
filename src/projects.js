@@ -367,12 +367,17 @@ export default {
             alt: "iteration homepage",
           },
         ],
-
-
-
+        outcome: [
+          {
+            image: cache["degreezy_outcome1"],
+            alt: "final login page",
+          },
+          {
+            image: cache["degreezy_outcome2"],
+            alt: "final print function",
+          },
+        ],
       }],
-
-
     },
     {
       id: 3,
