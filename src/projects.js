@@ -318,7 +318,7 @@ export default {
       "Designer",
       ],
 
-      overview: "Students often come into college unprepared and uncertain of what their four-year plan will be. However, the need for a four-year plan is crucial, and many students often go through much of their time through college without one, which can potentially lead them to stay in school longer, just to fulfill starting requirements, which if they had more knowledge about, they would have completed already. The web application, Degreezy, helps students create a college plan suited to their area of study. It keeps track of course requirements and prerequisites, and enables complete visualization of degree progress.",
+      overview: "Students often come into college unprepared and uncertain of what they will study. But a plan of what courses they will take can keep them on track, and prevent a delayed graduation timeline. Degreezy is a web application that helps students create a college plan suited to their area of study. It measures course requirements and prerequisites, and enables complete visualization of degree progress.",
 
       images: [{
         mockup: [
