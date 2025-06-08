@@ -300,7 +300,7 @@ export default {
       "Visual designer",
       ],
 
-      overview: "With the onset of the global pandemic, many aspects of daily life shifted to an online environment. Education was no exception. Our team asked, how could we increase the productivity and engagement of remote learning solutions to better accommodate the needs and wants of users within the field of education? Inspired by regenerative design, we focused on building out existing systems, rather than building a completely new one from scratch. This way, we could address persistent problems right at the source they were originating. Using Zoom as a backbone, the team proposed a series of changes that would improve levels of participation: avatars, reactions, dynamic bubble size, and more.",
+      overview: "How could we increase the productivity and engagement of remote learning solutions to better accommodate the needs and wants of users within the field of education? Inspired by regenerative design, we focused on building out existing systems, rather than building a completely new one from scratch. This way, we could address persistent problems right at the source they were originating. Using Zoom as a backbone, the team proposed a series of changes that would improve levels of participation: avatars, reactions, and dynamic bubble size.",
     },
     {
       id: 2,
