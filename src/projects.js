@@ -413,14 +413,74 @@ export default {
       overview: "Clubs and organizations frequently advertise events and activities through outdated and inefficient paper postering techniques along heavily frequented campus walkways. pushPin is a web-based solution designed to address these issues by bundling event details and club advertisements in one consolidated digital environment. This virtual poster bulletin would have the potential to significantly reduce paper waste, while alleviating the burden for club managers and prospective students engaging in this interaction.",
 
       images: [{
-        research: [
+        wireframe: [
           {
-            // image: cache["oldisgold_research1"],
-            // alt: "recreational center",
+            image: cache["pushpin_wireframe1"],
+            alt: "home wireframe",
+          },
+          {
+            image: cache["pushpin_wireframe2"],
+            alt: "details view wireframe"
+          },
+        ],
+        mockup: [
+          {
+            image: cache["pushpin_mockup1"],
+            alt: "manage mockup"
+          },
+          {
+            image: cache["pushpin_mockup2"],
+            alt: "upload mockup"
+          },
+        ],
+        prototype1: [
+          {
+            image: cache["pushpin_prototype1_1"],
+            alt: "home prototype"
+          },
+          {
+            image: cache["pushpin_prototype1_2"],
+            alt: "home overlay prototype"
+          },
+          {
+            image: cache["pushpin_prototype1_3"],
+            alt: "login prototype"
+          },
+        ],
+        prototype2: [
+          {
+            image: cache["pushpin_prototype2_1"],
+            alt: "manage prototype"
+          },
+          {
+            image: cache["pushpin_prototype2_2"],
+            alt: "upload prototype"
+          },
+        ],
+        logo1: [
+          {
+            image: cache["pushpin_logo1_1"],
+            alt: "logo spread"
+          },
+        ],
+        logo2: [
+          {
+            image: cache["pushpin_logo2_1"],
+            alt: "abstract logo experiment"
+          },
+          {
+            image: cache["pushpin_logo2_2"],
+            alt: "thumbtack symbol experiment"
+          },
+          {
+            image: cache["pushpin_logo2_3"],
+            alt: "simplified symbol, vertical ascender height experiment"
           },
         ],
 
-        
+
+
+
       }],
 
 
