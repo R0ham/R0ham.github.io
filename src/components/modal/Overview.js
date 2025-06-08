@@ -12,9 +12,8 @@ function Overview(props) {
   const context = props.data.context;
   const org = props.data.org;
   const timeframe = props.data.timeframe;
-  // const role = props.data.role;
   const roles = props.data.role.map(each => (
-    <p>{each}</p>
+    <p key={each}>{each}</p>
   ));
 
   const title = props.data.title;
