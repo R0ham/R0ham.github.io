@@ -97,7 +97,7 @@ function Degreezy(props) {
 
         <h2>Iteration</h2>
         <p>To enable flexible graduation timelines, we added the ability to dynamically adjust the number of semesters. These would be hidden from view, but still present in the database, so they could be restored in case courses were already saved to them. This was an important usability tweak to make sure work wasn't lost permanently if the user changed their mind, and added the semesters back in.</p>
-        <p>We also implemented a login, integrated with our school's central authentication system, to enable an easy entry point for our target audience of existing students.</p>
+        <p>We also implemented a login, integrated with our school's central authentication system, to enable an easy entry point for existing students.</p>
         <p>When testing the user interactions, we stumbled on our most challenging issue: it was possible to drag a course into a semester that already had it - effectively duplicating it. This saved into the database and the cycle could be repeated - which meant the courses accumulated and became untenable.</p>
         <p>We eventually solved this by preventing the drag when there would be duplication on the frontend, but found there were edge cases in which you could circumvent this. So we added a backup check on the database to prevent duplicate items from saving, which effectively stopped propagating the issue.</p>
         <ImageGridHorizontal
@@ -111,8 +111,9 @@ function Degreezy(props) {
         />
 
         <h2>Reflection</h2>
-        <p>The team was proud of what we achieved. With more time, we would love to test with real students to understand how/if they would use the system. It would also be interesting to prove out workflow ideas for early adoption: having advisors introduce the tool during advisor discussions, and automatic input of previous courses from your transcript.</p>
+        <p>The team was proud of what we achieved. With more time, we would love to test with real students to understand how they would use the system. It would also be interesting to prove out workflow ideas for early adoption: having advisors introduce the tool during advisor discussions, and automatic input of previous courses from your transcript.</p>
         <p>We had many additional ideas for growth: shareable URLs, support for faculty logins, and dynamic prerequisite checking for course sequences. If this were to continue, we thought contracting with the school would be a valid business model, and prevent bloat from trying to monetize in more traditional ways (i.e., through ads or sponsored items).</p>
+        <p>Learning the new technologies was challenging, but our development strategy overall was very successful. We used protected branch access on our main development stream, branched off for every new feature, and submitted pull requests to merge content back in. This was smooth, productive, and mitigated merge conflicts.</p>
 
       </div>
 
