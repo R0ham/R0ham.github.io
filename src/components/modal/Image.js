@@ -12,7 +12,11 @@ function Image(props) {
 
   return (
     <li className="canvas">
-      <Zoom>
+      <Zoom
+        // canSwipeToUnzoom={false}
+        // swipeToUnzoomThreshold={8}
+        // zoomMargin={20}
+      >
         <img src={props.image} alt={props.alt}/>
       </Zoom>
     </li>
