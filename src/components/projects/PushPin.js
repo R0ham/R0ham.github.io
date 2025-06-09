@@ -30,7 +30,10 @@ function PushPin(props) {
 
 
         <h2>Background</h2>
-        
+        <p>Posters would line campus walkways, even in winter! >>>>></p>
+        <ImageGridVertical
+          images = {imgs.background}
+        />
 
         <h2>Challenge</h2>
         <p>Create a virtual poster bulletin to supplant a wasteful physically printed postering system while also simultaneously increasing poster viewership and access.</p>
@@ -81,21 +84,25 @@ function PushPin(props) {
         />
 
 
-        <h2>Real-World</h2>
+        <h2>Emulation</h2>
         <p></p>
-        images
+        <ImageGridHorizontal
+          images = {imgs.emulation}
+        />
         {/*  took photos of posters in real world  */}
 
 
         <h2>Outcome</h2>
         <p>We wanted users to primarily scroll through posters so it was crucial that the interface was clean and efficient. We used a responsive grid-based view, where posters could be clicked into for more details.</p>
         <p>The experience was kept cohesive throughout. For example, demarcated fields on “manage“ allowed users to easily make edits that would update info instantly.</p>
-        
-        images - with data
-
+        <ImageGridHorizontal
+          images = {imgs.outcome}
+        />
 
         <h2>Reflection</h2>
         <p>In the future, we would have liked to build-in content moderation as well as a slideshow display for TVs, so that our school could fully transfer over to this new system.</p>
+
+        {/*  more organic grid  */}
 
 
       </div>

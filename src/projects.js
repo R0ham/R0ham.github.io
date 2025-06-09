@@ -22,6 +22,7 @@ function importAll(img) {
     key = key.replace('./', '');
     key = key.replace('.png', '');
     key = key.replace('.jpg', '');
+    key = key.replace('.jpeg', '');
     key = key.replace('.svg', '');
     key = key.replace('/', '_');
     cache[key] = source;
@@ -410,9 +411,19 @@ export default {
       "Front-end developer",
       ],
 
-      overview: "Clubs and organizations frequently advertise events and activities through outdated and inefficient paper postering techniques along heavily frequented campus walkways. pushPin is a web-based solution designed to address these issues by bundling event details and club advertisements in one consolidated digital environment. This virtual poster bulletin would have the potential to significantly reduce paper waste, while alleviating the burden for club managers and prospective students engaging in this interaction.",
+      overview: "Clubs and organizations frequently advertise events and activities by paper postering along heavily frequented campus walkways. pushPin is a web-based solution that bundles event details and club advertisements in one consolidated digital environment. This virtual poster bulletin would significantly reduce paper waste, while alleviating the burden for club managers and prospective students engaging in this interaction.",
 
       images: [{
+        background: [
+          {
+            image: cache["pushpin_background1"],
+            alt: "bridge with posters",
+          },
+          {
+            image: cache["pushpin_background2"],
+            alt: "pillar with posters"
+          },
+        ],
         wireframe: [
           {
             image: cache["pushpin_wireframe1"],
@@ -477,7 +488,26 @@ export default {
             alt: "simplified symbol, vertical ascender height experiment"
           },
         ],
-
+        emulation: [
+          {
+            image: cache["pushpin_emulation1"],
+            alt: "art club poster photo"
+          },
+          {
+            image: cache["pushpin_emulation2"],
+            alt: "art club poster edited"
+          },
+        ],
+        outcome: [
+          {
+            image: cache["pushpin_outcome1"],
+            alt: "home outcome"
+          },
+          {
+            image: cache["pushpin_outcome2"],
+            alt: "manage outcome"
+          },
+        ],
 
 
 
