@@ -385,7 +385,7 @@ export default {
       link: "/nookhook",
       image: cache["nook_cover"],
       title: "Nook Hook",
-      tagline: "combatting everyday annoyances",
+      tagline: "resolving everyday annoyances",
 
       context: "School",
       org: "Solo",
