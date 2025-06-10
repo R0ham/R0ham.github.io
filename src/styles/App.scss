@@ -260,6 +260,7 @@ footer {
   height: 10vh;
 }
 
+// all images have this class
 .canvas {
   position: relative;
   display: block;
@@ -270,11 +271,13 @@ footer {
   }
 }
 
+// container for modal highlight image
 .canvas_page_header img {
   border-radius: var(--border-radius);
   // max-height: 60vh;
 }
 
+// container for horizontal/vertical images
 .canvas_large {
   display: flex;
   overflow: hidden;
@@ -286,10 +289,6 @@ footer {
   // potential idea!!:
   // border-top-left-radius: 0;
   // border-bottom-right-radius: 0;
-}
-
-.canvas_large img {
-  max-height: 60vh;
 }
 
 // .canvas_landing:before {
@@ -319,40 +318,48 @@ footer {
 .canvas_horizontal {
   flex-wrap: wrap;
 
-  img {
-    height: 30vh;
-  }
-
-  .canvas:not(:last-child) {
-    padding-right: var(--border-image);
-    padding-bottom: var(--border-image);
-  }
-
-  .canvas:nth-child(2n) {
-    padding-right: 0;
-  }
-
-  .canvas:nth-last-child(2) {
-    padding-bottom: 0;
-  }
-
-  .canvas:not(:only-child) img {
-    max-width: 397.5px;
-  }
-
   .canvas:only-child {
     width: 100%;
   }
 
-  @media screen and (max-width: 850px) {
+  // if the screen is at least 850 pixels wide, put pairs of images next to each other on the same line, and force heights to match fixed height container
+  @media screen and (min-width: 850px) {
+
+    img {
+      min-height: 30vh;
+    }
+
+    .canvas {
+      height: 30vh;
+    }
+
+    .canvas:not(:only-child) img {
+      max-width: 398.5px;
+    }
+
+    .canvas:not(:last-child) {
+      padding-right: var(--border-image);
+      padding-bottom: var(--border-image);
+    }
+
+    .canvas:nth-child(2n) {
+      padding-right: 0;
+    }
+
+    .canvas:nth-last-child(2) {
+      padding-bottom: 0;
+    }
+
+  }
+
+  // if the screen becomes less than 850 pixels wide, allow the images to break onto new lines, and display them prettily by revising border separation
+  @media screen and (max-width: 849px) {
+
     .canvas:not(:last-child) {
       padding-bottom: var(--border-image);
       padding-right: 0;
     }
 
-    .canvas:not(:only-child) img {
-      max-width: 800px;
-    }
   }
 
   // @media screen and (min-width: 2000px) {
