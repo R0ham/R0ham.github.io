@@ -30,33 +30,37 @@ function PushPin(props) {
 
 
         <h2>Background</h2>
-        <p>Posters would line campus walkways, even in winter! >>>>></p>
+        <p>It's common to find posters along campus walkways, even in winter! This is one of the main ways in which students learn about events and opportunities that are happening on campus. Clubs use them to attract members, but it requires multiple steps: printing them, putting them up, and clean up afterwards.</p>
+        <p>Campus policy requires each poster to have a "takedown date" to ensure posters don't stay around forever, but organizers often forget, so the janitorial faculty has to clean things up. Sometimes, because of the weather, things worsen  - posters become wads of paper under the elements.</p>
+        <p>For students, the process is also difficult. Here's a lesson from my personal life as an example: even if I successfully keep my eyes peeled, I'd end up taking photos to keep track of the events I was interested in.</p>
         <ImageGridVertical
           images = {imgs.background}
         />
 
         <h2>Challenge</h2>
-        <p>Create a virtual poster bulletin to supplant a wasteful physically printed postering system while also simultaneously increasing poster viewership and access.</p>
-        {/* how did we come to this? show a photo of RPI campus  */}
-        {/* explain takedown date  */}
+        <p>Creating a virtual poster bulletin to connect event organizers with attendees would simplify complexity and improve the experience for everyone involved.</p>
 
-        <h2>Target Audience</h2>
+        <h2>Goals</h2>
         <ul>
-          <li>students</li>
-          <li>faculty</li>
-          <li>staff</li>
-          <li>club moderators</li>
-          <li>event organizers</li>
+          <li>Supplant a wasteful and inefficient physical-postering system.</li>
+          <li>Enable easy advertisement and management by organizers.</li>
+          <li>Increase poster viewership and access.</li>
         </ul>
 
         <h2>Wireframes</h2>
+        <p>We envisioned a smooth and dynamic interface, with the option to examine additional detail.</p>
         <ImageGridVertical
           images = {imgs.wireframe}
         />
 
         <h2>Mockups</h2>
-        <p>Early on, my team and I created mockups to ground our work towards one common goal. We settled on three core pages: a “home” page which would display all the posters, a “manage” page where a signed-in user could edit up to three posters, and an “upload“ page where new posters could be added.</p>
-        <p>In emulation of a campus rule that printed posters must stipulate when they can be taken down, virtual takedown dates were incorporated to keep the posters relevant and timely refreshed.</p>
+        <p>Eventually, we settled on these core pages and created simple illustrated mockups.</p>
+        <ul>
+          <li>Home - displaying all posters</li>
+          <li>Manage - where a signed-in user could edit posters they uploaded</li>
+          <li>Upload - where new posters could be added</li>
+        </ul>
+        <p>We kept the takedown dates since it was already familiar, and because it would keep content refreshed and timely. To that end, we decided organizers could only keep 3 posters active at once.</p>
         <ImageGridHorizontal
           images = {imgs.mockup}
         />
@@ -103,6 +107,13 @@ function PushPin(props) {
         <p>In the future, we would have liked to build-in content moderation as well as a slideshow display for TVs, so that our school could fully transfer over to this new system.</p>
 
         {/*  more organic grid  */}
+        {/*Search by keywords
+        Sorting
+        Infinite scroll
+        Archiving taken-down posters
+        Default poster templates
+        flag for moderation
+        */}
 
 
       </div>

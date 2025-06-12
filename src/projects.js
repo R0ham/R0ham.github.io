@@ -411,7 +411,7 @@ export default {
       "Front-end developer",
       ],
 
-      overview: "Clubs and organizations frequently advertise events and activities by paper postering along heavily frequented campus walkways. pushPin is a web-based solution that bundles event details and club advertisements in one consolidated digital environment. This virtual poster bulletin would significantly reduce paper waste, while alleviating the burden for club managers and prospective students engaging in this interaction.",
+      overview: "Clubs and organizations frequently advertise events and activities by paper postering along heavily frequented campus walkways. pushPin is a web-based solution that bundles event details and club advertisements into one consolidated digital environment. This virtual poster bulletin would significantly reduce paper waste, while alleviating the burden for club managers and increasing engagement from event-goers.",
 
       images: [{
         background: [
