@@ -24,11 +24,6 @@ function PushPin(props) {
           data = {proj}
         />
 
-
-        {/*  LOGO iteration  */}
-        {/*  can say that we went and took photos of real world posters, and saw how they were affixed */}
-
-
         <h2>Background</h2>
         <p>It's common to find posters along campus walkways, even in winter! This is one of the main ways in which students learn about events and opportunities that are happening on campus. Clubs use them to attract members, but it requires multiple steps: printing them, putting them up, and clean up afterwards.</p>
         <p>Campus policy requires each poster to have a "takedown date" to ensure posters don't stay around forever, but organizers often forget, so the janitorial faculty has to clean things up. Sometimes, because of the weather, things worsen  - posters become wads of paper under the elements.</p>
@@ -77,44 +72,32 @@ function PushPin(props) {
         />
 
         <h2>Branding</h2>
-        <p>Spread of logo explorations.</p>
+        <p>We hoped to build a strong brand, so pushPin would become a known symbol and be easy to recognize when discussed through word of mouth. Below is a spread of identity/logo explorations.</p>
         <ImageGridHorizontal
           images = {imgs.logo1}
         />
 
-        <p>Initially, experimented with an abstract take on the thumbtack motif, but after showing it to a few people, realized it was too hard to interpret. Dramatically simplified it by incorporating the thumbtack into the letter "i", simplified it even more, and then experimented with height of the vertical ascender.</p>
+        <p>Initially, we experimented with an abstract thumbtack motif, but realized it was too hard to interpret after showing it to others for feedback. In response, we dramatically simplified the design by incorporating the thumbtack into the letter "i", simplified it even more, and then adjusted the height of the vertical ascender.</p>
         <ImageGridVertical
           images = {imgs.logo2}
         />
 
-
         <h2>Emulation</h2>
-        <p></p>
+        <p>For our final iteration, we wanted to populate our system with realistic data. We thought about creating better "dummy" data by designing our own posters, but then realized we had plenty of poster examples at our fingertips already! We went back outside, captured photos of all the posters we saw, and prepared them for import. Looking back, this was a smart and efficient use of our time and gave us the best possible samples to work with.</p>
         <ImageGridHorizontal
           images = {imgs.emulation}
         />
-        {/*  took photos of posters in real world  */}
-
 
         <h2>Outcome</h2>
-        <p>We wanted users to primarily scroll through posters so it was crucial that the interface was clean and efficient. We used a responsive grid-based view, where posters could be clicked into for more details.</p>
-        <p>The experience was kept cohesive throughout. For example, demarcated fields on “manage“ allowed users to easily make edits that would update info instantly.</p>
-        <ImageGridHorizontal
+        <p>Our end result was a fully functional working prototype with login, and samples of real posters. The primary intended interaction was scrolling and easy digestion of information, so the interface was kept clean, efficient, and responsive to naturally size based on device. Real-time and dynamic data saving allowed for instant upload of new files, and editing updates.</p>
+        <ImageGridVertical
           images = {imgs.outcome}
         />
 
         <h2>Reflection</h2>
-        <p>In the future, we would have liked to build-in content moderation as well as a slideshow display for TVs, so that our school could fully transfer over to this new system.</p>
-
-        {/*  more organic grid  */}
-        {/*Search by keywords
-        Sorting
-        Infinite scroll
-        Archiving taken-down posters
-        Default poster templates
-        flag for moderation
-        */}
-
+        <p>We believe the demonstration of this project's utility was executed well. But we had no shortage of ideas, and we already had plenty of growth opportunities identified. We would have loved to explore TV support, so posters from the site would automatically slideshow, and a separate TV content management system could be avoided.</p>
+        <p>We also realize there would need to be content moderation tools because no system is free from the potential for abuse. Enabling easy poster upload and creation would also be essential: default poster templates or integration with design tools like Canva would be interesting. An archive tool for taken-down posters could also be valuable.</p>
+        <p>Many quality of life enhancements to the home page gallery were also possible. A more organic and dynamic grid display (with varying dimensions) would be beautiful, and searching by keywords, sorting, and infinite scroll would improve the experience further.</p>
 
       </div>
 
