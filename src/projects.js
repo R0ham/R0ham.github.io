@@ -385,7 +385,7 @@ export default {
       link: "/nookhook",
       image: cache["nook_cover"],
       title: "Nook Hook",
-      tagline: "resolving everyday annoyances",
+      tagline: "reducing everyday annoyances",
 
       context: "School",
       org: "Solo",
@@ -395,6 +395,60 @@ export default {
       ],
 
       overview: "Within my program's collaborative design-centric studio space, a common everyday 'annoyance' is the lack of backpack storage. As a result, these bags would often be placed on the ground where they would be out of reach and would also encumber efforts to rearrange tables and chairs. My goal was to find an accommodative solution that wouldn't require extensive installation. Often times, the most apt solution is the simplest one: a table hook that would promote feelings of stability and security (deemed important because of the heavy and valuable contents of most backpacks).",
+
+      images: [{
+        brainstorming: [
+          {
+            image: cache["nook_brainstorming1"],
+            alt: "brainstorm list",
+          },
+          {
+            image: cache["nook_brainstorming2"],
+            alt: "brainstorm mindmap"
+          },
+        ],
+        thumbnail: [
+          {
+            image: cache["nook_thumbnail"],
+            alt: "variation thumbnails",
+          },
+        ],
+        pinup: [
+          {
+            image: cache["nook_pinup"],
+            alt: "pinup of solution",
+          },
+        ],
+        prototype: [
+          {
+            image: cache["nook_prototype1"],
+            alt: "cork prototype (unfinished)",
+          },
+          {
+            image: cache["nook_prototype2"],
+            alt: "cork prototype (smoothed)"
+          },
+          {
+            image: cache["nook_prototype3"],
+            alt: "user testing prototype"
+          },
+        ],
+        outcome: [
+          {
+            image: cache["nook_outcome1"],
+            alt: "3d printed prototype",
+          },
+          {
+            image: cache["nook_outcome2"],
+            alt: "3d printed prototype (side view)"
+          },
+          {
+            image: cache["nook_outcome3"],
+            alt: "3d printed prototype (scale)"
+          },
+        ],
+      }]
+
     },
     {
       id: 4,

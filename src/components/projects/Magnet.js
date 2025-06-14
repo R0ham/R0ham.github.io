@@ -36,7 +36,7 @@ function Magnet(props) {
         <h2>Process</h2>
         <p>{proj.process}</p>
 
-        <ImageGridHorizontal
+        <ImageGridVertical
           images = {imgs.process}
         />
 
