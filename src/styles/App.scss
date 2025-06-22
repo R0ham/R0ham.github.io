@@ -286,6 +286,11 @@ footer {
 
   border-radius: var(--border-radius);
 
+  .canvas:only-child {
+    width: 100%;
+    height: 100%;
+  }
+
   // potential idea!!:
   // border-top-left-radius: 0;
   // border-bottom-right-radius: 0;
@@ -317,11 +322,6 @@ footer {
 
 .canvas_horizontal {
   flex-wrap: wrap;
-
-  .canvas:only-child {
-    width: 100%;
-    height: 100%;
-  }
 
   // if the screen is at least 850 pixels wide, put pairs of images next to each other on the same line, and force heights to match fixed height container
   @media screen and (min-width: 850px) {
