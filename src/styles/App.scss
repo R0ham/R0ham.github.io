@@ -225,7 +225,11 @@ body.dark-mode {
   color: var(--light-back-secondary);
 
   padding: 20px;
-  width: 35px;
+
+  width: -moz-calc(100vw - 200px);
+  width: -webkit-calc(100vw - 200px);
+  width: calc(100vw - 200px);
+
   z-index: 3;
 
 }
@@ -233,7 +237,7 @@ body.dark-mode {
 .back_bar:hover {
   background-color: var(--light-back-secondary);
   color: var(--light-back-page);
-  // transition: background-color .3s ease;
+  transition: background-color .1s ease;
 }
 
 .navbar {
