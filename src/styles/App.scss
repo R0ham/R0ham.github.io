@@ -169,7 +169,7 @@ body.dark-mode {
 
     .quote_block {
       background-color: var(--dark-back-primary);
-      border-color: var(--dark-back-primary);
+      // border-color: var(--dark-back-primary);
       color: var(--dark-color);
     }
 
@@ -274,6 +274,7 @@ footer {
 // container for modal highlight image
 .canvas_page_header img {
   border-radius: var(--border-radius);
+  // border: 3px solid var(--light-back-primary);
   // max-height: 60vh;
 }
 
@@ -781,9 +782,9 @@ footer {
     }
 
     .quote_block {
-      // background-color: var(--light-back-primary);
+      background-color: var(--light-accent);
       // color: var(--light-color);
-      border: 1px solid var(--light-back-primary);
+      // border: 1px solid var(--light-back-primary);
       margin-top: 15px;
       padding: 15px;
       display: flex;
