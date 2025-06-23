@@ -36,7 +36,8 @@ function GalleryThumbnail(props) {
     return <>
       {buttonUnzoom}
 
-      <figure>
+      <figure className="caption">
+        <h3>{props.title}</h3>
         {img}
         <figcaption className={classCaption}>
           {props.tagline}
