@@ -1,5 +1,6 @@
 import React from 'react';
 import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
+import { MyImg } from './GalleryThumbnail.js';
 
 import data from '../projects.js';
 import '../styles/App.scss';
@@ -47,6 +48,7 @@ function Grid(props) {
 
       <div className="gallery_grid">
         <h2>Gallery</h2>
+        <MyImg/>
         <ul className="flex_gallery">{test_grid}</ul>
       </div>
 

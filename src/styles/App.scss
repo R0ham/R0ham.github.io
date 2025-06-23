@@ -958,3 +958,14 @@ footer {
   }
 }
 
+figcaption {
+  font-size: 1.6rem;
+  font-family: monospace;
+  line-height: 1.5;
+  color: gray;
+  background-color: black;
+  position: fixed;
+  z-index: 1;
+  margin: 500px 100px 0 100px;
+}
+
