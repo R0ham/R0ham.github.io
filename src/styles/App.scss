@@ -151,9 +151,17 @@ body.dark-mode {
     }
   }
 
-  // .project:hover .overlay {
-  //   background-color: var(--dark-overlay);
-  // }
+  .gallery_grid {
+    color: var(--dark-color);
+    background-color: var(--dark-back-primary);
+
+    .flex_gallery {
+      [data-rmiz-ghost] {
+        background-color: var(--dark-tint);
+      }
+    }
+
+  }
 
   .page_modal {
     background-color: var(--dark-back-page);
@@ -190,6 +198,19 @@ body.dark-mode {
   [data-rmiz-btn-unzoom] {
     background-color: var(--dark-back-secondary);
     color: var(--dark-back-page);
+  }
+
+  figure {
+
+    h3 {
+      color: var(--dark-color);
+    }
+
+    figcaption {
+      background-color: var(--dark-back-secondary);
+      color: var(--dark-back-page);
+    }
+
   }
 
 }
@@ -599,7 +620,7 @@ footer {
   // SIDE-SCROLL GALLERY HERE
   .gallery_grid {
     overflow: auto;
-    background-color: var(--light-back-secondary);
+    background-color: var(--light-back-primary);
 
     h2 {
       font-size: 1.5rem;
