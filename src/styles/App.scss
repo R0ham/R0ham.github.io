@@ -668,7 +668,7 @@ footer {
         // width: 15vw;
 
         // border-radius: var(--border-radius) var(--border-radius) 0 0;
-        border-radius: var(--border-radius);
+        border-radius: 0 var(--border-radius);
         // transition: border-radius .3s ease;
 
         // border-bottom: 1px solid var(--light-accent);
@@ -679,7 +679,7 @@ footer {
 
       [data-rmiz-ghost] {
         background-color: var(--light-tint);
-        border-radius: var(--border-radius);
+        border-radius: 0 var(--border-radius);
         transition: background .2s ease;  
       }
 
