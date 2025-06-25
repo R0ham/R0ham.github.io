@@ -1,6 +1,6 @@
 import React from 'react';
 import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
-import GalleryThumbnail from './GalleryThumbnail.js';
+import CaptionThumbnail from './CaptionThumbnail.js';
 
 import data from '../projects.js';
 import '../styles/App.scss';
@@ -8,7 +8,7 @@ import '../styles/App.scss';
 function Grid(props) {
   //change from "test_projects" to "projects" soon
   const test_grid = data.test_projects.map(project => (
-    <GalleryThumbnail
+    <CaptionThumbnail
       key = {project.id}
       link = {project.link}
       image = {project.image}

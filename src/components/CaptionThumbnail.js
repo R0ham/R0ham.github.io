@@ -9,7 +9,7 @@ import '../styles/App.scss';
 
 
 
-function GalleryThumbnail(props) {
+function CaptionThumbnail(props) {
 
   const CustomZoomContent = ({
     buttonUnzoom, // default unzoom button
@@ -67,7 +67,7 @@ function GalleryThumbnail(props) {
 
 
 
-export default GalleryThumbnail;
+export default CaptionThumbnail;
 
 
 
