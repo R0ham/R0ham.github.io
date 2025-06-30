@@ -658,16 +658,4 @@ export default {
 
   ],
 
-  gallery: [
-    // {
-    //   id: #,
-    //   link: "",
-    //   image: "",
-    //   title: "",
-    //   tagline: "",
-    // },
-
-
-  ],
-
 }
