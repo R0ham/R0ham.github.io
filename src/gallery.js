@@ -37,21 +37,55 @@ importAll(require.context('./images/gallery', true, /\.(png|jpe?g|svg)$/));
 export default {
   gallery: [
     {
+      id: 4,
+      link: "/four",
+      image: cache["sensemaking"],
+      title: "sensemaking",
+      component: "Two",
+      tagline: "",
+    },
+    {
+      id: 2,
+      link: "/two",
+      image: cache["legacy"],
+      title: "Legacy",
+      component: "Two",
+      tagline: "",
+    },
+    {
       id: 0,
-      link: "/one",
+      link: "/zero",
       image: cache["camera"],
       title: "Camera",
       component: "One",
       tagline: "",
     },
     {
-      id: 0,
-      link: "/two",
+      id: 1,
+      link: "/one",
       image: cache["dpw"],
       title: "DPW",
       component: "Two",
       tagline: "",
     },
+    {
+      id: 3,
+      link: "/three",
+      image: cache["dashboard"],
+      title: "Dashboard",
+      component: "Two",
+      tagline: "",
+    },
+    // {
+    //   id: 5,
+    //   link: "/five",
+    //   image: cache["sitemap"],
+    //   title: "Sitemap",
+    //   component: "Two",
+    //   tagline: "",
+    // },
+
+
 
     // {
     //   id: #,

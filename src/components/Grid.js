@@ -59,15 +59,16 @@ function Grid(props) {
         <ul className="flex_projects">{grid}</ul>
       </div>
 
-      <div className="gallery_grid">
-        <h2>Gallery</h2>
-        <ul className="flex_gallery">{test_grid}</ul>
-      </div>
 
       <div className="gallery_grid">
         <h2>Gallery</h2>
         <ul className="flex_gallery">{galleryGrid}</ul>
       </div>
+
+{/*      <div className="gallery_grid">
+        <h2>Test Gallery</h2>
+        <ul className="flex_gallery">{test_grid}</ul>
+      </div>*/}
 
       {/*
       <div className="footer">
