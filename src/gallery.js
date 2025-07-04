@@ -38,13 +38,20 @@ export default {
   gallery: [
     {
       id: 0,
-      link: "/two",
+      link: "/one",
       image: cache["camera"],
       title: "Camera",
+      component: "One",
+      tagline: "",
+    },
+    {
+      id: 0,
+      link: "/two",
+      image: cache["dpw"],
+      title: "DPW",
       component: "Two",
       tagline: "",
     },
-
 
     // {
     //   id: #,
