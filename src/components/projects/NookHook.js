@@ -26,6 +26,9 @@ function NookHook(props) {
 
         <h2>Background</h2>
         <p>The promise of our studio space was swift and effective collaboration. It should always be easy to pull up a chair or bring tables together, as you're bouncing ideas of each other and seeking feedback. The space needed to be flexible, so thoughts could flow freely and harmoniously.</p>
+{/*        <ImageGridHorizontal
+          images = {imgs.studio2}
+        />*/}
         <ImageGridHorizontal
           images = {imgs.studio}
         />
@@ -48,42 +51,29 @@ function NookHook(props) {
         />
 
         <h2>Pinup</h2>
-        <p>With some feedback, I realized trust and security was essential. Backpacks had laptops, headphones, and more. If the hook appeared frail, </p>
+        <p>!!! With feedback, I realized trust and security was essential. Backpacks had valuable equipement like laptops, and headphones. If the hook appeared frail, people would not use it, out of concern it would fall. Refining the design, I drew a pinup showcasing the hook's scale, features, and usage. A screw and rubberized grips allowed for easy installation, and a secure hold.</p>
         <ImageGridHorizontal
           images = {imgs.pinup}
         />
 
         <h2>Prototype</h2>
-        <p>
-With the first iteration on the left, I used cork to experiment with form and scale.</p>
-
-        <p> People generally seemed
-to like the aesthetic of the cork and liked the curvature of the piece. One person said that they thought it
-“afforded a lot of weight” and they didn’t know why. I thought that was kind of a funny statement
-because no one tried putting their backpack on it, probably because they were worried the cork hook
-would snap off. </p>
+        <p>!!! When building a prototype, I used cork to experiment with form and scale. People generally seemed to like the aesthetic of the cork and liked the curvature of the piece. One person said that they thought it “afforded a lot of weight” and they didn’t know why. I thought that was kind of a funny statement because no one tried putting their backpack on it, probably because they were worried the cork hook would snap off.</p>
         <ImageGridVertical
           images = {imgs.prototype}
         />
 
         <h2>Outcome</h2>
-        <p>The tail of the screw was kept flat to prevent damage to the table and the hook was designed to be sturdy and not hurt if someone bumped into it.</p>
-        <p>I think the product could be made smaller (in width
-especially) and the screw smaller in proportion. It would be nice if the screw wasn’t able to come
-completely off of the hook component, so that the screw wouldn’t be accidentally separated. Thankfully,
-my backpack fits nicely onto the hook and it appears pretty stable as well. The trouble is that the
-backpack is supported at only one point, so it isn’t as easy as I would have liked to take things out from
-the main compartments of the bag, since the back of the bag pinches in with the stress (although the
-front zips are still easily accessible).</p>
+        <p>A 3D model was printed and the tail of the screw was kept flat to prevent damage to the table and the hook was designed to be sturdy and not hurt if someone bumped into it.</p>
         <ImageGridVertical
           images = {imgs.outcome}
         />
 
         <h2>Reflection</h2>
-        <p>I asked a classmate, and potential user, if they would put their backpack on the final prototype and they
-said they wouldn’t “trust plastic.” This table-hook studio design relies on people feeling comfortable in
-using it for its intended purpose.</p>
+        <p>I asked a classmate, and potential user, if they would put their backpack on the final prototype and they said they wouldn’t “trust plastic.” This table-hook studio design relies on people feeling comfortable in using it for its intended purpose.</p>
 
+        <p>...needs to be in a different material...</p>
+
+        <p>I think the product could be made smaller (in width especially) and the screw smaller in proportion. It would be nice if the screw wasn’t able to come completely off of the hook component, so that the screw wouldn’t be accidentally separated. In testing, backpacks fit nicely onto the hook and it appeared pretty stable as well. The trouble is that the backpack is supported at only one point, so it isn’t as easy as I would have liked to take things out from the main compartments of the bag, since the back of the bag pinches in with the stress (although the front zips are still easily accessible).</p>
 
 
       </div>

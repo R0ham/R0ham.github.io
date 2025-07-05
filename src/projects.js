@@ -413,6 +413,12 @@ export default {
             alt: "studio room photo",
           },
         ],
+        studio2: [
+          {
+            image: cache["nook_studio2"],
+            alt: "studio room CAD render",
+          },
+        ],
         thumbnail: [
           {
             image: cache["nook_thumbnail"],
