@@ -32,11 +32,11 @@ function NookHook(props) {
 
         <h2>Brainstorming</h2>
         <p>After brainstorming, I realized our studio had no defined place for backpacks. They were too heavy for the back of the chair, and would take up too much space on top of the table. They were often placed on the ground, so to reach them, you'd have to awkwardly bend down from the height of the chair. It also constrained where people could sit, because the bags would flop over unless propped up by a table leg. Every time tables and chairs had to rearranged, the bags would get in the way.</p>
-        <ImageGridHorizontal
-          images = {imgs.brainstorming}
-        />
         <Quote
           quote = "How could we improve the studio experience?"
+        />
+        <ImageGridHorizontal
+          images = {imgs.brainstorming}
         />
 
         {/*My goal was to find an accommodative solution that wouldn't require extensive installation. */}

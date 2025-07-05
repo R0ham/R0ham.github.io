@@ -23,7 +23,7 @@ function Overview(props) {
   // const max_width = Math.ceil({roles}.clientWidth);
 
   //<li style={{width: max_width + "px"}}>
-  //  <h3>Role</h3>
+  //  <h4>Role</h4>
   //  {roles}
   //</li>
 
@@ -40,19 +40,19 @@ function Overview(props) {
 
       <ul className="flex_overview">
         <li>
-          <h3>Context</h3>
+          <h4>Context</h4>
           <p>{context}</p>
         </li>
         <li>
-          <h3>Makeup</h3>
+          <h4>Makeup</h4>
           <p>{org}</p>
         </li>
         <li>
-          <h3>Timeframe</h3>
+          <h4>Timeframe</h4>
           <p>{timeframe}</p>
         </li>
         <li>
-          <h3>Role</h3>
+          <h4>Role</h4>
           {roles}
         </li>
       </ul>
