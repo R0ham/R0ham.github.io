@@ -394,7 +394,7 @@ export default {
       "Varied",
       ],
 
-      overview: "Within my program's collaborative design-centric studio space, a common everyday 'annoyance' is the lack of backpack storage. As a result, these bags would often be placed on the ground where they would be out of reach and would also encumber efforts to rearrange tables and chairs. My goal was to find an accommodative solution that wouldn't require extensive installation. Often times, the most apt solution is the simplest one: a table hook that would promote feelings of stability and security (deemed important because of the heavy and valuable contents of most backpacks).",
+      overview: "Within my program's collaborative design-centric studio space, there is no designated backpack storage. As a result, bags are often placed on the ground where they are out of reach. They also become obstacles that encumber efforts to rearrange tables and chairs. A simple table hook solution is proposed that promotes feelings of stability and security, important because of the heavy and valuable contents of backpacks.",
 
       images: [{
         brainstorming: [
