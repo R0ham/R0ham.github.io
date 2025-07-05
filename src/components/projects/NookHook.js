@@ -48,7 +48,7 @@ function NookHook(props) {
         />
 
         <h2>Pinup</h2>
-        <p></p>
+        <p>With some feedback, I realized trust and security was essential. Backpacks had laptops, headphones, and more. If the hook appeared frail, </p>
         <ImageGridHorizontal
           images = {imgs.pinup}
         />

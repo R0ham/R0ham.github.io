@@ -446,11 +446,11 @@ export default {
           },
           {
             image: cache["nook_outcome2"],
-            alt: "3d printed prototype (side view)"
+            alt: "3d printed prototype (scale)"
           },
           {
             image: cache["nook_outcome3"],
-            alt: "3d printed prototype (scale)"
+            alt: "3d printed prototype (side view)"
           },
         ],
       }]
