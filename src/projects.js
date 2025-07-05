@@ -385,7 +385,7 @@ export default {
       link: "/nookhook",
       image: cache["nook_cover"],
       title: "Nook Hook",
-      tagline: "reducing everyday annoyances",
+      tagline: "reducing collaboration barriers",
 
       context: "School",
       org: "Solo",
@@ -405,6 +405,12 @@ export default {
           {
             image: cache["nook_brainstorming2"],
             alt: "brainstorm mindmap"
+          },
+        ],
+        studio: [
+          {
+            image: cache["nook_studio"],
+            alt: "studio room photo",
           },
         ],
         thumbnail: [

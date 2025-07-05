@@ -24,13 +24,27 @@ function NookHook(props) {
           data = {proj}
         />
 
+        <h2>Background</h2>
+        <p>The promise of our studio space was swift and effective collaboration. It should always be easy to pull up a chair or bring tables together, as you're bouncing ideas of each other and seeking feedback. The space needed to be flexible, so thoughts could flow freely and harmoniously.</p>
+        <ImageGridHorizontal
+          images = {imgs.studio}
+        />
+
         <h2>Brainstorming</h2>
-        <p>At first, I brainstormed a variety
-of different ways to improve the overall studio experience. I ended up focusing on backpack storage.
-I realized our studio had no defined place for these bags, so they were often placed on the ground where they would be out of reach and would also encumber efforts to rearrange tables and chairs.</p>
+        <p>How could we improve the studio experience?
+
+
+          After brainstorming, I realized our studio had no defined place for backpacks, so they were often placed on the ground where they would be out of reach, 
+
+
+          and would also present a minor obstacle to rearrange tables and chairs.</p>
+
+        {/* also constrained where I could sit, beside my backpack would flop unless leaned on a table leg */}
+
         <ImageGridHorizontal
           images = {imgs.brainstorming}
         />
+
 
 
         <h2>Thumbnails</h2>
