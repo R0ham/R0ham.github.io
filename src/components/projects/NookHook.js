@@ -45,36 +45,33 @@ function NookHook(props) {
         {/*My goal was to find an accommodative solution that wouldn't require extensive installation. */}
 
         <h2>Thumbnails</h2>
-        <p>To make optimal use of the collaborative nature of the space, I focused on bringing the backpacks closer to the people using them. A series of thumbnail sketches were used to explore ideas. Initially, these were focused on affixing to the table legs, but this would have the same problem as before - there were far fewer of them, which would constrain where people could sit. The table edge was far more versatile.</p>
+        <p>To make more optimal use of the collaborative space, I focused on bringing the backpacks closer to the people using them. A series of thumbnail sketches were used to explore ideas. Initially, these were focused on attaching to the table legs, but there were only four per table, and similarly to before, would constrain again where people could sit. A hook along the table's edge was more versatile.</p>
         <ImageGridHorizontal
           images = {imgs.thumbnail}
         />
 
         <h2>Pinup</h2>
-        <p>!!! With feedback, I realized trust and security was essential. Backpacks had valuable equipement like laptops, and headphones. If the hook appeared frail, people would not use it, out of concern it would fall. Refining the design, I drew a pinup showcasing the hook's scale, features, and usage. A screw and rubberized grips allowed for easy installation, and a secure hold.</p>
+        <p>Conversations with others resulted in a critical piece of feedback - backpacks often contained valuable and expensive equipment like laptops. A hook needed to inspire confidence for being able to hold the full weight of the bag, without fear of failure. The design was refined to be more robust and to promote stability. A pinup shows the purpose, scale, and features: easy, secure installation with rubberized grips and a screw fastener.</p>
         <ImageGridHorizontal
           images = {imgs.pinup}
         />
 
         <h2>Prototype</h2>
-        <p>!!! When building a prototype, I used cork to experiment with form and scale. People generally seemed to like the aesthetic of the cork and liked the curvature of the piece. One person said that they thought it “afforded a lot of weight” and they didn’t know why. I thought that was kind of a funny statement because no one tried putting their backpack on it, probably because they were worried the cork hook would snap off.</p>
+        <p>Cork helped prove the design's form and scale. Its natural malleability enabled testing of smooth edges. When asked, people thought the shape "afforded a lot of weight" but weren't able to pinpoint why. But funnily enough, no one tested with a backpack, likely because of the above concern and understanding cork could snap with this much pressure.</p>
         <ImageGridVertical
           images = {imgs.prototype}
         />
 
         <h2>Outcome</h2>
-        <p>A 3D model was printed and the tail of the screw was kept flat to prevent damage to the table and the hook was designed to be sturdy and not hurt if someone bumped into it.</p>
+        <p>A 3D printed model was more comfortably used. Here the screw was sampled - the tail end was intentionally kept flat to prevent damage to the underside of the table and to ensure a solid hold.</p>
         <ImageGridVertical
           images = {imgs.outcome}
         />
 
         <h2>Reflection</h2>
-        <p>I asked a classmate, and potential user, if they would put their backpack on the final prototype and they said they wouldn’t “trust plastic.” This table-hook studio design relies on people feeling comfortable in using it for its intended purpose.</p>
-
-        <p>...needs to be in a different material...</p>
-
-        <p>I think the product could be made smaller (in width especially) and the screw smaller in proportion. It would be nice if the screw wasn’t able to come completely off of the hook component, so that the screw wouldn’t be accidentally separated. In testing, backpacks fit nicely onto the hook and it appeared pretty stable as well. The trouble is that the backpack is supported at only one point, so it isn’t as easy as I would have liked to take things out from the main compartments of the bag, since the back of the bag pinches in with the stress (although the front zips are still easily accessible).</p>
-
+        <p>The design worked well and was able to create a secure hold easily. The size of the hook and the screw would ideally be reduced. As a further enhancement, it would be best if the screw wasn't possible to fully detach from the hook. A complete set would prevent the pieces from becoming accidentally separated.</p>
+        <p>In testing, I discovered the backpack held successfully but was supported from only a single place on the hook. When combined with the weight of the bag, this resulted in the bag pinching from the stress. This made it difficult to remove content from the main zippers. A more distributed hook would be handy.</p>
+        <p>Users continued to have concerns about the material. When asked to test, one user stated, "I wouldn't trust plastic." A different material like metal, was clearly needed. This balance between perceived stability and accessibility of the design was unexpectedly the most interesting aspect of this project.</p>
 
       </div>
 
