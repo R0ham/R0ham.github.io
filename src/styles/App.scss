@@ -7,7 +7,8 @@
   --light-back-secondary: #a3cef1;
   --light-back-page: #274c77;
   --light-color: #274c77;
-  --light-accent: #5288C7;
+  --light-accent: #376CA9;
+  // old --light-accent: #5288C7;
 
   // --light-tint: rgba(163, 206, 241, 0.05);
   --light-tint: rgba(39, 76, 119, 0.4);
@@ -169,12 +170,16 @@ body.dark-mode {
 
     .quote_block {
       background-color: var(--dark-back-primary);
-      border-color: var(--dark-back-primary);
+      // border-color: var(--dark-back-primary);
       color: var(--dark-color);
     }
 
     h2 {
       color: var(--dark-back-secondary);
+    }
+
+    h3 {
+      border-color: var(--dark-color);
     }
   }
 
@@ -224,7 +229,11 @@ body.dark-mode {
   color: var(--light-back-secondary);
 
   padding: 20px;
-  width: 35px;
+
+  width: -moz-calc(100vw - 200px);
+  width: -webkit-calc(100vw - 200px);
+  width: calc(100vw - 200px);
+
   z-index: 3;
 
 }
@@ -232,7 +241,7 @@ body.dark-mode {
 .back_bar:hover {
   background-color: var(--light-back-secondary);
   color: var(--light-back-page);
-  // transition: background-color .3s ease;
+  transition: background-color .1s ease;
 }
 
 .navbar {
@@ -274,6 +283,7 @@ footer {
 // container for modal highlight image
 .canvas_page_header img {
   border-radius: var(--border-radius);
+  // border: 3px solid var(--light-back-primary);
   // max-height: 60vh;
 }
 
@@ -285,6 +295,11 @@ footer {
   padding: 0;
 
   border-radius: var(--border-radius);
+
+  .canvas:only-child {
+    width: 100%;
+    height: 100%;
+  }
 
   // potential idea!!:
   // border-top-left-radius: 0;
@@ -317,10 +332,6 @@ footer {
 
 .canvas_horizontal {
   flex-wrap: wrap;
-
-  .canvas:only-child {
-    width: 100%;
-  }
 
   // if the screen is at least 850 pixels wide, put pairs of images next to each other on the same line, and force heights to match fixed height container
   @media screen and (min-width: 850px) {
@@ -780,10 +791,11 @@ footer {
     }
 
     .quote_block {
-      // background-color: var(--light-back-primary);
+      background-color: var(--light-accent);
       // color: var(--light-color);
-      border: 1px solid var(--light-back-primary);
+      // border: 1px solid var(--light-back-primary);
       margin-top: 15px;
+      margin-bottom: 15px;
       padding: 15px;
       display: flex;
 
@@ -816,6 +828,8 @@ footer {
     }
 
     h3 {
+      border-bottom: 1px solid var(--light-back-primary);
+      padding-bottom: 10px;
       text-transform: uppercase;
       font-size: 1.0rem;
       margin-top: 25px;
@@ -825,6 +839,13 @@ footer {
     h2:has(+h3),
     h3:has(+p) {
       margin-bottom: -10px;
+    }
+
+    h4 {
+      text-transform: uppercase;
+      font-size: 1.0rem;
+      margin-top: 15px;
+      margin-bottom: 5px;
     }
 
     p, li {
