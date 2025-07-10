@@ -1064,6 +1064,15 @@ figure {
     cursor: default;
   }
 
+  @media screen and (max-width: 800px) {
+    figcaption {
+      top: 60%;
+      left: 40%;
+      width: 50%;
+    }
+
+  }
+
 }
 
 

@@ -64,7 +64,13 @@ export default {
       id: 4,
       image: cache["dashboard"],
       title: "Dashboard",
-      tagline: "",
+      tagline: "Mockup of a dashboard for disease tracking and prevention.",
+    },
+    {
+      id: 4,
+      image: cache["logo"],
+      title: "Logo",
+      tagline: "Personal logo explorations. Combines first and last initials into a single lettermark.",
     },
     // {
     //   id: 5,
