@@ -37,25 +37,25 @@ importAll(require.context('./images/gallery', true, /\.(png|jpe?g|svg)$/));
 export default {
   gallery: [
     {
-      id: 3,
+      id: 0,
       image: cache["bulk pickup"],
       title: "Bulk Pickup",
       tagline: "Built a fully functional web application for the Department of Public Works to track and manage bulk pickup trash requests. Based on observation and interviews with real-world users. Replaced an aging system reliant on the know-how of a single longtime employee close to retirement.",
     },
     {
-      id: 0,
+      id: 1,
       image: cache["sensemaking"],
       title: "Sensemaking",
       tagline: "Mockup for an intelligence sensemaking use case. Participants work collaboratively within the same room, using their own devices and a 360° immersive wraparound screen.",
     },
     {
-      id: 1,
+      id: 2,
       image: cache["legacy"],
       title: "Legacy",
       tagline: "Poster proposal for an oral history process for collecting and learning from ancestral familial stories.",
     },
     {
-      id: 2,
+      id: 3,
       image: cache["camera"],
       title: "Camera",
       tagline: "3D CAD model of a camera, rendered in topdown orthographic view.",
@@ -67,7 +67,7 @@ export default {
       tagline: "Mockup of a dashboard for disease tracking and prevention.",
     },
     {
-      id: 4,
+      id: 5,
       image: cache["logo"],
       title: "Logo",
       tagline: "Personal logo explorations. Combines first and last initials into a single lettermark.",
