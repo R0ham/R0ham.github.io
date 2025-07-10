@@ -669,10 +669,8 @@ footer {
         border-bottom: 8px solid var(--light-back-secondary);
         transition: border .3s ease;
 
-        // border-bottom: 1px solid var(--light-accent);
-
-        /* could be useful for pushpin / degreezy */
-        // object-position: 0 0;
+        // leftmost positioned
+        object-position: 0 0;
       }
 
       @media screen and (max-width: 1200px) {
