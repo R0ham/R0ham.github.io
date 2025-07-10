@@ -1,20 +1,12 @@
 import React from 'react';
 import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
+import CaptionThumbnail from './CaptionThumbnail.js';
 
 import data from '../projects.js';
+import galleryData from '../gallery.js';
 import '../styles/App.scss';
  
 function Grid(props) {
-  //change from "test_projects" to "projects" soon
-  const test_grid = data.test_projects.map(project => (
-    <Thumbnail
-      key = {project.id}
-      link = {project.link}
-      image = {project.image}
-      title = {project.title}
-      tagline = {project.tagline}
-    />
-  ));
 
   const grid = data.projects.map(project => (
     <Thumbnail
@@ -25,6 +17,28 @@ function Grid(props) {
       tagline = {project.tagline}
     />
   ));
+
+  //change from "test_projects" to "projects" soon
+  const test_grid = data.test_projects.map(project => (
+    <CaptionThumbnail
+      key = {project.id}
+      link = {project.link}
+      image = {project.image}
+      title = {project.title}
+      tagline = {project.tagline}
+    />
+  ));
+
+  const galleryGrid = galleryData.gallery.map(project => (
+    <CaptionThumbnail
+      key = {project.id}
+      link = {project.link}
+      image = {project.image}
+      title = {project.title}
+      tagline = {project.tagline}
+    />
+  ));
+
 
   return (
     // Render the homepage with completed grids
@@ -45,11 +59,16 @@ function Grid(props) {
         <ul className="flex_projects">{grid}</ul>
       </div>
 
-{/*      <div className="gallery_grid">
+
+      <div className="gallery_grid">
         <h2>Gallery</h2>
+        <ul className="flex_gallery">{galleryGrid}</ul>
+      </div>
+
+{/*      <div className="gallery_grid">
+        <h2>Test Gallery</h2>
         <ul className="flex_gallery">{test_grid}</ul>
       </div>*/}
-
 
       {/*
       <div className="footer">
