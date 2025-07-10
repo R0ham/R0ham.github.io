@@ -156,9 +156,18 @@ body.dark-mode {
     background-color: var(--dark-back-primary);
 
     .flex_gallery {
-      [data-rmiz-ghost] {
+      .gallery_image {
+        border-color: var(--dark-back-page);
+      }
+
+      .gallery:hover .gallery_image {
+        border-color: var(--dark-color);
+      }
+
+      .overlay {
         background-color: var(--dark-tint);
       }
+
     }
 
   }
@@ -638,7 +647,7 @@ footer {
       padding-left: 25px;
       padding-bottom: 25px;
 
-      .project {
+      .gallery {
         margin-right: 25px;
         margin-top: 25px;
         position: relative;
@@ -647,19 +656,7 @@ footer {
         // border-radius: 20px;
       }
 
-      // .overlay {
-      //   background-color: var(--light-tint);
-      //   position: absolute;
-      //   top: 0;
-      //   bottom: 0;
-      //   left: 0;
-      //   right: 0;
-      //   transition: background .2s ease;
-      //   border-radius: var(--border-radius);
-      //   // border: 2px solid var(--light-accent);
-      // }
-
-      .project_image {
+      .gallery_image {
         object-fit: cover;
         max-height: 100%;
         min-width: 100%;
@@ -669,7 +666,8 @@ footer {
 
         // border-radius: var(--border-radius) var(--border-radius) 0 0;
         border-radius: 0 var(--border-radius);
-        // transition: border-radius .3s ease;
+        border-bottom: 8px solid var(--light-back-secondary);
+        transition: border .3s ease;
 
         // border-bottom: 1px solid var(--light-accent);
 
@@ -677,78 +675,34 @@ footer {
         // object-position: 0 0;
       }
 
-      [data-rmiz-ghost] {
-        background-color: var(--light-tint);
-        border-radius: 0 var(--border-radius);
-        transition: background .2s ease;  
-      }
-
-      .project:hover [data-rmiz-ghost] {
-        background-color: transparent;
-      }
-
       @media screen and (max-width: 1200px) {
-        .project_image {
+        .gallery_image {
           width: 35vw;
         }
       }
 
+      .overlay {
+        background-color: var(--light-tint);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        transition: background .2s ease;
+        border-radius: 0 var(--border-radius);
+        // border: 2px solid var(--light-accent);
+      }
 
-      // ====================
+      .gallery:hover {
+        .gallery_image {
+          border-color: var(--light-accent);
+        }
 
-      // .project_flex {
-      //   list-style: none;
-      //   display: flex;
-      //   flex-wrap: wrap;
-      //   padding: 15px;
-
-      //   align-items: center;
-      //   justify-content: space-between;
-
-      //   // transition: border-radius .3s ease;
-      //   // border-radius: var(--border-radius);
-      //   border-radius: 0 0 var(--border-radius) var(--border-radius);
-      //   border-top: 1px solid var(--light-back-secondary);
-
-      //   line-height: 1.3em;
-
-      //   // .project_title {
-      //   //   text-transform: uppercase;
-
-      //   //   h2 {
-      //   //     margin: 0;
-      //   //     padding-right: 10px;
-      //   //     font-size: 1.0rem;
-      //   //   }
-      //   // }
-
-      //   // .project_tagline {
-      //   //   p {
-      //   //     margin: 0;
-      //   //   }
-      //   // }
-
-      // }
-
-      // @media screen and (max-width: 600px) {
-      //   .project_flex {
-      //     .project_tagline {
-      //       flex-basis: 100%;
-      //     }
-      //   }
-      // }
-
-      // a {
-      //   text-decoration: none;
-      // }
-
-      // .project:hover .project_flex {
-      //   color: var(--light-color);
-      //   background-color: var(--light-back-secondary);
-      //   // border-radius: 0 0 var(--border-radius) var(--border-radius);
-      // }
-
-
+        .overlay {
+          background-color: transparent;
+          pointer-events: none;
+        }
+      }
 
     }
 

@@ -47,12 +47,13 @@ function CaptionThumbnail(props) {
   }
 
   return (
-    <li className="canvas project">
+    <li className="canvas gallery">
         {/*<img className="project_image" src={props.image} alt={props.title}/>*/}
         <Zoom ZoomContent={CustomZoomContent}>
-          <img className="project_image" src={props.image} alt={props.title}/>
+          <img className="gallery_image" src={props.image} alt={props.title}/>
+          <div className="overlay"></div>
         </Zoom>
-        <div className="overlay"></div>
+        {/*<div className="overlay"></div>*/}
 {/*      <Link to={props.link}>
       </Link>*/}
     </li>
