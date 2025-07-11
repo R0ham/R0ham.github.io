@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.d27327e5.css",
-    "main.js": "/static/js/main.77c0d20a.js",
+    "main.js": "/static/js/main.8310cffc.js",
     "static/js/488.1446b851.chunk.js": "/static/js/488.1446b851.chunk.js",
     "static/media/mini.png": "/static/media/mini.a288b1eed002e4acf970.png",
     "static/media/modern.png": "/static/media/modern.d62148ec3894fe87210f.png",
-    "static/media/legacy.jpg": "/static/media/legacy.147ac5b61956ad09f0b7.jpg",
     "static/media/emulation2.jpg": "/static/media/emulation2.01e93270f7d35b5fc9e7.jpg",
     "static/media/oldisgold_cover.png": "/static/media/oldisgold_cover.f4d532ad8d9a99f370aa.png",
     "static/media/outcome1.jpg": "/static/media/outcome1.9e4b30eff8217e081e44.jpg",
@@ -17,7 +16,6 @@
     "static/media/emulation1.jpg": "/static/media/emulation1.ba128dd4695a9ce71c1c.jpg",
     "static/media/outcome2.jpg": "/static/media/outcome2.caabbef679cafadff9c7.jpg",
     "static/media/metamorphic2.png": "/static/media/metamorphic2.bfb2805787355a7cb066.png",
-    "static/media/camera.png": "/static/media/camera.1e11d1205cd28facbad0.png",
     "static/media/outcome1.png": "/static/media/outcome1.cf58f8a233e3b3ce9762.png",
     "static/media/-----studio2.png": "/static/media/-----studio2.20f6592174fffc63fdb7.png",
     "static/media/background1.jpeg": "/static/media/background1.116200e4015929a4a558.jpeg",
@@ -26,6 +24,8 @@
     "static/media/metamorphic1.png": "/static/media/metamorphic1.e6a8761d143dceff896f.png",
     "static/media/studio.jpg": "/static/media/studio.d1bb2da1bfb9fe4bb27f.jpg",
     "static/media/concept4.png": "/static/media/concept4.5315f03b45b34647fdf6.png",
+    "static/media/legacy.jpg": "/static/media/legacy.2c3922530663cda32253.jpg",
+    "static/media/camera.png": "/static/media/camera.bbdf9210e46ae6fdb9b2.png",
     "static/media/survey2.png": "/static/media/survey2.33ff2ccf34cf0812cabd.png",
     "static/media/concept1_2.png": "/static/media/concept1_2.3913824a2de05d276dcf.png",
     "static/media/background2.jpeg": "/static/media/background2.9b3e75cbcbb38ae46957.jpeg",
@@ -91,11 +91,11 @@
     "static/media/----unify1_2.png": "/static/media/----unify1_2.aa9adc187748a6349ea0.png",
     "index.html": "/index.html",
     "main.d27327e5.css.map": "/static/css/main.d27327e5.css.map",
-    "main.77c0d20a.js.map": "/static/js/main.77c0d20a.js.map",
+    "main.8310cffc.js.map": "/static/js/main.8310cffc.js.map",
     "488.1446b851.chunk.js.map": "/static/js/488.1446b851.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d27327e5.css",
-    "static/js/main.77c0d20a.js"
+    "static/js/main.8310cffc.js"
   ]
 }
