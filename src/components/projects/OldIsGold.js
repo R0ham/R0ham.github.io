@@ -25,7 +25,7 @@ function OldIsGold(props) {
         />
 
         <h2>Background</h2>
-        <p>Our team was asked to choose a "current affairs topic." At this point, we had no idea what the future held, and things were very much in flux from COVID-19. For now we were fully remote, each back in our own hometowns located physically disparate from each other, and very far from our fiercely collaborative design studio. We did not know how we would work together creatively in this environment. But this led us to think, what else had been dramatically affected by the pandemic?</p>
+        <p>Our team decided to choose a "current affairs topic." At this point, we had no idea what the future held, and things were very much in flux from COVID-19. For now we were fully remote, each back in our own hometowns located physically disparate from each other, and very far from our fiercely collaborative design studio. We did not know how we would work together creatively in this environment. But this led us to think, what else had been dramatically affected by the pandemic?</p>
 
         <h2>Research</h2>
         <p>Quickly we realized older adults, often more at risk for developing severe COVID-19 infections, were becoming increasingly socially isolated as they tried to mitigate risk of exposure. This social isolation drove up loneliness, past already high levels from before the pandemic. Older adults tended to receive a lot of their social interactions from scheduled events at local establishments like community centers, and libraries. Many of these shut down and transitioned to virtual programming, which didn't help these older adults since many of them did not feel confident using digital technology (NASEM, CDC, Span).</p>
@@ -92,7 +92,7 @@ function OldIsGold(props) {
         />
 
         <h3>Comparative Analysis</h3>
-        <p>With this many ideas, we became indecisive. To move forward, we conducted market research on existing products. Here we came up with our "Gold Star" method to narrow down choices. Each of us had a set number of "stars" they could give to their favorite designs. We did this anonymously, so we wouldn't be affected by others' choices. The ones with the most stars were selected.</p>
+        <p>Faced with so many ideas, we became indecisive. To move forward, we conducted market research on existing products. Here we came up with our "Gold Star" method to narrow down choices. Each of us had a set number of "stars" they could give to their favorite designs. We did this anonymously, so we wouldn't be affected by others' choices. The ones with the most stars were selected.</p>
 
         <ImageGridHorizontal
           images = {imgs.concept4}
